@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Puig des Teix - Documentos</title><link rel="stylesheet" href="/wms/css/templates/c1c.css" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><link rel="stylesheet" href="/css/general.css" type="text/css" /><link rel="stylesheet" href="/css/documentos.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script></head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="paginaPrincipal" class="paginaDia">        
+            <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.de.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="de"><strong id="botoActiu" class="botonUp"><span>Deutsch</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="ca"><a href="index.ct.html" onclick="wmsCambioIdioma('ct');return false;">Català</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+	</ul>
+</div></div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.de.html" class="btn-menu">			
+			<span class="nombre">Wandern auf Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.de.html" class="btn-menu-on">			
+			<span class="nombre">Auf der Route</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.de.html" class="btn-menu">			
+			<span class="nombre">Kontakt </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="vcms-contenedorColumnas">
+        		  <div id="vcms-columnaPrincipal" style=""><div id="vcms-contenido-principal"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.de.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Routenverzeichnis</a></li>
+		    <li><a href="/rutas/buscador.de.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Suchmaschine</a></li></ul></div><div id="vcms-contenido-sub1"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Puig des Teix</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.de.html?cr=29&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Routendaten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/mapas.de.html?cr=29&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Kartographie</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/puntos.de.html?cr=29&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Sehenswürdigkeiten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/documentos.de.html?cr=29&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Dokumente</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-contenido-sub2"><div id="listadoDocumentos"><div class="docsec"><h3>Links</h3><div class="docitem" >
+				    <div class="enlace" style="">
+	                   <a href="http://www.illesbalears.es/cat/illesbalears/home.jsp" rel="external"><span class="inner">Illes Balears turística</span></a>
+					   <div class="desc">Portal de del Govern Balear con información turística de las Illes Balears</div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="">
+	                   <a href="http://www.infomallorca.net/index.es.html" rel="external"><span class="inner">InfoMallorca</span></a>
+					   <div class="desc">Portal oficial del Consell de Mallorca con información turística de la isla de Mallorca</div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="">
+	                   <a href="http://www.balearsculturaltour.es/" rel="external"><span class="inner">Balears cultura tour</span></a>
+					   <div class="desc">Portal con información cultural y patrimonial de las Illes Balears
+</div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="background-image: url(/imgdb/icono_dru768.jpg)">
+	                   <a href="http://www.editorialalpina.com/" rel="external"><span class="inner">Editorial Alpina</span></a>
+					   <div class="desc">Editorial especializada en mapas y guias</div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="background-image: url(/imgdb/icono_dru770.jpg)">
+	                   <a href="http://www.caib.es/sacmicrofront/contenido.do?idsite=330&cont=8689&lang=ca&campa=yes#" rel="external"><span class="inner">Transport Illes Balears</span></a>
+					   <div class="desc">Web del transporte público de las Illes Balears</div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="">
+	                   <a href="http://www.ajvalldemossa.net/" rel="external"><span class="inner">Ajuntament de Valldemossa</span></a>
+					   <div class="desc"></div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="">
+	                   <a href="http://www.conselldemallorca.net/mediambient/pedra/senderisme.php?opcio=20&reserva=1" rel="external"><span class="inner">Refugios del Consell de Mallorca</span></a>
+					   <div class="desc">Sitio donde encontrar toda la información de refugios del Consell de Mallorca y reservar online</div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="">
+	                   <a href="http://www.mallorcahotelguide.com/maFront/" rel="external"><span class="inner">Alojamiento en Mallorca</span></a>
+					   <div class="desc">Portal de reservas hoteleras de la Federació Hotelera de Mallorca</div>
+                    </div>
+                </div><div class="vcms-separadorH"></div></div><div class="docsec"><h3>Wir empfehlen</h3><div class="docitem" >
+				    <div class="enlace" style="">
+	                   <a href="http://es.wikiloc.com/wikiloc/home.do" rel="external"><span class="inner">Wikiloc</span></a>
+					   <div class="desc">Fabulosa e increible comunidad para compartir rutas GPS</div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="">
+	                   <a href="http://www.editorialalpina.com/" rel="external"><span class="inner">Mapas impresos</span></a>
+					   <div class="desc">Esplendidos mapas de senderismo</div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="">
+	                   <a href="http://gr221.info/gr221%20esp.htm" rel="external"><span class="inner">GR221</span></a>
+					   <div class="desc">Web con información sobre el GR221 de Mallorca</div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="background-image: url(/imgdb/icono_dru769.jpg)">
+	                   <a href="http://www.conselldemallorca.net/mediambient/pedra/senderisme/index_ca.html" rel="external"><span class="inner">Visor de mapas del Consell de Mallorca</span></a>
+					   <div class="desc">Sitio web donde puedes visonar mapas de Mallorca</div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="">
+	                   <a href="http://www.conselldemallorca.cat/mediambient/pedra/index.php" rel="external"><span class="inner">Ruta de Piedra en seco</span></a>
+					   <div class="desc">Ruta por la serra de Tramuntana</div>
+                    </div>
+                </div><div class="docitem" >
+				    <div class="enlace" style="">
+	                   <a href="http://mun.nexusgeografics.com/ideib/visor.jsp" rel="external"><span class="inner">Sitibsa</span></a>
+					   <div class="desc">Visor de mapas online de Mallorca</div>
+                    </div>
+                </div></div></div></div>
+               </div>
+               
+           </div>
+           <div class="push"></div>
+       </div><div id="piePagina" class="piePaginaDia">       
+            <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="de" href="/legal.de.html"><span>Rechtlicher Hinweis</span></a></li>
+    <li class="creditos"><a class="de" href="/creditos.de.html"><span>Impressum</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural und die Autoren</strong>
+</p></div></div>
+       </div></body></html>

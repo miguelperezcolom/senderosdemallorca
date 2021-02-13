@@ -1,0 +1,175 @@
+#listadoDocumentos{
+    margin-top: 50px;
+}
+
+#listadoDocumentos .docsec{
+    margin-bottom: 27px;    
+}
+
+#listadoDocumentos .docsec h3{
+    margin-bottom: 20px;
+}
+
+#listadoDocumentos .docsec .docx,
+#listadoDocumentos .docsec .doc{
+    background: url(/img/iconos/doc.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+	margin-bottom: 20px;
+}
+
+#listadoDocumentos .docsec .pdf{
+    background: url(/img/iconos/pdf.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#listadoDocumentos .docsec .zip{
+    background: url(/img/iconos/zip.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+    margin-bottom: 20px;	
+}
+
+#listadoDocumentos .docsec .xls{
+    background: url(/img/iconos/xls.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+    margin-bottom: 20px;	
+}
+
+#listadoDocumentos .docsec .ppt{
+    background: url(/img/iconos/ppt.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+    margin-bottom: 20px;	
+}
+
+#listadoDocumentos .docsec .txt{
+    background: url(/img/iconos/txt.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+    margin-bottom: 20px;	
+}
+
+#listadoDocumentos .docsec .xml{
+    background: url(/img/iconos/xml.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+    margin-bottom: 20px;	
+}
+
+#listadoDocumentos .docsec .gpx{
+    background: url(/img/iconos/gpx.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+    margin-bottom: 20px;	
+}
+
+#listadoDocumentos .docsec .kml{
+    background: url(/img/iconos/kml.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+    margin-bottom: 20px;	
+}
+
+#listadoDocumentos .docsec .html{
+    background: url(/img/iconos/html.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+}
+
+#listadoDocumentos .docsec .mp3{
+    background: url(/img/iconos/audio.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+    margin-bottom: 20px;	
+}
+
+#listadoDocumentos .docsec .gps{
+    background: url(/img/iconos/gps.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+}
+
+#listadoDocumentos .docsec .per{
+    background: url(/img/iconos/per.gif) center left no-repeat;
+    padding-left: 65px;
+    min-height: 55px;
+    height: auto !important;
+    height: 55px;
+    position: relative;
+    margin-bottom: 20px;	
+}
+
+#listadoDocumentos .docsec .enlace{
+    background: url(/img/iconos/enlace.gif) center left no-repeat;
+    padding-left: 65px;
+    height: 55px;
+    position: relative;
+    margin-bottom: 20px;	
+}
+
+#listadoDocumentos .docsec .docitem{
+    float: left;
+    margin-right: 25px;
+    min-height: 48px;    
+    width: 283px;
+}
+
+#listadoDocumentos .docsec .inner{  
+    font: normal 12px Arial, Helvetica, sans-serif;
+    color: #2E5A9C;
+    text-decoration: underline;
+}
+
+#listadoDocumentos .docsec .size{   
+    font: normal 11px Arial, Helvetica, sans-serif;     
+}
+
+#listadoDocumentos .docsec .desc{
+    padding-top: 3px;
+    font-size: 11px;
+}
+
+#vcms-columnaPrincipal{
+    margin-right: auto !important;
+    margin-right: 10px;
+}

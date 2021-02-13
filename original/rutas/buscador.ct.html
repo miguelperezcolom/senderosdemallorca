@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Cercador de rutes</title><link rel="stylesheet" href="/wms/css/templates/c1c.css" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><link rel="stylesheet" href="/css/general.css" type="text/css" /><link rel="stylesheet" href="/css/buscador_itinerarios.css" type="text/css" /><link rel="stylesheet" href="/wms/css/scripts/WmsMultiPageBrowserS.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script>			<script type="text/javascript">
+			//<![CDATA[
+			
+				var poblacionesIDX = new Array();
+				poblacionesIDX[11] = new Array();
+				poblacionesIDX[11].push({value:35,text:"Alcúdia"});
+				poblacionesIDX[7] = new Array();
+				poblacionesIDX[7].push({value:31,text:"Andratx"});
+				poblacionesIDX[7].push({value:30,text:"Sant Elm"});
+				poblacionesIDX[14] = new Array();
+				poblacionesIDX[14].push({value:37,text:"Artà"});
+				poblacionesIDX[4] = new Array();
+				poblacionesIDX[4].push({value:29,text:"Banyalbufar"});
+				poblacionesIDX[4].push({value:10,text:"Port des Canonge"});
+				poblacionesIDX[19] = new Array();
+				poblacionesIDX[19].push({value:15,text:"Biniamar"});
+				poblacionesIDX[19].push({value:14,text:"Binibona"});
+				poblacionesIDX[19].push({value:12,text:"Caimari"});
+				poblacionesIDX[19].push({value:13,text:"Moscari"});
+				poblacionesIDX[2] = new Array();
+				poblacionesIDX[2].push({value:7,text:"Cala d\'Or"});
+				poblacionesIDX[2].push({value:3,text:"Cala Figuera"});
+				poblacionesIDX[2].push({value:4,text:"Cala Santanyí"});
+				poblacionesIDX[2].push({value:5,text:"Es Llombards"});
+				poblacionesIDX[2].push({value:6,text:"Porto Petro"});
+				poblacionesIDX[2].push({value:8,text:"S\'Alqueria Blanca"});
+				poblacionesIDX[2].push({value:2,text:"Santanyí"});
+				poblacionesIDX[47] = new Array();
+				poblacionesIDX[47].push({value:19,text:"Cala Millor"});
+				poblacionesIDX[47].push({value:16,text:"Sa Coma"});
+				poblacionesIDX[47].push({value:18,text:"S\'Illot"});
+				poblacionesIDX[47].push({value:17,text:"Son Carrió"});
+				poblacionesIDX[33] = new Array();
+				poblacionesIDX[33].push({value:40,text:"Cala Pi"});
+				poblacionesIDX[22] = new Array();
+				poblacionesIDX[22].push({value:38,text:"Cala Rajada"});
+				poblacionesIDX[49] = new Array();
+				poblacionesIDX[49].push({value:36,text:"Can Picafort"});
+				poblacionesIDX[25] = new Array();
+				poblacionesIDX[25].push({value:25,text:"Deià"});
+				poblacionesIDX[1] = new Array();
+				poblacionesIDX[1].push({value:11,text:"Esgleieta"});
+				poblacionesIDX[1].push({value:9,text:"Esporles"});
+				poblacionesIDX[1].push({value:27,text:"Es Verger"});
+				poblacionesIDX[9] = new Array();
+				poblacionesIDX[9].push({value:26,text:"Estellencs"});
+				poblacionesIDX[42] = new Array();
+				poblacionesIDX[42].push({value:33,text:"Formentor"});
+				poblacionesIDX[42].push({value:32,text:"Pollença"});
+				poblacionesIDX[42].push({value:34,text:"Port de Pollença"});
+				poblacionesIDX[44] = new Array();
+				poblacionesIDX[44].push({value:21,text:"Puigpunyent"});
+				poblacionesIDX[55] = new Array();
+				poblacionesIDX[55].push({value:24,text:"Sóller"});
+				poblacionesIDX[55].push({value:41,text:"Sóller - Fornalutx"});
+				poblacionesIDX[5] = new Array();
+				poblacionesIDX[5].push({value:23,text:"Valldemossa"});
+				
+				
+				function canviMunicipi(clauMun){
+					
+					//obtenim referencia a l'objecte selector
+					var oPob = document.getElementById("poblacion");
+					
+					//esborram les opcions anteriors
+					var numPob = oPob.length;
+					for (var i=0;i<numPob;i++){
+						oPob.options[0] = null;
+					}
+					
+					//fixem el valor inicial
+					oPob.options[oPob.options.length] = new Option('Seleccionau una població');
+					
+					var pobCOL = poblacionesIDX[clauMun];
+					if (pobCOL){
+						var numPob = pobCOL.length;
+						for (var i=0;i<numPob;i++){
+							oPob.options[oPob.options.length] = new Option(pobCOL[i].text,pobCOL[i].value);
+						}
+					}
+					
+				}
+				
+	            function buscar(){
+	                document.getElementById("formBuscadorItinerarios").submit();
+	            }
+	            
+	            function limpiar(){
+	                document.getElementById("formBuscadorItinerarios").reset();
+	            }
+	            
+	            function escribeMail( nom, dom, etiqueta ){
+	
+		           	document.write( '<a hr'+'ef="mai'+'lto:'+nom+'@'+dom+'">'+etiqueta+'</a>' );
+	        	}
+	        	
+	        	function escribeMailLog( url, nom, dom, etiqueta ){
+	
+		           	document.write( '<a hr'+'ef="'+url+'" onclick="location.href=\'mai'+'lto:'+nom+'@'+dom+'\';return true;">'+etiqueta+'</a>' );
+		           	
+	        	}
+	        	
+	        	function canviaEstatEpoques(estat){
+	        		
+	        			
+        			var oForm = document.getElementById('formBuscadorItinerarios');
+        			for(camp in oForm){
+        				
+        				if (camp.indexOf('epoca_')!=-1){
+        					
+        					if (camp!='epoca_0'){
+        						oForm[camp].disabled = estat;
+        					}
+        					
+        				}
+        				
+        			}
+	        		
+	        	}
+	        	
+	        //]]>
+	        </script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script></head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="paginaPrincipal" class="paginaDia">        
+            <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.ct.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="ca"><strong id="botoActiu" class="botonUp"><span>Català</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+		<li class="de"><a href="index.de.html" onclick="wmsCambioIdioma('de');return false;">Deutsch</a></li>
+	</ul>
+</div>
+</div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.ct.html" class="btn-menu">			
+			<span class="nombre">Camina per Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.ct.html" class="btn-menu-on">			
+			<span class="nombre">En ruta</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.ct.html" class="btn-menu">			
+			<span class="nombre">Contacte</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="vcms-contenedorColumnas">
+        		  <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.ct.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Catàleg de rutes</a></li>
+		    <li><a href="/rutas/buscador.ct.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Cercador</a></li></ul></div><div id="vcms-contenido-principal"><div id="buscadorItinerarios">
+    	
+    	   <div class="titulo">
+    	       <h2>Excursions per descobrir la Mallorca rural</h2>
+	       </div><p class="intro">No és necessari completar tots els camps del formulari. També és opcional seleccionar els continguts del recorregut.</p>
+               
+               <form id="formBuscadorItinerarios" action="/rutas/resultados.ct.html" method="get">
+                    <fieldset>
+                    	
+                    	<input type="hidden" name="buscar" value="1" />
+                    	<input type="hidden" name="numItems" value="5" />
+                    
+                        <div class="keyword">
+                            <label class="titSeccion" for="campoKeyword">Cerca text</label>
+                            <input id="campoKeyword" type="text" name="keyword" value="" />
+                        </div>
+                        
+                        <p class="descBusqueda">La cerca de text es fa en subcadenes, és a dir, si per exemple cercau només «excursions», trobareu tots els continguts en què figuri aquesta paraula.</p>
+						
+						<div class="tipoRuta">
+                            <h4 class="titSeccion">Tipus d’excursió</h4>
+                            <select name="tipoRuta">
+                            
+                                <option value="0">Qualsevol</option><option value="1">Senderisme</option><option value="2">BTT</option><option value="3">Bicicleta</option><option value="4">Cotxe</option><option value="5">Escalada</option></select>
+                        </div>
+                        
+                        <div class="municipio">
+                            <h4 class="titSeccion">Municipi/Població</h4>
+                            
+                            <label for="municipio">Municipi</label>
+                            <select id="municipio" name="municipio" size="1" onchange="canviMunicipi(this.options[this.selectedIndex].value);">
+                            	<option value="">Seleccionau un municipi</option>
+                            	<option value="10">Alaró</option><option value="11">Alcúdia</option><option value="12">Algaida</option><option value="7">Andratx</option><option value="13">Ariany</option><option value="14">Artà</option><option value="4">Banyalbufar</option><option value="15">Binissalem</option><option value="16">Búger</option><option value="17">Bunyola</option><option value="6">Calvià</option><option value="20">Campanet</option><option value="21">Campos</option><option value="22">Capdepera</option><option value="23">Consell</option><option value="24">Costitx</option><option value="25">Deià</option><option value="26">Escorca</option><option value="1">Esporles</option><option value="9">Estellencs</option><option value="27">Felanitx</option><option value="28">Fornalutx</option><option value="29">Inca</option><option value="30">Lloret de Vistalegre</option><option value="31">Lloseta</option><option value="32">Llubí</option><option value="33">Llucmajor</option><option value="34">Manacor</option><option value="35">Mancor de la Vall</option><option value="36">Maria de la Salut</option><option value="37">Marratxí</option><option value="38">Montuïri</option><option value="39">Muro</option><option value="40">Palma</option><option value="41">Petra</option><option value="42">Pollença</option><option value="43">Porreres</option><option value="44">Puigpunyent</option><option value="48">Santa Eugènia</option><option value="49">Santa Margalida</option><option value="50">Santa Maria del Camí</option><option value="2">Santanyí</option><option value="46">Sant Joan</option><option value="47">Sant Llorenç des Cardassar</option><option value="45">Sa Pobla</option><option value="19">Selva</option><option value="51">Sencelles</option><option value="53">Ses Salines</option><option value="54">Sineu</option><option value="55">Sóller</option><option value="56">Son Servera</option><option value="5">Valldemossa</option><option value="57">Vilafranca de Bonany</option>                            </select>
+                            
+                            <label for="poblacion">Població</label>
+                            <select id="poblacion" name="poblacion" size="1">
+                            	<option value="">Seleccionau una població</option>
+                            </select>
+                            
+                        </div>
+                        
+                        <div class="duraciones">
+                            <h4 class="titSeccion">Durada de l’itinerari (h)</h4><div class="duracion">
+                                    <input id="tiempo_Sin_importancia" name="tiempo" type="radio" value="0" />
+                                    <label for="tiempo_Sin_importancia">Sense importància</label>                                    
+                                </div><div class="duracion">
+                                    <input id="tiempo_Menos_1h" name="tiempo" type="radio" value="1" />
+                                    <label for="tiempo_Menos_1h">Menys d’una hora</label>                                    
+                                </div><div class="duracion">
+                                    <input id="tiempo_Entre_1h_y_3h" name="tiempo" type="radio" value="2" />
+                                    <label for="tiempo_Entre_1h_y_3h">Entre una i tres hores</label>                                    
+                                </div><div class="duracion">
+                                    <input id="tiempo_Mas_3h" name="tiempo" type="radio" value="3" />
+                                    <label for="tiempo_Mas_3h">Més de tres hores</label>                                    
+                                </div></div>
+                        
+                        <div class="distancias">
+                            <h4 class="titSeccion">Durada de l'itinerari (km)</h4><div class="duracion">
+                                    <input id="distancia_Sin_importancia" name="distancia" type="radio" value="0" />
+                                    <label for="distancia_Sin_importancia">Sense importància</label>                                    
+                                </div><div class="duracion">
+                                    <input id="distancia_Menos_3_km" name="distancia" type="radio" value="1" />
+                                    <label for="distancia_Menos_3_km">Menys de 3 km</label>                                    
+                                </div><div class="duracion">
+                                    <input id="distancia_Entre_3_y_10_km" name="distancia" type="radio" value="2" />
+                                    <label for="distancia_Entre_3_y_10_km">Entre 3 i 10 km</label>                                    
+                                </div><div class="duracion">
+                                    <input id="distancia_Mas_10_km" name="distancia" type="radio" value="3" />
+                                    <label for="distancia_Mas_10_km">Més de 10 km</label>                                    
+                                </div></div>
+                        
+                        <div class="tiposPunto">
+                            <h4 class="titSeccion">Tipus de punts d’interès</h4><div class="tipoPunto">
+                                    <input id="tipo_punto_1" name="tipo_punto_1" type="checkbox" value="1" />    
+                                    <label for="tipo_punto_1">Allotjament</label>
+                                </div><div class="tipoPunto">
+                                    <input id="tipo_punto_2" name="tipo_punto_2" type="checkbox" value="2" />    
+                                    <label for="tipo_punto_2">Alimentació</label>
+                                </div><div class="tipoPunto">
+                                    <input id="tipo_punto_3" name="tipo_punto_3" type="checkbox" value="3" />    
+                                    <label for="tipo_punto_3">Cultura</label>
+                                </div><div class="tipoPunto">
+                                    <input id="tipo_punto_4" name="tipo_punto_4" type="checkbox" value="4" />    
+                                    <label for="tipo_punto_4">Bar/restaurants</label>
+                                </div><div class="tipoPunto">
+                                    <input id="tipo_punto_5" name="tipo_punto_5" type="checkbox" value="5" />    
+                                    <label for="tipo_punto_5">Caixers €</label>
+                                </div><div class="tipoPunto">
+                                    <input id="tipo_punto_6" name="tipo_punto_6" type="checkbox" value="6" />    
+                                    <label for="tipo_punto_6">Correus</label>
+                                </div><div class="tipoPunto">
+                                    <input id="tipo_punto_7" name="tipo_punto_7" type="checkbox" value="7" />    
+                                    <label for="tipo_punto_7">Emergències</label>
+                                </div><div class="tipoPunto">
+                                    <input id="tipo_punto_8" name="tipo_punto_8" type="checkbox" value="8" />    
+                                    <label for="tipo_punto_8">Transport públic</label>
+                                </div><div class="tipoPunto">
+                                    <input id="tipo_punto_9" name="tipo_punto_9" type="checkbox" value="9" />    
+                                    <label for="tipo_punto_9">Altres serveis</label>
+                                </div><div class="tipoPunto">
+                                    <input id="tipo_punto_10" name="tipo_punto_10" type="checkbox" value="10" />    
+                                    <label for="tipo_punto_10">+ INFO</label>
+                                </div></div>
+                        
+                        <div class="dificultad">
+                            <h4 class="titSeccion">Grau de dificultat</h4>
+                            <select name="dificultad">
+                            
+                                <option value="0">Qualsevol</option><option value="1">Baixa</option><option value="2">Mitjana</option><option value="3">Alta</option><option value="4">Familiar</option></select>
+                        </div>
+                        
+                        <div class="epocas">
+                            <h4 class="titSeccion">Època recomanada</h4>
+                            <div class="epoca">
+                            	<input id="chkEpoca0" name="epoca_0" type="checkbox" value="0" onclick="canviaEstatEpoques(this.checked)" />
+                            	<label for="chkEpoca0">Tot l’any</label>
+                            </div>
+                            <div class="epoca">
+                                    <input id="chkEpoca1" name="epoca_1" type="checkbox" value="1" />    
+                                    <label for="chkEpoca1">Primavera</label>
+                                </div><div class="epoca">
+                                    <input id="chkEpoca2" name="epoca_2" type="checkbox" value="2" />    
+                                    <label for="chkEpoca2">Estiu</label>
+                                </div><div class="epoca">
+                                    <input id="chkEpoca3" name="epoca_3" type="checkbox" value="3" />    
+                                    <label for="chkEpoca3">Tardor</label>
+                                </div><div class="epoca">
+                                    <input id="chkEpoca4" name="epoca_4" type="checkbox" value="4" />    
+                                    <label for="chkEpoca4">Hivern</label>
+                                </div></div>
+                        
+                        <ul class="botones">
+                            <li>
+                                <script type="text/javascript">
+                                    //<![CDATA[
+                                    document.write('<a class="buscar" href="javascript:buscar()"><span class="capa1"></span><span class="capa2"></span>Cerca</a>');
+                                    //]]>
+                                </script>
+                                <noscript>
+                                	<fieldset>
+                                    	<input type="submit" value="Cerca" />
+                                    </fieldset>
+                                </noscript>
+                            </li>
+                            <li>
+                                <a class="limpiar" href="javascript:limpiar()">
+                                    neteja la informació                                </a>
+                            </li>
+                        </ul></fieldset>
+               </form></div></div><div id="vcms-contenido-sub1"></div></div>
+               </div>
+               
+           </div>
+           <div class="push"></div>
+       </div><div id="piePagina" class="piePaginaDia">       
+            <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="ct" href="/legal.ct.html"><span>Avís legal</span></a></li>
+    <li class="creditos"><a class="ct" href="/creditos.ct.html"><span>Crèdits</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural i dels autors</strong>
+</p></div></div>
+       </div></body></html>

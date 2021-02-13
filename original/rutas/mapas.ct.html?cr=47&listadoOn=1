@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Camí de cas Ratat - Cartografia</title><link rel="stylesheet" href="/wms/css/templates/c2c_girado.css" type="text/css" />  <!--[if IE6]> <link rel="stylesheet" href="/wms/css/templates/c2c_girado-ie.css" type="text/css" /> <![endif]-->
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><script type="text/javascript" src="/js/loadgpx.js"></script><script type="text/javascript" src="/js/gmap-wms.js"></script><link rel="stylesheet" href="/css/general.css" type="text/css" /><link rel="stylesheet" href="/css/mapasRuta.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script src="http://maps.google.com/maps?file=api&amp;v=2&amp;hl=ca&amp;key=AIzaSyA6mmznJOu0ReZGmJbNSrM5kwmhXwapVGw" type="text/javascript"></script>
+        <script type="text/javascript">
+        //<![CDATA[
+		
+		//obtenim la url del servidor de mapes adicional
+		//var WMS_URL_SITIBSA = 'http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?';
+		
+		//cream l'objecte necessari pel servidor adicional
+		//var SITIBSA_MAP_SPEC = createWMSSpec(WMS_URL_SITIBSA, "Catastro", "Cat", "catastro", "default", "image/jpeg", "1.1.1");
+		
+        var MyMap;
+        var itemsCOL = [];
+        var puntosTrazado = [];
+        
+        var iconaLletra = new GIcon(G_DEFAULT_ICON);
+        iconaLletra.image = "/img/iconos/recorte_a.png";
+        iconaLletra.iconSize = new GSize(35,29);
+        iconaLletra.shadow = null;
+        iconaLletra.shadowSize = null;
+        iconaLletra.iconAnchor = new GPoint(11,29);
+        
+        var iconaPunt = new GIcon(G_DEFAULT_ICON);
+        iconaPunt.image = "/img/iconos/icono_punto_interes.png";
+        iconaPunt.iconSize = new GSize(24,34);
+        iconaPunt.shadow = null;
+        iconaPunt.shadowSize = null;
+        iconaPunt.iconAnchor = new GPoint(3,30);
+        
+        var iconaImatge = new GIcon(G_DEFAULT_ICON);
+        iconaImatge.image = "/img/iconos/icono_imagen.png";
+        iconaImatge.iconSize = new GSize(36,32);
+        iconaImatge.shadow = null;
+        iconaImatge.shadowSize = null;
+        iconaImatge.iconAnchor = new GPoint(13,32);
+        
+        //afegeix els items al mapa
+        function addItemsToMap(hitCOL, map){
+        		
+    		for (index in hitCOL){
+				map.addOverlay(createMarker(hitCOL[index]));
+			}
+			
+			fixGooglePngs();
+    		
+    	}
+    	
+    	//crea un item sobre el mapa
+    	function createMarker(oPunt) {
+    		
+    		if (oPunt.tipo=='hito'){
+    			
+    			var icono = iconaLletra;
+    			icono.image = '/img/iconos/recorte_'+oPunt.letra+'.png';
+    			
+    		}else if (oPunt.tipo=='punto'){
+    			
+    			var icono = iconaPunt;
+    			
+    		}else{
+    			
+    			var icono = iconaImatge;
+    			
+    		}
+    		
+    		var marker = new GMarker(new GLatLng(oPunt.latitud,oPunt.longitud),icono);
+		  	GEvent.addListener(marker, "click", function() {
+		    	marker.openInfoWindowHtml(createHtmlForPoint(oPunt));
+		  	});
+		  return marker;
+		}
+        
+        function truncateFloat(valor){
+            valor = valor * 10000;
+            valor = Math.round(valor);
+            valor = valor / 10000;
+            return valor;
+        }
+		
+		//crea l'html necessari per l'infowindow de cada item sobre el mapa
+		function createHtmlForPoint(oPunt){
+			
+            if (oPunt.tipo == 'hito'){
+                
+                var strHtml = '<div class="puntoHito" style="width: 250px; height: 120px;">';
+                var imagenUrl = '/img/iconos/puntos/' + oPunt.letra + '.png';
+                strHtml += '<img class="letra" src="' + imagenUrl + '" alt="' + oPunt.letra +'" width="83" height="97" />';
+                strHtml += '<div class="data">';
+                    if (oPunt.nombre){
+        	  			strHtml+= '<h4>'+oPunt.nombre+'</h4>';
+        	  		}
+                    strHtml += '<div class="specs">';
+                        if (oPunt.distancia){
+                            strHtml += '<p>Distància: ' + oPunt.distancia + ' Km</p>';
+                        }
+                        if (oPunt.tiempo){
+                            strHtml += '<p>Temps: ' + oPunt.tiempo + '</p>';
+                        }
+                        if (oPunt.altitud){
+                            strHtml += '<p>Altitud: ' + oPunt.altitud  + '</p>';
+                        }
+                        strHtml += '<p>' + oPunt.lat_gms + '<br />' + oPunt.lon_gms + '</p>';
+                    strHtml += '</div>';
+                strHtml += '</div>';
+            
+            } else if (oPunt.tipo == 'punto'){
+            
+                var strHtml = '<div class="puntoInteres" style="width: 250px; height: 120px;">';
+                strHtml += '<div class="top">';
+                    if(oPunt.img){
+                        strHtml += oPunt.img;
+                    }
+                    if(oPunt.nombre){
+                        strHtml += '<h4>' + oPunt.nombre + '</h4>';
+                    }
+                strHtml += '</div>';
+                strHtml += '<div class="vcms-separadorH"></div>';
+                strHtml += '<div class="specs">';
+                if (oPunt.direccion){
+                    strHtml += '<p><strong>Adreça: </strong>' + oPunt.direccion + '</p>';
+                }
+                if (oPunt.telefono){
+                    strHtml += '<p><strong>Telèfon: </strong>' + oPunt.telefono + '</p>';
+                }
+                if (oPunt.url){
+					
+					if (!oPunt.url.match(/http:\/\//)) {
+						oPunt.url='http://'+oPunt.url;
+					}
+					
+                    strHtml += '<p><strong>Més informació: </strong><a href="' + oPunt.url + '" target="_blank">' + oPunt.url + '</a></p>';
+                }
+                strHtml += '</div>';
+            
+            } else if (oPunt.tipo == 'imagen'){
+            
+                var strHtml = '<div class="puntoImg" style="width: 250px; height: 120px;">';
+                strHtml += oPunt.img;
+                if(oPunt.nombre){
+                    strHtml += '<h4>' + oPunt.nombre + '</h4>';
+                }
+                strHtml += '<div class="vcms-separadorH"></div>';
+                            
+            }
+            
+	  		strHtml+='</div>';
+	  		
+	  		return strHtml;
+			
+		}
+		
+		//enquadra els punts
+		function centerItems(puntos,mapa){
+			
+			var minLong = 999, minLat = 999, maxLong = -999, maxLat = -999;
+			for( i in puntos ){
+				minLat = Math.min( puntos[i].latitud, minLat );
+				maxLat = Math.max( puntos[i].latitud, maxLat );
+				minLong = Math.min( puntos[i].longitud, minLong );
+				maxLong = Math.max( puntos[i].longitud, maxLong );
+			}
+			
+			var mapBounds = new GLatLngBounds( new GLatLng(minLat, minLong),  new GLatLng(maxLat, maxLong) );
+			mapa.setCenter( mapBounds.getCenter(), mapa.getBoundsZoomLevel(mapBounds));
+		
+		}
+        
+        //Función que llama al parseador xml y actualiza los puntos
+        //en el mapa, también carga el mapa
+        function LoadGPXFileIntoGoogleMap(map, filename){
+        	//Guarda las elevaciones obtenidas
+        	var elevaciones;
+			var puntosTrazado;
+        	
+        	// Elimina cualquier punto que haya 
+        	map.clearOverlays();
+        
+        	var request = GXmlHttp.create();
+        	request.open("GET", filename, true);
+        	request.onreadystatechange = function()
+        	{
+        		if (request.readyState == 4)
+        		{
+        			parser = new GPXParser(request.responseXML, map);
+        			parser.SetTrackColour("#B50707");					// Set the track line colour
+        			parser.SetTrackWidth(5);							// Set the track line width
+        			//parser.SetMinTrackPointDelta(0.001);				// Set the minimum distance between track points
+        			//parser.SetMinTrackPointDelta(0.0001);				// Set the minimum distance between track points
+        			parser.SetMinTrackPointDelta(0);				// Set the minimum distance between track points
+        			//parser.CenterAndZoom(request.responseXML, G_NORMAL_MAP); // Center and Zoom the map over all the points.
+        			parser.AddTrackpointsToMap();						// Add the trackpoints
+        			//parser.AddWaypointsToMap();							// Add the waypoints
+        			
+        			//obtenim els punts del traçat de la ruta
+        			puntosTrazado = getPuntosTrazado(request.responseXML);
+		        	        			
+        		}
+				
+				//juntem els items amb els punts de traçat
+                var elements = myConcatArray(itemsCOL,puntosTrazado);
+				
+				//centra els elements
+                centerItems(elements,map);
+				
+        	}
+        	request.send(null);
+        }
+        
+        
+        //concatena 2 arrays indexats
+        function myConcatArray(arr1,arr2){
+        	
+        	var aux = [];
+        	
+        	for(index in arr1){
+        		aux[index] = arr1[index];
+        	}
+        	
+        	for(index in arr2){
+        		aux[index] = arr2[index];
+        	}
+        	
+        	return aux;
+        	
+        }
+        
+        
+        function getPuntosTrazado(trackSegment){
+        	
+        	var aux = [];
+        	var trackpoints = trackSegment.getElementsByTagName('trkpt');
+        	
+        	for (var i=0; i < trackpoints.length; i++){
+				
+        		var lon = parseFloat(trackpoints[i].getAttribute("lon"));
+				var lat = parseFloat(trackpoints[i].getAttribute("lat"));
+				
+				aux[aux.length] = {latitud:lat,longitud:lon};
+				
+			}
+			
+			return aux;
+			
+        }
+        
+        //LLama a todas las funciones necesarias
+        jQuery(document).ready(function(){
+			
+			MyMap = new GMap2(document.getElementById("capsaMapa"));
+			
+			/**
+			 * AFEGIM EL NOU TIPUS DE MAPA (NOU SERVIDOR DE MAPES)
+			 * I EL SELECTOR DE MAPES 
+			 */
+			/*
+			MyMap.addMapType(SITIBSA_MAP_SPEC);
+			MyMap.addControl( new GMenuMapTypeControl(false) );
+			*/
+			
+        	MyMap.addControl(new GLargeMapControl());
+        	MyMap.addControl(new GMapTypeControl());
+        	LoadGPXFileIntoGoogleMap(MyMap, 'http://www.senderosdemallorca.com/remotecall.ct.html?cr=47');            
+        	
+        	//afegeix les fites, els punts i les imatges
+        	addItemsToMap(itemsCOL,MyMap);
+			
+        });
+        
+        itemsCOL["hito_1"] = {clave:"hito_1",nombre:"Llogaret de s\'Esgleieta",descripcion:"Des de s’Esglaieta, agafam la carretera Ma-1110 en direcció a Palma. A uns 450 m trobam la rodona que condueix a Esporles per la Ma-1120. Aquesta ubicació es un bon lloc on deixar els cotxes si veniu en vehícle particular ja que a la plaça de s’Esglaieta esta regulat amb l’aparcament. Agafam cap a E...",latitud:"39.659167",longitud:"2.641583",url:"",img:"",tipo:"hito",letra:"a",altitud:"110m",distancia:"0,00",tiempo:"0h 00min",lat_gms:"N39 39\'33.001\"",lon_gms:"E2 38\'29.698\"" };
+		itemsCOL["hito_2"] = {clave:"hito_2",nombre:"Camí de cas Ratat – camí de son Maiol",descripcion:"El primer tram del camí està asfaltat. Seguim per el camí de terra que a poc a poc va guanyant en altitud fins arribar al vial XIV de l’urbanització de ses Rotgetes. En aquest punt, tombam a l’esquerra i baixam per el vial asfaltat amb les cases a la dreta i la garriga a l’esquerra. A uns 270 m segu...",latitud:"39.655417",longitud:"2.640017",url:"",img:"",tipo:"hito",letra:"b",altitud:"109m",distancia:"0,54",tiempo:"0h 15min",lat_gms:"N39 39\'19.501\"",lon_gms:"E2 38\'24.061\"" };
+		itemsCOL["hito_3"] = {clave:"hito_3",nombre:"El paisatge rural de Palma - Establiments",descripcion:"En aquest punt elevat, hi arribam després de creuar el torrent de na Bàrbara. Aquí trobam un encreuament de camins, agafam el de la dreta. A uns 600 m trobarem que el camí de terra es converteix en un carrer asfaltat. Seguim aquest carrer fins arribar a la carretera d’Esporles Ma-1040. En aquest pun...",latitud:"39.636467",longitud:"2.6274",url:"",img:"",tipo:"hito",letra:"c",altitud:"135m",distancia:"3,15",tiempo:"0h 46min",lat_gms:"N39 38\'11.281\"",lon_gms:"E2 37\'38.640\"" };
+		itemsCOL["hito_4"] = {clave:"hito_4",nombre:"Camí del Delme - camí de Sarrià - Son Malferit - Son Poquet",descripcion:"Agafam el camí del Delme situat just passat el bar des Muntant i que comença amb pujada. Seguim el camí durant uns 1,190 km sempre tot dret. Arribam a un punt on ens creuam amb un altre camí que va d’esquerra a dreta, mal asfaltat i amb una entrada de pedra en sec i unes barreres que ens queden just...",latitud:"39.637183",longitud:"2.615833",url:"",img:"",tipo:"hito",letra:"d",altitud:"149m",distancia:"4,44",tiempo:"1h 03min",lat_gms:"N39 38\'13.859\"",lon_gms:"E2 36\'56.998\"" };
+		itemsCOL["hito_5"] = {clave:"hito_5",nombre:"Coll de s’Heura",descripcion:"Des d’aquest punt agafam el camí empedrat que baixa per la dreta de la carretera. Aquesta dracera ens torna a dur a la carretera des Verger, tombam a la dreta per la carretera i tot seguit a la primera curva, deixam la carretera i agafam, a la dreta, un camí de terra que baixa cap al barri de sa Vil...",latitud:"39.6572",longitud:"2.57365",url:"",img:"",tipo:"hito",letra:"e",altitud:"320m",distancia:"10,01",tiempo:"2h 35min",lat_gms:"N39 39\'25.920\"",lon_gms:"E2 34\'25.140\"" };
+		itemsCOL["hito_6"] = {clave:"hito_6",nombre:"Camí des Rafal i carrer Quarter",descripcion:"En aquest punt tombam a l’esquerra i seguim pel camí des Rafal. Inicialment empedrat es converteix en un camí de terra entre dues parets de pedra en sec. En acabar el camí de terra, seguim tot dret per el carrer asfaltat fins arribar a l’encreuament amb el carrer Quarter. Tombam a l’esquerra amb el ...",latitud:"39.660867",longitud:"2.579867",url:"",img:"",tipo:"hito",letra:"f",altitud:"202m",distancia:"11,17",tiempo:"2h 52min",lat_gms:"N39 39\'39.121\"",lon_gms:"E2 34\'47.521\"" };
+		itemsCOL["punto_1"] = {clave:"punto_1",nombre:"Refugi de son Trias",descripcion:"",latitud:"39.665307",longitud:"2.57552",url:"www.refugisontrias.com",img:"<img src=\"/imgdb/imagen_pin884.jpg\" width=\"110\" height=\"110\" alt=\"Refugi de son Trias\" />",tipo:"punto",letra:"",direccion:"Carrer Costa de Son Trias, 19 07190 Esporles Illes Balears",telefono:"+34 656 232 363",url:"www.refugisontrias.com",lat_gms:"N39 39\'55.105\"",lon_gms:"E2 34\'31.871\""};
+		itemsCOL["imagenruta_1"] = {clave:"imagenruta_1",nombre:"Camí de cas Ratat",descripcion:"",latitud:"39.6525",longitud:"2.636433",url:"",img:"<img src=\"/imgdb/imagen_iru890.jpg\" width=\"110\" height=\"110\" alt=\"Camí de cas Ratat\" />",tipo:"imagen",letra:"",lat_gms:"N39 39\'9.000\"",lon_gms:"E2 38\'11.158\""};
+		itemsCOL["imagenruta_2"] = {clave:"imagenruta_2",nombre:"Camí de son Maiol",descripcion:"",latitud:"39.64435",longitud:"2.628783",url:"",img:"<img src=\"/imgdb/imagen_iru892.jpg\" width=\"110\" height=\"110\" alt=\"Camí de son Maiol\" />",tipo:"imagen",letra:"",lat_gms:"N39 38\'39.660\"",lon_gms:"E2 37\'43.618\""};
+		itemsCOL["imagenruta_3"] = {clave:"imagenruta_3",nombre:"Iglesia de es Muntant",descripcion:"",latitud:"39.637167",longitud:"2.614983",url:"",img:"<img src=\"/imgdb/imagen_iru894.jpg\" width=\"110\" height=\"110\" alt=\"Iglesia de es Muntant\" />",tipo:"imagen",letra:"",lat_gms:"N39 38\'13.801\"",lon_gms:"E2 36\'53.939\""};
+		itemsCOL["imagenruta_4"] = {clave:"imagenruta_4",nombre:"Camino del Diezmo",descripcion:"",latitud:"39.636117",longitud:"2.6082",url:"",img:"<img src=\"/imgdb/imagen_iru896.jpg\" width=\"110\" height=\"110\" alt=\"Camino del Diezmo\" />",tipo:"imagen",letra:"",lat_gms:"N39 38\'10.021\"",lon_gms:"E2 36\'29.520\""};
+		itemsCOL["imagenruta_5"] = {clave:"imagenruta_5",nombre:"Sarrià",descripcion:"",latitud:"39.63995",longitud:"2.59885",url:"",img:"<img src=\"/imgdb/imagen_iru898.jpg\" width=\"110\" height=\"110\" alt=\"Sarrià\" />",tipo:"imagen",letra:"",lat_gms:"N39 38\'23.819\"",lon_gms:"E2 35\'55.860\""};
+		itemsCOL["imagenruta_6"] = {clave:"imagenruta_6",nombre:"Camí de Sarrià",descripcion:"",latitud:"39.640817",longitud:"2.59845",url:"",img:"<img src=\"/imgdb/imagen_iru900.jpg\" width=\"110\" height=\"110\" alt=\"Camí de Sarrià\" />",tipo:"imagen",letra:"",lat_gms:"N39 38\'26.941\"",lon_gms:"E2 35\'54.420\""};
+		        //]]>
+	    </script>
+	            <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script>            </head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="maq2c"><div id="paginaPrincipal" class="paginaDia">        
+	        <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.ct.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="ca"><strong id="botoActiu" class="botonUp"><span>Català</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+		<li class="de"><a href="index.de.html" onclick="wmsCambioIdioma('de');return false;">Deutsch</a></li>
+	</ul>
+</div>
+</div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.ct.html" class="btn-menu">			
+			<span class="nombre">Camina per Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.ct.html" class="btn-menu-on">			
+			<span class="nombre">En ruta</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.ct.html" class="btn-menu">			
+			<span class="nombre">Contacte</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="cuerpoPagina"><div id="vcms-postcabecera3"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.ct.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Catàleg de rutes</a></li>
+		    <li><a href="/rutas/buscador.ct.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Cercador</a></li></ul></div><div id="vcms-path"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Camí de cas Ratat</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.ct.html?cr=47&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Dades ruta</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/mapas.ct.html?cr=47&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Cartografia</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/puntos.ct.html?cr=47&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Punts d’interès</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/documentos.ct.html?cr=47&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Documents</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/imagenes.ct.html?cr=47&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Galeria </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-postpath"><div id="mapasRecorrido">
+        
+            <h3><a name="mapa">Itinerari</a></h3>
+            <div id="capsaMapa"></div>
+            <div class="leyendaMapa">
+                <div class="capa1"></div>
+                <div class="capa2"></div>
+                <div class="capa3"></div>
+                <div class="capa4"></div>
+                <ul>
+                    <li class="recorrido">Itinerari</li>
+                    <li class="itinerario">Fita</li>
+                    <li class="puntos">Punts d’interès</li>
+                    <li class="imagenes">Imatges</li>
+                </ul>
+            </div>
+			
+        </div></div><div id="vcms-contenedorColumnas-wrapper">
+		            <div id="vcms-contenedorColumnas">
+		              <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><div id="wrapPerfil" style="width: 660px;">
+		<h3><a name="perfil">Perfil de la ruta</a></h3>
+        <div id="perfilRuta">
+            <img src="/libre/imgdir/perfil-ruta-47-888.png" alt="" width="660" height="248" />        </div></div></div></div>
+		            <div id="vcms-columnaDerecha" style="width:240px;"><div id="vcms-columnaIzquierda-inner" style=""><div id="vcms-premenu"><div id="listadoHitos">
+					<h3><a name="localizacion">Localització</a></h3><ul><li><p><strong><span>A -</span>Llogaret de s'Esgleieta</strong></p>Temps <strong>0 h. 0 min. </strong> Altitud <strong>110 m.</strong></li><li><p><strong><span>B -</span>Camí de cas Ratat – camí de son Maiol</strong></p>Temps <strong>0 h. 15 min. </strong> Altitud <strong>109 m.</strong></li><li><p><strong><span>C -</span>El paisatge rural de Palma - Establiments</strong></p>Temps <strong>0 h. 46 min. </strong> Altitud <strong>135 m.</strong></li><li><p><strong><span>D -</span>Camí del Delme - camí de Sarrià - Son Malferit - Son Poquet</strong></p>Temps <strong>1 h. 3 min. </strong> Altitud <strong>149 m.</strong></li><li><p><strong><span>E -</span>Coll de s’Heura</strong></p>Temps <strong>2 h. 35 min. </strong> Altitud <strong>320 m.</strong></li><li><p><strong><span>F -</span>Camí des Rafal i carrer Quarter</strong></p>Temps <strong>2 h. 52 min. </strong> Altitud <strong>202 m.</strong></li></ul></div></div></div></div>
+		           </div>
+		           </div>
+		   </div>
+		   <div class="push"></div>
+        </div></div>
+		   </div><div id="piePagina" class="piePaginaDia">       
+        <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="ct" href="/legal.ct.html"><span>Avís legal</span></a></li>
+    <li class="creditos"><a class="ct" href="/creditos.ct.html"><span>Crèdits</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural i dels autors</strong>
+</p></div></div>
+       </div></body></html>

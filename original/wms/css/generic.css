@@ -1,0 +1,515 @@
+/*general*/
+
+BODY  {
+	font-family : arial, helvetica, sans-serif;
+	font-size: 11px;
+	margin:0px;
+	padding:0px;
+}
+
+HTML, BODY {
+	height:100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+FORM {
+	margin-top: 0px;
+}
+
+TD  {
+	font-family : arial, helvetica, sans-serif;
+	font-size: 11px;
+}
+
+A  {
+	text-decoration : none;
+}
+
+U  {
+	text-decoration : underline;
+}
+
+B  {
+	font-weight : bold;
+}
+
+IMG {
+	border: 0;
+}
+
+/* form styles */
+.form30 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    width : 40px;
+}
+
+.form60 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    width : 60px;
+}
+
+.form70 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    width : 70px;
+}
+
+.form80 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    width : 85px;
+}
+
+.form100 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    width : 100px;
+}
+
+.form120 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    width : 120px;
+}
+
+.form130 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+    width : 130px;
+}
+
+.form130_13 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    width : 130px;
+}
+
+.form140 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width : 140px;
+}
+
+.form150 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width : 150px;
+}
+
+.form165 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width : 165px;
+}
+
+.form180 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width : 180px;
+}
+
+.form220 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    width : 220px;
+}
+
+.form313 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width : 313px;
+}
+
+/*fontstyles*/
+.texto1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	}
+	
+.textobold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	}
+    
+.texto10{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	}
+
+.texto11{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	}
+
+.texto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	}
+        
+.texto12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	}    
+
+.texto13 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	}
+
+.texto14 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 14px; 
+	font-weight: normal;
+	}
+
+.texto15 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 15px; 
+	font-weight: normal;
+	}
+
+.texto16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	}
+
+.texto18 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	}
+
+    
+.texto20 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	}
+
+.textov {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	}
+
+.textov10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	}
+
+.textov-j {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align : justify;
+	font-weight: normal;
+}
+
+.textov9 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	}
+
+.textov11 {  
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	}
+
+.textov12 {  
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	}
+
+.textov13 {  
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	}
+	
+.textov14 {  
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	}
+
+.textov16 {  
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	}
+
+.textov20 {  
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	}
+
+.titulotimes {
+	font-family: "Book Antiqua", "Times New Roman", Times, serif;
+	font-size: 10px; 
+	font-weight: bold;
+	font-weight: normal;
+	}
+    
+.texto9 { font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-weight: normal }
+
+/* clases de ayuda */
+.vcms-separadorH {
+	clear:both;
+	height:0px;
+	overflow:hidden;
+}
+
+/* wrapper para centrado vertical de página */
+#vcms-pageAlignWrapper {
+      margin: 0;
+      padding: 0;
+      height:100%;
+      width:100%;
+      vertical-align: middle;
+}
+
+
+/***********/
+/* GEORGIA */
+/***********/
+.textog9 {
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+}
+.textog10 {
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+.textog11 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+.textog12 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+.textog13 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+}
+.textog14 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+.textog15 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+}
+.textog16 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+.textog17 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+}
+.textog18 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+.textog19 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+}
+.textog20 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+.textog21 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: normal;
+}
+.textog22 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+}
+.textog23 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+}
+.textog24 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+}
+.textog25 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+}
+.textog26 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+}
+.textog27 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 27px;
+	font-weight: normal;
+}
+.textog28 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+}
+.textog29 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 29px;
+	font-weight: normal;
+}
+.textog30 {  
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+/***********/
+/* Courier */
+/***********/
+.textoc9 {
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+}
+.textoc10 {
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+.textoc11 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+.textoc12 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+.textoc13 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+}
+.textoc14 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+.textoc15 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+}
+.textoc16 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+.textoc17 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+}
+.textoc18 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+.textoc19 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+}
+.textoc20 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+.textoc21 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: normal;
+}
+.textoc22 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+}
+.textoc23 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+}
+.textoc24 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+}
+.textoc25 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+}
+.textoc26 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+}
+.textoc27 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 27px;
+	font-weight: normal;
+}
+.textoc28 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+}
+.textoc29 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 29px;
+	font-weight: normal;
+}
+.textoc30 {  
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+}

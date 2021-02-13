@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Camí des Correu - Puntos de interés</title><link rel="stylesheet" href="/wms/css/templates/c1c.css" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><link rel="stylesheet" href="/css/general.css" type="text/css" /><link rel="stylesheet" href="/css/puntos_interes.css" type="text/css" /><link rel="stylesheet" href="/wms/css/scripts/WmsMultiPageBrowserS.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script></head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="paginaPrincipal" class="paginaDia">        
+            <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.de.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="de"><strong id="botoActiu" class="botonUp"><span>Deutsch</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="ca"><a href="index.ct.html" onclick="wmsCambioIdioma('ct');return false;">Català</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+	</ul>
+</div></div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.de.html" class="btn-menu">			
+			<span class="nombre">Wandern auf Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.de.html" class="btn-menu-on">			
+			<span class="nombre">Auf der Route</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.de.html" class="btn-menu">			
+			<span class="nombre">Kontakt </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="vcms-contenedorColumnas">
+        		  <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.de.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Routenverzeichnis</a></li>
+		    <li><a href="/rutas/buscador.de.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Suchmaschine</a></li></ul></div><div id="vcms-contenido-principal"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Camí des Correu</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.de.html?cr=15&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Routendaten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/mapas.de.html?cr=15&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Kartographie</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/puntos.de.html?cr=15&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Sehenswürdigkeiten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/documentos.de.html?cr=15&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Dokumente</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/imagenes.de.html?cr=15&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Galerie </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-contenido-sub1"><div id="listadoPuntosInteres">
+		<div id="cabeceraListado"><div id="filtroPuntosRuta">
+				<form action="/rutas/puntos.de.html?cr=15&amp;listadoOn=1" method="post">
+					<fieldset>
+						<div class="leftTop"></div>
+						<div class="leftBottom"></div>
+						<div class="rightTop"></div>
+						<div class="rightBottom"></div>
+						<div class="capsaCamps"><div class="campo"><input id="tipopunto_9" name="tipopunto_9" type="checkbox" value="9" /><label for="tipopunto_9">Andere Services <em>(1)</em></label></div><div class="campo"><input id="tipopunto_4" name="tipopunto_4" type="checkbox" value="4" /><label for="tipopunto_4">Bar/Restaurants <em>(1)</em></label></div><div class="campo"><input id="tipopunto_7" name="tipopunto_7" type="checkbox" value="7" /><label for="tipopunto_7">Ernstfall <em>(1)</em></label></div><div class="campo"><input id="tipopunto_5" name="tipopunto_5" type="checkbox" value="5" /><label for="tipopunto_5">Geldautomaten <em>(1)</em></label></div><div class="campo"><input id="tipopunto_10" name="tipopunto_10" type="checkbox" value="10" /><label for="tipopunto_10">+INFO <em>(2)</em></label></div><div class="campo"><input id="tipopunto_2" name="tipopunto_2" type="checkbox" value="2" /><label for="tipopunto_2">Lebensmittel <em>(7)</em></label></div><div class="campo"><input id="tipopunto_8" name="tipopunto_8" type="checkbox" value="8" /><label for="tipopunto_8">Öffentliche Verkehrsmittel <em>(1)</em></label></div><div class="campo"><input id="tipopunto_6" name="tipopunto_6" type="checkbox" value="6" /><label for="tipopunto_6">Post <em>(1)</em></label></div><div class="campo"><input id="tipopunto_1" name="tipopunto_1" type="checkbox" value="1" /><label for="tipopunto_1">Unterkunft <em>(10)</em></label></div></div>						<input type="submit" class="filtrar" value="Filtern" />
+						<div class="vcms-separadorH"></div>
+					</fieldset>
+				</form>
+			</div></div><div id="listadoResultados"><ul><li class="puntoItem separador"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin645.jpg" width="200" height="200"  alt="Canet Agroturismo" title="Canet Agroturismo" /></div><div class="descPunto"><h3>Canet Agroturismo</h3><p class="descripcion"></p><p class="direccion">Carretera s’Esglaiete – Esporles, km. 1 <br />07190 Esporles</p><p class="contacto"><strong>Tel: +34 971 611 777 <br />Fax: +34 971 610 454 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.parcdecanet.com" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div><div class="btn">
+		                            <span class="cen">
+		                                <span class="izq">
+		                                	<script type="text/javascript">
+		                                	  	escribeMail('info','parcdecanet.com','E-Mail');
+		                                	</script>
+		                                </span>
+		                            </span>
+		                        </div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin648.jpg" width="200" height="200"  alt="Hotel Posada del Marqués" title="Hotel Posada del Marqués" /></div><div class="descPunto"><h3>Hotel Posada del Marqués</h3><p class="descripcion"></p><p class="direccion">Es Verger <br />07190 Es Verger (Esporles)<br />Illes Balears</p><p class="contacto"><strong>Tel: +34 971 611 230 <br />Fax: +34 971 611 213 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.posada-marques.com" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div><div class="btn">
+		                            <span class="cen">
+		                                <span class="izq">
+		                                	<script type="text/javascript">
+		                                	  	escribeMail('info','posada-marques.com','E-Mail');
+		                                	</script>
+		                                </span>
+		                            </span>
+		                        </div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin649.jpg" width="200" height="200"  alt="Can Torna Agroturismo" title="Can Torna Agroturismo" /></div><div class="descPunto"><h3>Can Torna Agroturismo</h3><p class="descripcion">07190 Esporles. Mallorca. Illes Balears
+T 
+M +34 620 880 899
+
+</p><p class="direccion">Carretera s’Esglaieta – Esporles, Km. 4,3 <br />07190 Esgleieta (Esporles)<br />Illes Balears</p><p class="contacto"><strong>Tel: +34 971 611 500 / +34 620 880 899 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.cantorna.com" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div><div class="btn">
+		                            <span class="cen">
+		                                <span class="izq">
+		                                	<script type="text/javascript">
+		                                	  	escribeMail('contacto','cantorna.com','E-Mail');
+		                                	</script>
+		                                </span>
+		                            </span>
+		                        </div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin650.jpg" width="200" height="200"  alt="Hotel Mar i Vent" title="Hotel Mar i Vent" /></div><div class="descPunto"><h3>Hotel Mar i Vent</h3><p class="descripcion">
+</p><p class="direccion">C/ Major, 49 <br />07191 Banyalbufar<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 618 000 <br />Fax: 971 618 201 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.hotelmarivent.com/" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div><div class="btn">
+		                            <span class="cen">
+		                                <span class="izq">
+		                                	<script type="text/javascript">
+		                                	  	escribeMail('marivent','hotelmarivent.com','E-Mail');
+		                                	</script>
+		                                </span>
+		                            </span>
+		                        </div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin869.jpg" width="200" height="200"  alt="Ajuntament d'Esporles" title="Ajuntament d'Esporles" /></div><div class="descPunto"><h3>Ajuntament d'Esporles</h3><p class="descripcion">Ayuntamiento de Esporles, podeis encontrar la información turística y cultural que necesiteis.</p><p class="direccion">Plaça d'Espanya, 1 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 610 002 <br />Fax: 971 610 445 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.ajesporles.net/" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div><div class="btn">
+		                            <span class="cen">
+		                                <span class="izq">
+		                                	<script type="text/javascript">
+		                                	  	escribeMail('ajuntament','ajesporles.net','E-Mail');
+		                                	</script>
+		                                </span>
+		                            </span>
+		                        </div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin652.jpg" width="200" height="200"  alt="Hotel sa Coma" title="Hotel sa Coma" /></div><div class="descPunto"><h3>Hotel sa Coma</h3><p class="descripcion">
+</p><p class="direccion">Camí d’es Molí, 3 <br />07191 Banyalbufar<br />Illes Balears</p><p class="contacto"><strong>Tel: +34 971 61 80 34 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.hotelsacoma.com/" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div><div class="btn">
+		                            <span class="cen">
+		                                <span class="izq">
+		                                	<script type="text/javascript">
+		                                	  	escribeMail('hotelsacoma','hotelsacoma.com','E-Mail');
+		                                	</script>
+		                                </span>
+		                            </span>
+		                        </div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin653.jpg" width="200" height="200"  alt="Hotel sa Baronia" title="Hotel sa Baronia" /></div><div class="descPunto"><h3>Hotel sa Baronia</h3><p class="descripcion"></p><p class="direccion">C/ Baronia, 16 <br />07191 Banyalbufar<br />Illes Balears</p><p class="contacto"><strong>Tel: +34 971 618 146 <br />Fax: +34 971 148 738 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.hbaronia.com" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div><div class="btn">
+		                            <span class="cen">
+		                                <span class="izq">
+		                                	<script type="text/javascript">
+		                                	  	escribeMail('reservas','hbaronia.com','E-Mail');
+		                                	</script>
+		                                </span>
+		                            </span>
+		                        </div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin640.jpg" width="200" height="200"  alt="Parada autobús" title="Parada autobús" /></div><div class="descPunto"><h3>Parada autobús</h3><p class="descripcion">Parada de la linea 200, trasporte público</p><p class="direccion">C/ Jaume I <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong></strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.consorcidetransports.org/web/ctm/inici" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin654.jpg" width="200" height="200"  alt="Son Borguny" title="Son Borguny" /></div><div class="descPunto"><h3>Son Borguny</h3><p class="descripcion"></p><p class="direccion">C\ Borguny, 1 <br />07191 Banyalbufar<br />Illes Balears</p><p class="contacto"><strong>Tel: +34 971 148 706 <br />Fax: +34 971 148 706 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.sonborguny.com/" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div><div class="btn">
+		                            <span class="cen">
+		                                <span class="izq">
+		                                	<script type="text/javascript">
+		                                	  	escribeMail('info','sonborguny.com','E-Mail');
+		                                	</script>
+		                                </span>
+		                            </span>
+		                        </div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin644.jpg" width="200" height="200"  alt="Hostal ca'n Busquets" title="Hostal ca'n Busquets" /></div><div class="descPunto"><h3>Hostal ca'n Busquets</h3><p class="descripcion"></p><p class="direccion">C/ Miramar, 24 <br />07191 Banyalbufar<br />Illes Balears</p><p class="contacto"><strong>Tel: 622 060 457  </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.hostalcanbusquets.es/" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin754.jpg" width="200" height="200"  alt="Ajuntament de Banyalbufar" title="Ajuntament de Banyalbufar" /></div><div class="descPunto"><h3>Ajuntament de Banyalbufar</h3><p class="descripcion">Ayuntamiento de Banyalbufar, podeis encontrar la información turística y cultural que necesiteis.</p><p class="direccion">Plaça de La Vila, 2 <br />07191 Banyalbufar<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 148 580 - 600 444 457 <br />Fax: 971 148 520 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.ajbanyalbufar.net/" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div><div class="btn">
+		                            <span class="cen">
+		                                <span class="izq">
+		                                	<script type="text/javascript">
+		                                	  	escribeMail('banyalbufar','ajbanyalbufar.net','E-Mail');
+		                                	</script>
+		                                </span>
+		                            </span>
+		                        </div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="descPuntoNoimg"><h3>Restaurant Son Tomas</h3><p class="descripcion"></p><p class="direccion">Baronia, 19 <br />07191 Banyalbufar<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 61 81 49 </strong></p></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="descPuntoNoimg"><h3>Can Mavano</h3><p class="descripcion">Típica tienda de alimetos donde encontrar fruta y verduras</p><p class="direccion">C/ Francesc de Borja Moll, 8 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 61 01 52 </strong></p></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="descPuntoNoimg"><h3>Colmado Ca sa Ferrera</h3><p class="descripcion">Típica tienda de alimetos donde encontrar fruta y verduras</p><p class="direccion">C/ Joan Cabot, 1 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 610 175 - 971 610 230 </strong></p></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="descPuntoNoimg"><h3>Colmado Riutort </h3><p class="descripcion">	 
+</p><p class="direccion">C/ Joan Riutort, 72 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 611 328 </strong></p></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="descPuntoNoimg"><h3>Colmado Ca Na Francisca</h3><p class="descripcion"></p><p class="direccion">C/ Major, 2 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 611 088 </strong></p></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="descPuntoNoimg"><h3>Tot casolà</h3><p class="descripcion">Comercio donde encontraremos comida preparada de gran calidad a muy buen precio</p><p class="direccion">C/ Nou de Sant Pere, 24 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 611 902 </strong></p></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="descPuntoNoimg"><h3>Carnisseria Margalida</h3><p class="descripcion">Pequeña carniceria con buen surtido de carnes</p><p class="direccion">C/ Nou de Sant Pere, 6 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 610 027 </strong></p></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="descPuntoNoimg"><h3>Can Gener</h3><p class="descripcion"></p><p class="direccion">C/ Pont, 4 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 610 204 </strong></p></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="descPuntoNoimg"><h3>La Caixa</h3><p class="descripcion"></p><p class="direccion">C/ Joan Riutort, 29 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 626 050 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.lacaixa.es" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="descPuntoNoimg"><h3>Correos</h3><p class="descripcion">
+</p><p class="direccion">Pg. del Rei, 2 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 619 137 </strong></p></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="descPuntoNoimg"><h3>Can Catoxe</h3><p class="descripcion">Ferreteria</p><p class="direccion">C/ Quarter, 30 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 619 100 </strong></p></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin870.jpg" width="200" height="200"  alt="Apotheke" title="Apotheke" /></div><div class="descPunto"><h3>Apotheke</h3><p class="descripcion"></p><p class="direccion">C/ Joan Riutort, 25A <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: 971 61 01 79 </strong></p></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem"><div class="innerPunto"><div class="descPuntoNoimg"><h3>Son Galcerán</h3><p class="descripcion"></p><p class="direccion">Pont de Son Galcerán, Polígono 5 - parcela 23 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: +34 971 611 224 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.songalceran.com" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div><div class="btn">
+		                            <span class="cen">
+		                                <span class="izq">
+		                                	<script type="text/javascript">
+		                                	  	escribeMail('info','songalceran.com','E-Mail');
+		                                	</script>
+		                                </span>
+		                            </span>
+		                        </div></div><div class="vcms-separadorH"></div></div></li><li class="puntoItem separador"><div class="innerPunto"><div class="imagenPunto"><img src="/imgdb/imagen_pin884.jpg" width="200" height="200"  alt="Refugi de son Trias" title="Refugi de son Trias" /></div><div class="descPunto"><h3>Refugi de son Trias</h3><p class="descripcion"></p><p class="direccion">Carrer Costa de Son Trias, 19 <br />07190 Esporles<br />Illes Balears</p><p class="contacto"><strong>Tel: +34 656 232 363 </strong></p><div class="btn">
+								<span class="cen">
+								    <span class="izq">
+								    <a href="http://www.refugisontrias.com" rel="external">Webseite</a>
+								    </span>
+								</span>
+							</div><div class="btn">
+		                            <span class="cen">
+		                                <span class="izq">
+		                                	<script type="text/javascript">
+		                                	  	escribeMail('reserves','refugisontrias.com','E-Mail');
+		                                	</script>
+		                                </span>
+		                            </span>
+		                        </div></div><div class="vcms-separadorH"></div></div></li></ul><div class="vcms-separadorH"></div></div></div><div class="infoResultados">
+	                
+	            <p class="numResultados">wird angezeigt	                <strong>25</strong> Sehenswürdigkeiten.
+	            </p><div class="filtroPaginas">anzeigen&nbsp;<a href="/rutas/puntos.de.html?cr=15&amp;listadoOn=1&amp;sql_first_record=0&amp;numItems=8">8</a>&nbsp;<a href="/rutas/puntos.de.html?cr=15&amp;listadoOn=1&amp;sql_first_record=0&amp;numItems=16">16</a>&nbsp;<strong>32</strong>&nbsp;<a href="/rutas/puntos.de.html?cr=15&amp;listadoOn=1&amp;sql_first_record=0&amp;numItems=todos">alle</a>&nbsp;Sehenswürdigkeiten pro Seite.</div>	        </div></div><div id="vcms-contenido-sub2"></div></div>
+               </div>
+               
+           </div>
+           <div class="push"></div>
+       </div><div id="piePagina" class="piePaginaDia">       
+            <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="de" href="/legal.de.html"><span>Rechtlicher Hinweis</span></a></li>
+    <li class="creditos"><a class="de" href="/creditos.de.html"><span>Impressum</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural und die Autoren</strong>
+</p></div></div>
+       </div></body></html>

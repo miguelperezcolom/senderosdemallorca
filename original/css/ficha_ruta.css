@@ -1,0 +1,206 @@
+/*#fichaRuta{
+    width: 925px;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+#fichaRuta h3{
+    padding: 30px 0 8px 0;
+}
+#fichaRuta p{
+    padding: 0;
+}
+
+#fichaRuta p.descripcion{
+    text-align: justify;
+    padding-top: 10px;
+    line-height: 18px;
+}
+
+#fichaRuta .fichaTecnica p{
+    line-height: 18px;
+}
+
+#fichaRuta .itinerario li{
+    background-color: #F4F4F4;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#fichaRuta .itinerario li{
+    height: 1%;
+}
+#fichaRuta .itinerario li div{
+    height: 1%;
+}
+
+#fichaRuta .itinerario li .capa1{
+    background: url(/img/cajas/azul/left_top.gif) 0 0 no-repeat;
+}
+#fichaRuta .itinerario li .capa2{
+    background: url(/img/cajas/azul/left_bottom.gif) 0 100% no-repeat;
+}
+#fichaRuta .itinerario li .capa3{
+    background: url(/img/cajas/azul/right_bottom.gif) 100% 100% no-repeat;
+}
+#fichaRuta .itinerario li .capa4{
+    background: url(/img/cajas/azul/right_top.gif) 100% 0 no-repeat;
+    padding: 18px 18px 18px 57px;
+}
+#fichaRuta .itinerario li h4{
+    color: #2A5E92;
+    font-size: 18px;
+    font-weight: normal;
+}
+#fichaRuta .itinerario li p.datos{
+    font-size: 12px;
+    font-weight: bold;
+    color: #2A5E92;
+}
+#fichaRuta .itinerario li p.desc{
+    font-size: 13px;
+}
+#fichaRuta .itinerario li .punto{
+    position: absolute;
+    left: -20px;
+    top: -15px;
+     width:83px;
+     height:97px;
+     background-position: left top;
+     background-repeat: no-repeat;
+}
+
+#fichaRuta .otrasOpciones p{
+    text-align: justify;
+}
+
+#maq2c #vcms-contenido-sub2{
+    float: left;
+}         
+          
+#enviarPostal{
+    margin-left: 25px;
+    width: 240px;
+    position: relative;
+    padding: 0 0 29px 0;
+    background: #F3F3F3 url(/img/postal/sup.gif) top left no-repeat;
+    overflow: hidden;
+    display: block;
+}
+
+#enviarPostal .bot{
+    height: 29px;
+    background: url(/img/postal/inf.gif) top center no-repeat;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 240px;
+}
+
+#enviarPostal h3{
+    color: #333333;
+    font: normal 22px Georgia, Arial, Helvetica, sans-serif;
+    margin-left: 22px;
+    padding-top: 26px;
+}
+
+#enviarPostal p{
+    font: normal 12px Arial, Helvetica, sans-serif;
+    margin-left: 22px;
+    margin-right: 22px;
+    padding-bottom: 0;  
+}
+
+#enviarPostal p.textlabel{
+    margin-bottom: 7px;
+}
+
+#enviarPostal p.desc{
+    padding-bottom: 16px;
+    font: normal 11px Arial, Helvetica, sans-serif;
+    padding-top: 3px;   
+}
+
+#enviarPostal textarea,
+#enviarPostal input{
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+#enviarPostal .textInput{
+    font: normal 12px Arial, Helvetica, sans-serif;
+    color: #575757;
+    margin-bottom: 13px;
+    width: 196px;
+}
+
+#mensajePostal{
+    width: 196px;
+    height: 103px;
+    font: normal 12px Arial, Helvetica, sans-serif;
+    color: #575757; 
+}
+
+#enviarPostal #botones{
+   margin-left: 22px;
+   margin-top: 20px;
+}
+
+#enviarPostal .botonCapa1{
+   background: url(/img/postal/left.gif) top left no-repeat;
+   padding-left: 11px;
+   float: left;
+   margin-top: 6px;
+   padding-bottom: 4px;   
+}
+
+#enviarPostal .botonCapa2{
+   background: url(/img/postal/right.gif) top right no-repeat;
+   padding-right: 11px;
+   float: left;
+   padding-bottom: 4px;
+}
+
+#enviarPostal .botonEnviar{
+   border: none;
+   background: url(/img/postal/center.gif) top left repeat-x;
+   color: #FFFFFF;
+   font: bold 13px Arial, Helvetica, sans-serif;
+   height:22px;
+   cursor: pointer;
+   padding: 0;
+   margin: 0;
+   float: left;
+   line-height: 22px;
+   padding-bottom: 2px;
+}
+
+#enviarPostal .limpiar{
+   font: 13px/33px Arial, Helvetica, sans-serif;
+   color: #666;
+   text-decoration: underline;
+   padding-left: 14px;
+}
+
+#enviarPostal h3{
+    color: #134D86;
+}
+
+#limpiar_datos{
+    border: none;
+    background: none;
+    color: #666666;
+    font: normal 11px Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+    float: left;
+    margin: 0 !important;
+    padding: 0;
+    display: block;
+    height: 31px;
+    line-height: 31px;
+    padding-left: 5px;
+}
+
+.itinerario h3{
+    margin-bottom: 10px;
+}

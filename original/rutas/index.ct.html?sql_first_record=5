@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca"><!-- mmaq: xhtml1  --><head><title>Catàleg de rutes - Caminar per Mallorca - Senderisme Mallorca - Excursions per Mallorca</title><link rel="stylesheet" href="/wms/css/templates/c1c.css" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><link rel="stylesheet" href="/css/general.css" type="text/css" /><link rel="stylesheet" href="/css/buscador_itinerarios.css" type="text/css" /><link rel="stylesheet" href="/wms/css/scripts/WmsMultiPageBrowserS.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script></head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="paginaPrincipal" class="paginaDia">        
+            <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.ct.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="ca"><strong id="botoActiu" class="botonUp"><span>Català</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+		<li class="de"><a href="index.de.html" onclick="wmsCambioIdioma('de');return false;">Deutsch</a></li>
+	</ul>
+</div>
+</div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.ct.html" class="btn-menu">			
+			<span class="nombre">Camina per Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.ct.html" class="btn-menu-on">			
+			<span class="nombre">En ruta</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.ct.html" class="btn-menu">			
+			<span class="nombre">Contacte</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="vcms-contenedorColumnas">
+        		  <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.ct.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Catàleg de rutes</a></li>
+		    <li><a href="/rutas/buscador.ct.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Cercador</a></li></ul></div><div id="vcms-contenido-principal"><div id="buscadorItinerarios">
+    	
+    	   <div class="titulo">
+    	       <h2>Excursions per descobrir la Mallorca rural</h2>
+	       </div><div class="infoBusqueda"></div><div class="infoResultados">
+            <p class="numResultados">Mostrant <strong>5</strong> recorreguts.</p><div class="filtroPaginas">Mostra&nbsp;<strong>5</strong>&nbsp;<a href="/rutas/index.ct.html?&amp;sql_first_record=0&amp;numItems=15">15</a>&nbsp;<a href="/rutas/index.ct.html?&amp;sql_first_record=0&amp;numItems=30">30</a>&nbsp;<a href="/rutas/index.ct.html?&amp;sql_first_record=0&amp;numItems=todos">tots</a>&nbsp;resultats per pàgina.</div></div>               <div class="vcms-separadorH"></div>
+               <div class="listado">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 8-->
+<ul><li style="clear:both;"><div class="ruta">
+            <h3><a href="/rutas/ficha.ct.html?tIte=sa-costera&amp;cr=25" title="sa-costera">Sa Costera</a></h3><div class="foto"><img  src="/imgdb/foto_rut833.jpg" width="673" height="262" alt="" /></div><div class="info">
+                <p><strong>Del mirador de ses Barques a Cala Tuent</strong>
+Itinerari costaner de gran bellesa, amb dues parts...</p><ul><li><strong>Tipus d’excursió:</strong> Senderisme</li><li><strong>Situació:</strong> Oest de Mallorca</li><li><strong>Població més propera: </strong>Sóller</li><li><strong>Grau de dificultat:</strong> Mitjana</li><li><strong>Horari total:</strong> 3 hores i 45 minuts</li><li><strong>Altitud màxima:</strong> 400 m</li><li><strong>Ruta circular:</strong> No</li><li><strong>Època recomanada: </strong>Tot l’any</li></ul>            </div>
+            <div class="vcms-separadorH"></div>
+        </div></li><li style="clear:both;"><div class="ruta">
+            <h3><a href="/rutas/ficha.ct.html?tIte=puig-des-teix&amp;cr=29" title="puig-des-teix">Puig des Teix</a></h3><div class="foto"><img  src="/imgdb/foto_rut811.jpg" width="673" height="262" alt="" /></div><div class="info">
+                <p><strong>Excursió circular des de Valldemossa</strong><br />A pesar de no ser un dels cims més alts de l’illa,...</p><ul><li><strong>Tipus d’excursió:</strong> Senderisme</li><li><strong>Situació:</strong> Oest de Mallorca</li><li><strong>Població més propera: </strong>Valldemossa</li><li><strong>Grau de dificultat:</strong> Mitjana</li><li><strong>Distància:</strong> 14,470 Km</li><li><strong>Horari total:</strong> 4 hores i 30 minuts</li><li><strong>Altitud màxima:</strong> 1.064 m</li><li><strong>Ruta circular:</strong> Si</li><li><strong>Època recomanada: </strong>Tot l’any</li></ul>            </div>
+            <div class="vcms-separadorH"></div>
+        </div></li><li style="clear:both;"><div class="ruta">
+            <h3><a href="/rutas/ficha.ct.html?tIte=puig-des-galatza&amp;cr=4" title="puig-des-galatza">Puig des Galatzó</a></h3><div class="foto"><img  src="/imgdb/foto_rut816.jpg" width="673" height="262" alt="" /></div><div class="info">
+                <p><strong>Pel vessant nord</strong> (Estellencs).<br />El puig de Galatzó destaca sobre els altres cims de la...</p><ul><li><strong>Tipus d’excursió:</strong> Senderisme</li><li><strong>Situació:</strong> Sud-oest de Mallorca</li><li><strong>Població més propera: </strong>Estellencs</li><li><strong>Grau de dificultat:</strong> Mitjana</li><li><strong>Distància:</strong> 10,790 Km</li><li><strong>Horari total:</strong> 4 hores i 15 minuts</li><li><strong>Altitud màxima:</strong> 1.027 m</li><li><strong>Ruta circular:</strong> Si</li><li><strong>Època recomanada: </strong>Primavera,Tardor i Hivern</li></ul><div class="icoMime"><div class="btn"><span class="cen"><span class="izq"><a href="/rutas/documentos.ct.html?cr=4">zip</a></span></span></div></div>            </div>
+            <div class="vcms-separadorH"></div>
+        </div></li><li style="clear:both;"><div class="ruta">
+            <h3><a href="/rutas/ficha.ct.html?tIte=els-llogarets-entre-soller-i-fornalutx&amp;cr=44" title="els-llogarets-entre-soller-i-fornalutx">Els llogarets entre Sóller i Fornalutx</a></h3><div class="foto"><img  src="/imgdb/foto_rut838.jpg" width="673" height="262" alt="" /></div><div class="info">
+                <p><strong>Itinerario que discurre entre el pueblo de Sóller y Fornalutx.</strong> Esta ruta atraviesa las...</p><ul><li><strong>Tipus d’excursió:</strong> Senderisme</li><li><strong>Situació:</strong> Oest de Mallorca</li><li><strong>Població més propera: </strong>Sóller - Fornalutx (Sóller)</li><li><strong>Grau de dificultat:</strong> Baixa</li><li><strong>Distància:</strong> 7,810 Km</li><li><strong>Horari total:</strong> 4 hores i 30 minuts</li><li><strong>Altitud màxima:</strong> 298 m</li><li><strong>Ruta circular:</strong> Si</li><li><strong>Època recomanada: </strong>Tot l’any</li></ul>            </div>
+            <div class="vcms-separadorH"></div>
+        </div></li><li style="clear:both;"><div class="ruta">
+            <h3><a href="/rutas/ficha.ct.html?tIte=can-picafort-son-real&amp;cr=35" title="can-picafort-son-real">Can Picafort - Son Real</a></h3><div class="foto"><img  src="/imgdb/foto_rut812.jpg" width="673" height="262" alt="" /></div><div class="info">
+                <p>Itinerari costaner al llarg d’una platja verge amb visita a una necròpolis del segle VII aC. Més tard...</p><ul><li><strong>Tipus d’excursió:</strong> Senderisme</li><li><strong>Situació:</strong> nord de Mallorca - badia d’Alcúdia</li><li><strong>Població més propera: </strong>Can Picafort (Santa Margalida)</li><li><strong>Grau de dificultat:</strong> Familiar</li><li><strong>Distància:</strong> 8,560 Km</li><li><strong>Horari total:</strong> 2 hores i 15 minuts</li><li><strong>Altitud màxima:</strong> 35 m</li><li><strong>Ruta circular:</strong> Si</li><li><strong>Època recomanada: </strong>Tot l’any</li></ul>            </div>
+            <div class="vcms-separadorH"></div>
+        </div></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 8-->
+    </div><!-- end echoSimpleBoxEnd -' 8-->
+</div><div class="infoResultados">
+            <p class="numResultados">Mostrant <strong>5</strong> recorreguts.</p><div class="filtroPaginas">Mostra&nbsp;<strong>5</strong>&nbsp;<a href="/rutas/index.ct.html?&amp;sql_first_record=0&amp;numItems=15">15</a>&nbsp;<a href="/rutas/index.ct.html?&amp;sql_first_record=0&amp;numItems=30">30</a>&nbsp;<a href="/rutas/index.ct.html?&amp;sql_first_record=0&amp;numItems=todos">tots</a>&nbsp;resultats per pàgina.</div></div></div></div><div id="vcms-contenido-sub1"><div class="WmsMultiPageBrowserS"><div class="btnAnterior">
+    <div style="text-align:center; width:75px; background-image:url('/img/general/btnPaginador.gif'); height:22px" class="vcms-buttonPres">
+    <div class="vcms-genstl-box-vcn1"><!-- cajas valign -->
+    <div class="vcms-genstl-box-vcn2-middle">
+    <div class="vcms-genstl-box-vcn3-middle" style= "text-align:center;">
+    <div class="vcms-genstl-box-hcn-center"><!-- end echoSimpleBoxStart -' 13-->
+<a href="/rutas/index.ct.html?sql_first_record=0" title="anterior"><span class="texto13" style="color:#666666">anterior</span></a><!-- start echoSimpleBoxEnd -' 13-->
+    </div>
+    </div></div></div>
+    </div><!-- end echoSimpleBoxEnd -' 13-->
+</div><div class="cajaPaginas">
+    <div style="margin-left:14px; margin-right:14px; text-align:left"><!-- end echoSimpleBoxStart -' 12-->
+<ul><li>
+        <div style="margin-left:5px; margin-right:7px; text-align:left" class="vcms-buttonPres"><!-- end echoSimpleBoxStart -' 15-->
+<a href="/rutas/index.ct.html?sql_first_record=0" title="1"><span class="texto18" style="color:#000">1</span></a><!-- start echoSimpleBoxEnd -' 15-->
+        </div><!-- end echoSimpleBoxEnd -' 15-->
+</li><li>
+        <div style="margin-left:2px; margin-right:2px; text-align:left" class="vcms-buttonPres"><!-- end echoSimpleBoxStart -' 17-->
+<span class="texto18" style="color:#B30000; font-weight:bold">2</span><!-- start echoSimpleBoxEnd -' 17-->
+        </div><!-- end echoSimpleBoxEnd -' 17-->
+</li><li>
+        <div style="margin-left:5px; margin-right:7px; text-align:left" class="vcms-buttonPres"><!-- end echoSimpleBoxStart -' 19-->
+<a href="/rutas/index.ct.html?sql_first_record=10" title="3"><span class="texto18" style="color:#000">3</span></a><!-- start echoSimpleBoxEnd -' 19-->
+        </div><!-- end echoSimpleBoxEnd -' 19-->
+</li></ul><!-- start echoSimpleBoxEnd -' 12-->
+    </div><!-- end echoSimpleBoxEnd -' 12-->
+</div><div class="btnSiguiente">
+    <div style="text-align:center; width:75px; background-image:url('/img/general/btnPaginador.gif'); height:22px" class="vcms-buttonPres">
+    <div class="vcms-genstl-box-vcn1"><!-- cajas valign -->
+    <div class="vcms-genstl-box-vcn2-middle">
+    <div class="vcms-genstl-box-vcn3-middle" style= "text-align:center;">
+    <div class="vcms-genstl-box-hcn-center"><!-- end echoSimpleBoxStart -' 21-->
+<a href="/rutas/index.ct.html?sql_first_record=10" title="seg&uuml;ent"><span class="texto13" style="color:#666666">següent</span></a><!-- start echoSimpleBoxEnd -' 21-->
+    </div>
+    </div></div></div>
+    </div><!-- end echoSimpleBoxEnd -' 21-->
+</div></div></div></div>
+               </div>
+               
+           </div>
+           <div class="push"></div>
+       </div><div id="piePagina" class="piePaginaDia">       
+            <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="ct" href="/legal.ct.html"><span>Avís legal</span></a></li>
+    <li class="creditos"><a class="ct" href="/creditos.ct.html"><span>Crèdits</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural i dels autors</strong>
+</p></div></div>
+       </div></body></html>

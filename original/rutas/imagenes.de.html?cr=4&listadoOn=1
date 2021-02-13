@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Puig des Galatzó - Galería de imágenes</title><link rel="stylesheet" href="/wms/css/templates/c1c.css" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><script type="text/javascript" src="/js/galeria.js"></script><link rel="stylesheet" href="/css/general.css" type="text/css" /><link rel="stylesheet" href="/css/galeria.css" type="text/css" /><link rel="stylesheet" href="/wms/css/scripts/WmsMultiPageBrowserS.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+	    //<![CDATA[
+	    
+	       var galeria = null;
+	       
+	       jQuery(document).ready(function(){
+    	       locale = new Array();
+    	       locale["anterior"] = "<strong>v</strong>orige";
+               locale["siguiente"] = "<strong>n</strong>ächste";
+               locale["cerrar"] = "<strong>s</strong>chließen";
+               locale["tecla_siguiente"] = "n";
+               locale["tecla_anterior"] = "v";
+               locale["tecla_cerrar"] = "s";
+            
+    	       galeria = new GaleriaMultimedia(locale);
+	       });
+	       
+	    //]]>
+	    </script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script></head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="paginaPrincipal" class="paginaDia">        
+            <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.de.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="de"><strong id="botoActiu" class="botonUp"><span>Deutsch</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="ca"><a href="index.ct.html" onclick="wmsCambioIdioma('ct');return false;">Català</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+	</ul>
+</div></div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.de.html" class="btn-menu">			
+			<span class="nombre">Wandern auf Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.de.html" class="btn-menu-on">			
+			<span class="nombre">Auf der Route</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.de.html" class="btn-menu">			
+			<span class="nombre">Kontakt </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="vcms-contenedorColumnas">
+        		  <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.de.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Routenverzeichnis</a></li>
+		    <li><a href="/rutas/buscador.de.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Suchmaschine</a></li></ul></div><div id="vcms-contenido-principal"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Puig des Galatzó</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.de.html?cr=4&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Routendaten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/mapas.de.html?cr=4&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Kartographie</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li><li style="float:left;"><a href="/rutas/documentos.de.html?cr=4&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Dokumente</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/imagenes.de.html?cr=4&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Galerie </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-contenido-sub1"><div id="galeria">
+		    <div class="fotos"><div class="fila"><div class="foto">
+                            <a id="foto_0" class="galeriaMultimedia_enlace" rel="multimedia;width=709;height=531;tipo=image;" href="/imgdb/imagen_gra_iru723.jpg" title="Construci&amp;oacute;n de un pozo de piedra">
+                                <img src="/imgdb/imagen_iru722.jpg" width="200" height="200"  alt="Construci&amp;oacute;n de un pozo de piedra" title="Construci&amp;oacute;n de un pozo de piedra" />                            </a>
+                            <p class="pieFoto">Construci&oacute;n de un pozo de piedra</p>
+                        </div><div class="foto">
+                            <a id="foto_1" class="galeriaMultimedia_enlace" rel="multimedia;width=709;height=531;tipo=image;" href="/imgdb/imagen_gra_iru720.jpg" title="El sendero esta bien definido en todo el recorrido">
+                                <img src="/imgdb/imagen_iru721.jpg" width="200" height="200"  alt="El sendero esta bien definido en todo el recorrido" title="El sendero esta bien definido en todo el recorrido" />                            </a>
+                            <p class="pieFoto">El sendero esta bien definido en todo el recorrido</p>
+                        </div><div class="foto">
+                            <a id="foto_2" class="galeriaMultimedia_enlace" rel="multimedia;width=709;height=531;tipo=image;" href="/imgdb/imagen_gra_iru717.jpg" title="El Galatz&amp;oacute;, presente desde buena parte del camino">
+                                <img src="/imgdb/imagen_iru716.jpg" width="200" height="200"  alt="El Galatz&amp;oacute;, presente desde buena parte del camino" title="El Galatz&amp;oacute;, presente desde buena parte del camino" />                            </a>
+                            <p class="pieFoto">El Galatz&oacute;, presente desde buena parte del camino</p>
+                        </div><div class="fotoUltima">
+                            <a id="foto_3" class="galeriaMultimedia_enlace" rel="multimedia;width=704;height=528;tipo=image;" href="/imgdb/imagen_gra_iru715.jpg" title="La costa de la Tramuntana.">
+                                <img src="/imgdb/imagen_iru714.jpg" width="200" height="200"  alt="La costa de la Tramuntana." title="La costa de la Tramuntana." />                            </a>
+                            <p class="pieFoto">La costa de la Tramuntana.</p>
+                        </div></div><div class="fila"><div class="foto">
+                            <a id="foto_4" class="galeriaMultimedia_enlace" rel="multimedia;width=709;height=531;tipo=image;" href="/imgdb/imagen_gra_iru713.jpg" title="Vistas de Estallencs">
+                                <img src="/imgdb/imagen_iru712.jpg" width="200" height="200"  alt="Vistas de Estallencs" title="Vistas de Estallencs" />                            </a>
+                            <p class="pieFoto">Vistas de Estallencs</p>
+                        </div><div class="foto">
+                            <a id="foto_5" class="galeriaMultimedia_enlace" rel="multimedia;width=532;height=709;tipo=image;" href="/imgdb/imagen_gra_iru711.jpg" title="Pared de escalada de &amp;quot;Es Bisbe&amp;quot;">
+                                <img src="/imgdb/imagen_iru709.jpg" width="200" height="200"  alt="Pared de escalada de &amp;quot;Es Bisbe&amp;quot;" title="Pared de escalada de &amp;quot;Es Bisbe&amp;quot;" />                            </a>
+                            <p class="pieFoto">Pared de escalada de &quot;Es Bisbe&quot;</p>
+                        </div></div></div><div class="infoResultados">
+                
+            <p class="numResultados">wird angezeigt                <strong></strong> Bilder.
+            </p></div></div></div><div id="vcms-contenido-sub2"></div></div>
+               </div>
+               
+           </div>
+           <div class="push"></div>
+       </div><div id="piePagina" class="piePaginaDia">       
+            <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="de" href="/legal.de.html"><span>Rechtlicher Hinweis</span></a></li>
+    <li class="creditos"><a class="de" href="/creditos.de.html"><span>Impressum</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural und die Autoren</strong>
+</p></div></div>
+       </div></body></html>

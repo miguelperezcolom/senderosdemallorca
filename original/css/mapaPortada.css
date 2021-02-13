@@ -1,0 +1,281 @@
+/* Mapa portada */
+#mapaPortada{
+    margin-top: 45px;	
+}
+
+#mapaPortada h2{
+	margin-bottom: 5px;
+}
+
+#mapaPortada h2 a{
+    font: normal 32px Georgia, Arial, Helvetica, sans-serif;
+    color: #134D86;
+}
+
+#mapaPortada p.intro{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000;
+	text-align: justify;
+	padding-bottom: 0;
+	line-height: 20px;
+}
+
+#mapaPortada p em span{
+	color: #134D86;
+	font-size: 18px;
+	font-style: normal;
+}
+
+#mapaPortada #mapaGoogle{
+	height: 431px;
+	margin-bottom: 30px;
+}
+
+#mapaPortada #decPortada{
+	height: 50px;
+	background: url(/img/portada/dec1.png) top center no-repeat;
+	position: relative;
+	bottom: -14px;
+	left: -102px !important;
+    left: -117px;
+}
+
+/* Últimas excursiones */
+#ultimasExcursiones{
+	width: 660px;
+	margin-bottom: 40px;
+	margin-right: 10px;
+}
+
+#ultimasExcursiones h3{
+	margin-bottom: 10px;
+}
+
+#ultimasExcursiones ul li{
+	background-color: #F4F4F4;
+	margin-bottom: 13px;
+	position: relative;
+    border: none !important;
+    border: 1px solid #fff;
+}
+
+#ultimasExcursiones ul li .inner{
+	padding-top: 20px;
+	background: url(/img/portada/top_ex.gif) top center no-repeat;
+}
+
+#ultimasExcursiones ul li .inner2{
+    padding: 0 20px 20px 30px;
+    background: url(/img/portada/bot_ex.gif) bottom center no-repeat;
+	position: relative;		
+}
+
+#ultimasExcursiones ul li .nueva{
+	width: 52px;
+	height: 52px;
+	background: url(/img/nuevoPortada.png) top center no-repeat;
+	position: absolute;
+	top: -8px;
+    left: -20px;
+	background-image: expression( document.all ? "none" : "" );
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/nuevoPortada.png", sizingMethod="crop");    
+}
+
+#ultimasExcursiones ul li .modificada{
+	width: 52px;
+	height: 52px;
+	background: url(/img/updatedPortada.png) top center no-repeat;
+	position: absolute;
+	top: -8px;
+    left: -20px;
+	background-image: expression( document.all ? "none" : "" );
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/updatedPortada.png", sizingMethod="crop");    
+}
+
+#ultimasExcursiones ul li .inner2 p{
+	padding-bottom: 5px;
+}
+
+#ultimasExcursiones ul li h4{
+	margin-bottom: 4px;
+}
+
+#ultimasExcursiones ul li h4 a{
+	color: #2E5A9C;
+	font: normal 18px Arial, Helvetica, sans-serif;
+}
+
+#ultimasExcursiones ul li h4 a:hover{
+	text-decoration: underline;
+}
+
+#ultimasExcursiones ul li p{
+	font: normal 13px Arial, Helvetica, sans-serif;
+	color: #000;
+	text-align: left;
+}
+
+#ultimasExcursiones ul li dl{
+	font: normal 12px Arial, Helvetica, sans-serif;
+	display: block;
+}
+
+#ultimasExcursiones ul li dl dt{
+	color: #B30000;
+	font-weight: bold;
+	float: left;
+	padding-right: 4px;
+	position: relative;
+	
+}
+
+#ultimasExcursiones .zonaBoton{
+	margin-top: 25px;
+}
+
+#ultimasExcursiones .zonaBoton .cantidad{
+	color: #CC0000;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	position: relative;
+	bottom: 7px;
+	left: 0px;
+}
+
+.verTodosRecorridos{
+    float: left;
+    background: url(../img/portada/bder.png) top right no-repeat;
+    padding-right: 12px;
+    cursor: pointer;
+    height: 25px;   
+    display: block;
+}
+
+.verTodosRecorridos .cen{
+    background: url(../img/portada/bcen.png) top center repeat-x;
+    height: 25px;
+    display: block;
+    float: left;    
+}
+
+.verTodosRecorridos .izq{
+    background: url(../img/portada/bizq.png) top left no-repeat;
+    padding-left: 12px;
+    height: 25px;
+    display: block;
+    float: left;    
+}
+
+.verTodosRecorridos .izq a{
+    font: normal 13px Arial, Helvetica, sans-serif;
+    color: #666666;
+    height: 25px;    
+    text-decoration: none;
+    float: left;
+    line-height: 22px;
+}
+
+#vcms-columnaPrincipal #vcms-contenido-principal{
+	padding-top: 0px;
+}
+
+
+/********************/
+/* Imágenes portada */
+/********************/
+#imagenesPortada{
+	position: relative;
+}
+
+#imagenesPortada #visorImagenes{
+	width: 200px;
+	height: 200px;
+	padding: 38px 38px 42px 40px;
+	background: url(/img/portada/fdoVisor.png) top center no-repeat;
+}
+
+/* test */
+#imagenesPortada #visorImagenes div{
+	background-color: #000;
+	width: 200px;
+	height: 200px;
+}
+/* test */
+
+#imagenesPortada #visorImagenes div a {
+	display:none;
+}
+
+#imagenesPortada #visorImagenes div a img{
+	float: left;
+}
+
+#imagenesPortada #visorImagenes div a.activa {
+	display:block;
+}
+
+
+#imagenesPortada #paginador{
+	position: absolute;
+	right: 28px;
+	bottom: 2px;
+}
+
+#imagenesPortada #paginador a,
+#imagenesPortada #paginador{
+	color: #999999;
+	font: bold 18px Arial, Helvetica, sans-serif;
+}
+
+#imagenesPortada #paginador strong{
+    color: #B30000;	
+}
+
+/** Google maps **/
+.puntoHito h4{
+	font-size: 14px !important;
+}
+
+.puntoHito .data p{
+	font-size: 12px !important;
+}
+
+#mapaPortada #mapaGoogle p{
+	text-align: left;
+}
+
+/*
+.puntoInteres .top img{
+    display: block;
+    float: left;
+    width: 110px;
+    height: 48px;
+}
+
+.puntoInteres .top h4{
+    float: left;
+    color: #2A5E92;
+    font: normal 18px Arial, Helvetica, sans-serif;
+    width: 120px;
+    margin-left: 10px;
+    position: relative;
+    top: -6px;
+    left: 0px;
+}
+
+.puntoInteres .specs{
+    margin-top: 5px;
+}
+
+.puntoInteres .specs p{
+    font: normal 11px Arial, Helvetica, sans-serif;
+    color: #666666;
+    margin: 0;
+    padding: 0;
+}
+
+.puntoInteres .specs p a{
+    text-decoration: underline;
+    color: #666666;
+}
+*/

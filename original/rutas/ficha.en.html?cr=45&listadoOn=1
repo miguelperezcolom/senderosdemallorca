@@ -1,0 +1,631 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Ruta patrimonial urbana por Esporles - Ficha ruta</title><link rel="stylesheet" href="/wms/css/templates/c2c_girado.css" type="text/css" />  <!--[if IE6]> <link rel="stylesheet" href="/wms/css/templates/c2c_girado-ie.css" type="text/css" /> <![endif]-->
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><link rel="stylesheet" href="/css/general.css " type="text/css" /><link rel="stylesheet" href="/css/ficha_ruta.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><style type="text/css">				#fichaRuta .itinerario li.punto-a .punto{
+				    background-image: url(/img/iconos/puntos/a.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/a.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-b .punto{
+				    background-image: url(/img/iconos/puntos/b.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/b.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-c .punto{
+				    background-image: url(/img/iconos/puntos/c.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/c.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-d .punto{
+				    background-image: url(/img/iconos/puntos/d.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/d.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-e .punto{
+				    background-image: url(/img/iconos/puntos/e.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/e.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-f .punto{
+				    background-image: url(/img/iconos/puntos/f.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/f.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-g .punto{
+				    background-image: url(/img/iconos/puntos/g.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/g.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-h .punto{
+				    background-image: url(/img/iconos/puntos/h.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/h.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-i .punto{
+				    background-image: url(/img/iconos/puntos/i.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/i.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-j .punto{
+				    background-image: url(/img/iconos/puntos/j.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/j.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-k .punto{
+				    background-image: url(/img/iconos/puntos/k.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/k.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-l .punto{
+				    background-image: url(/img/iconos/puntos/l.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/l.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-m .punto{
+				    background-image: url(/img/iconos/puntos/m.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/m.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-n .punto{
+				    background-image: url(/img/iconos/puntos/n.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/n.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-o .punto{
+				    background-image: url(/img/iconos/puntos/o.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/o.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-p .punto{
+				    background-image: url(/img/iconos/puntos/p.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/p.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-q .punto{
+				    background-image: url(/img/iconos/puntos/q.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/q.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-r .punto{
+				    background-image: url(/img/iconos/puntos/r.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/r.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-s .punto{
+				    background-image: url(/img/iconos/puntos/s.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/s.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-t .punto{
+				    background-image: url(/img/iconos/puntos/t.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/t.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-u .punto{
+				    background-image: url(/img/iconos/puntos/u.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/u.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-v .punto{
+				    background-image: url(/img/iconos/puntos/v.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/v.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-w .punto{
+				    background-image: url(/img/iconos/puntos/w.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/w.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-x .punto{
+				    background-image: url(/img/iconos/puntos/x.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/x.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-y .punto{
+				    background-image: url(/img/iconos/puntos/y.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/y.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-z .punto{
+				    background-image: url(/img/iconos/puntos/z.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/z.png", sizingMethod="crop");    
+				}
+				</style><style>
+			.captchaAntiSpam{
+				padding-left: 22px;
+				padding-top: 5px;
+			}
+			.g-recaptcha{
+				transform: scale(0.67);
+				transform-origin: 0 0;
+			}
+		</style>
+		
+		<script type="text/javascript">
+	    //<![CDATA[
+	    
+	       //comprueba si el léxico del correo es correcto
+		   	function isMail(mail){
+		       	//var reg_exp = '\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b';
+				reg_exp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			   	return reg_exp.test(mail);
+		   	}
+               
+	       	function comprobarCampos(){
+	           
+	           	//mensaje de error
+               	var arrMensaje = [];
+               
+	           	var objForm = document.getElementById('formularioPostal');
+	           
+				if ( objForm.nomDestinatario.value == '' ){
+					arrMensaje.push({msg:'You must fill in the recipient’s name',focus:'nomDestinatario'});
+	           	}
+	           	
+	           	if ( objForm.emailDestinatario.value == '' ){
+	           		arrMensaje.push({msg:'You must enter a valid recipient’s address',focus:'emailDestinatario'});	
+	           	}else if ( !isMail(objForm.emailDestinatario.value) ){
+	               	arrMensaje.push({msg:'You must enter a valid recipient’s address',focus:'emailDestinatario'});	
+	           	}
+	           
+	           	if ( objForm.nomRemitente.value == '' ){
+	           		arrMensaje.push({msg:'You must fill in the sender’s name',focus:'nomRemitente'});
+	           	}
+	           
+	           	if ( objForm.emailRemitente.value == '' ){
+	            	arrMensaje.push({msg:'You must enter a valid sender’s address',focus:'emailRemitente'});	
+	           	}else if ( !isMail(objForm.emailRemitente.value) ){
+	            	arrMensaje.push({msg:'You must enter a valid sender’s address',focus:'emailRemitente'});	
+	           	}
+	           
+	           	if ( objForm.mensajePostal.value == '' ){
+	           		arrMensaje.push({msg:'You must fill in the message field',focus:'mensajePostal'});	
+	           	}
+	           
+	           	if ( arrMensaje.length>0 ){
+	           		
+	           		var arrAux = [];
+	           		for (var i=0;i<arrMensaje.length;i++){
+	           			arrAux.push(arrMensaje[i].msg);
+	           		}
+	           		alert(arrAux.join("\n"));
+					document.getElementById(arrMensaje[0].focus).focus();	           			
+	           		
+					return false;
+	               
+	           	}else{
+	           		
+	            	return true;
+	            	
+	           	}
+	           
+	       	}
+	       
+	       	function limpiarDatos(){
+	        	document.getElementById('formularioPostal').reset();
+	       	}
+			
+			function fillFields(idObject, localeStr){
+				var tmpIdObj = '#' + idObject;
+                jQuery(tmpIdObj).focus(function(){
+                    if (this.value == localeStr){
+                       this.value = '';
+                    }
+                });
+                jQuery(tmpIdObj).blur(function(){
+                    if (this.value == ''){
+                        this.value = localeStr;
+                    }
+                });				
+			}
+			
+    		jQuery(document).ready(function(){
+				fillFields('nomDestinatario', 'Recipient name');
+				fillFields('emailDestinatario', 'E-mail address');
+				fillFields('nomRemitente', 'Sender name');
+				fillFields('emailRemitente', 'E-mail address');
+			});
+			
+			
+	    
+	    //]]>
+	    </script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script>            </head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="maq2c"><div id="paginaPrincipal" class="paginaDia">        
+	        <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.en.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="en"><strong id="botoActiu" class="botonUp"><span>English</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="ca"><a href="index.ct.html" onclick="wmsCambioIdioma('ct');return false;">Català</a></li>
+		<li class="de"><a href="index.de.html" onclick="wmsCambioIdioma('de');return false;">Deutsch</a></li>
+	</ul>
+</div></div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.en.html" class="btn-menu">			
+			<span class="nombre">Hiking on Majorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.en.html" class="btn-menu-on">			
+			<span class="nombre">En route</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.en.html" class="btn-menu">			
+			<span class="nombre">Contact</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="cuerpoPagina"><div id="vcms-postcabecera3"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.en.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Route catalogue</a></li>
+		    <li><a href="/rutas/buscador.en.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Search</a></li></ul></div><div id="vcms-path"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Ruta patrimonial urbana por Esporles</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.en.html?cr=45&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Route details</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/mapas.en.html?cr=45&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Maps</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/puntos.en.html?cr=45&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Points of interest</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li><li style="float:left;"><a href="/rutas/imagenes.en.html?cr=45&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Photo gallery</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-contenedorColumnas-wrapper">
+		            <div id="vcms-contenedorColumnas">
+		              <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><div id="fichaRuta"><div class="imagenRuta"><img src="/imgdb/foto_gra_rut841.jpg" width="658" height="292"  alt="Ruta patrimonial urbana por Esporles" title="Ruta patrimonial urbana por Esporles" /></div><p class="descripcion">La ruta patrimonial urbana de Esporles recorre los rincones más emblemáticos y bellos de este pueblo de la <i>Serra de Tramuntana</i>. En la población contemplaremos viviendas con elementos característicos de la arquitectura de montaña y detalles constructivos propiamente mallorquines, piezas decorativas modernistas, edificios góticos y otros de arquitectura y estética industrial. Nos dejaremos llevar por la magnitud arquitectónica de edificios como la iglesia parroquial de San Pedro y la <i>Casa des Poble</i>. Otro de los elementos que podremos contemplar son las tejas pintadas, una práctica pictórica popular de Mallorca desde la época medieval.<br />
+La distancia total del itinerario no supera los 3,5 kilómetros que se pueden hacer en no mucho más de 1h. El trazado del itinerario es muy suave y por lo tanto, presenta una dificultad baja que permite al senderista observar de manera activa el entorno.<br />
+Para hacer un descanso y tomar algo, os podéis parar en una terraza del <i>Passeig del Rei</i> mientras contempláis la vida del pueblo y disfrutáis de un típico <i>llonguet</i>, conocido originariamente en Esporles como panecillo francés.<br />
+Texto: Laura Reynés Trias · Fotos: Jaume Trias, Silvia Bregar y Ajuntament d'Esporles</p><h3>Route Details</h3>
+    		<div class="fichaTecnica"><p><strong>Excursion type: </strong>Hiking</p><p><strong>Location: </strong>Sud-Oeste de la Sierra de Tramuntana</p><p><strong>Nearest town: </strong>Esporles</p><p><strong>Degree of difficulty: </strong>Family</p><p><strong>Total distance: </strong>3.310 km</p><p><strong>Total length: </strong>1 hour  and 1 minute </p><p><strong>Access: </strong>By bus line <a href="http://www.caib.es/sacmicrofront/contenido.do?idsite=330&cont=8689&lang=ca&campa=yes#" rel="external">L200</a>. Palma-Esporles-Banyalbufar-Estellencs. By private car, take the Valldemossa highway from Palma (Ma-110) and then Ma-1120.</p><p><strong>Starting point: </strong>Iglesia de Sant Pere y calle Nou de Sant Pere</p><p><strong>Circular path:</strong> Yes</p><p><strong>Maximum altitude: </strong>191 m</p><p><strong>Minimum altitude: </strong>174 m</p><p><strong>Grade: </strong>102 m</p><p><strong>Accumulated uphill grade: </strong>45 m</p><p><strong>Accumulated downhill grade: </strong>57 m</p><p><strong>Recommended season: </strong>Year-round</p>	        		<div class="itinerario">
+	        			<h3>Itinerary</h3>
+	        		  	<ul>
+						<li class="punto-a">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Iglesia de Sant Pere y calle Nou de Sant Pere</h4>
+	            		                      <p class="datos">Distance 0.000 km - Time 0 hours - Altitude 180 m -  N39 40'7.500" E2 34'39.000"</p>
+	            		                      <p class="desc">Para empezar la visita os recomendamos partir de la Plaza del Ayuntamiento y la Iglesia de Sant Pere y seguir por carrer Nou de Sant Pere. De espaldas a la fachada del templo, bajamos por la calle que tenemos justo delante, carrer Nou de Sant Pere (antiguamente el centro de la actividad comercial de Esporles) hasta llegar al puente que cruza el torrent de Sant Pere. Hay que cruzar el torrente y seguir todo derecho hasta llegar a la Placeta des Pla. A la izquierda subimos por la carrer des Pont y a continuación por la carrer de sa Pansa, se llama así porque antiguamente hacían vino de pansa. En el 1923, en esta misma calle, había el antiguo cine del pueblo. Al final de esta misma calle, encontramos las escaleras para subir al barrio de Son Torrat.
+<br></br>
+<strong>Elementos para observar:</strong> Església de Sant Pere, de planta basilical de nave única tiene doce capillas laterales y semipilares con capitel esculpido con motivos vegetales. El presbiterio se cubre con media cúpula de crucería. Las capillas laterales se abren bajo arcos apuntados y cubiertas también con bóvedas de crucería. Encima, vitrales en ventanas trifoliades. La fachada, inacabada, está estructurada en tres cerraduras ritmadas por pilares compuestos y rectangulares a los laterales. También se observa un rosetón. El campanario también está inacabado, de forma que en la zona de la cabecera, hay una sencilla construcción para albergar las campanas. El proyecto de la iglesia (1904) es de Gaspar Bennàssar y está inacabado. El atrio y el corazón, son proyecto de G. Ferrà (1943). Se puede visitar en horario de misa.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-b">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Barrio de Son Torrat</h4>
+	            		                      <p class="datos">Distance 0.431 km - Time 10 minutes  - Altitude 189 m -  N39 40'15.661" E2 34'39.118"</p>
+	            		                      <p class="desc">Subiendo las escaleras, descubriremos el encanto de los rincones escondidos del barrio de Son Torrat, una red de calles estrechas, cortas y sinuosas de un antiguo barrio dentro del entorno urbano, un tipo de isla urbana al margen del tránsito general del pueblo. Bajando por la calle de Son Torrat con el torrentó del gorg a la derecha, llegaremos a una plazoleta y al Carrer Major. Desde este punto, tumbamos hacía la izquierda y a unos 80 m a la altura de las casas número 58 y 59, giramos por el callejón de la derecha que nos conduce a un puentecito de arriba el torrent de Sant Pere y que da al carrer de Can Campos.
+<br></br>
+<strong>Elementos para observar:</strong> El conjunto de casas del barrio de Son Torrat, fecha del siglo XIX y debe su nombre al mucho sol que pega todo el día. Se articula en torno una calle principal en sentido norte-sur en el que se abren callejones que conectan con las calles del Gorg y de Son Trobat que delimitan el conjunto. Las casas son unifamiliares, presentando tipología popular, de planta baja, piso y jardín o corral. Tres inmuebles conservan restos de tejas pintadas al voladizo, una expresión pictórica popular en Mallorca que pretendía ornamentar y proteger la casa del mal. Encontraréis inscripciones en las casas de la calle de Son Torrat, 9, y las de la calle del Gorg, 8 y 12. Paraos en este último, un callejón sin salida donde podréis observar con tranquilidad las fachadas de las casas y el entorno con sus marjades de olivar y huerta.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-c">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Can Campos</h4>
+	            		                      <p class="datos">Distance 0.651 km - Time 17 minutes  - Altitude 181 m -  N39 40'13.259" E2 34'37.801"</p>
+	            		                      <p class="desc">Al otro lado del puente, a mano derecha hay una amplia zona de aparcamiento donde antiguamente había localizada la fábrica de Can Campos, la más grande del pueblo. Aprovechando la fuerza motriz de los saltos de agua y el antiguo sistema de molinos ya existentes desde la época medieval, se pudieron instalar varias fábricas textiles en la segunda mitad del siglo XIX. Seguimos derecho subiendo por la calle de can Campos hasta llegar a la carretera. En este punto, tumbaremos a la izquierda en dirección a la Iglesia.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-d">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Sa Rectoria</h4>
+	            		                      <p class="datos">Distance 0.782 km - Time 21 minutes  - Altitude 184 m -  N39 40'10.678" E2 34'37.319"</p>
+	            		                      <p class="desc">Andando unos 60 m llegamos a la calle de la Rectoria que coincide con la carretera. A la derecha, a la otro lado de carretera, encontramos un edificio que hace esquina y que tiene una entrada a la clastra (o patio interior) por una portal foráneo, de Sa Rectoria.
+<br></br>
+<strong>Elementos para observar:</strong> Sa Rectoria y su huerto, están documentados del siglo XIV, a pesar de que las construcciones actuales son posteriores y, las más antiguas, pueden datarse en el siglo XVI. Forma un conjunto de construcciones dispuestas en torno a una pequeña clastra. El portal foráneo está descentrado y definido por sillares de piedra viva, que definen un arco redondo y acabado con regrás y coronado por el escudo del rector Mateu Tugores Maimó, con la fecha 1920. La clastra acoge un fragmento de un relevo con la iconografía de la Agnus Dei y un escudo de la Virgen. Adosado al cuerpo lateral, limitando con el huerto, hay una carrera elevada respecto la calle, ornamentada con un cenador de pilares de sección cuadrada, que sustentan un emparrado. El cenador se prolonga más allá del límite de la fachada, cubriendo el bebedero de la fuente de Dalt de Son Trias, también dicho de Sa Rectoria.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-e">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Plaza del Ayuntamiento y fábrica de Ca’n Fortuny</h4>
+	            		                      <p class="datos">Distance 0.898 km - Time 23 minutes  - Altitude 180 m -  N39 40'7.439" E2 34'38.881"</p>
+	            		                      <p class="desc">Seguimos la carretera en dirección la iglesia hasta llegar a la plaza del Ayuntamiento. Allá encontraremos la escultura de Remigia Caubet, homenaje en la figura de la filadora, representativa de las trabajadoras de las fábricas.
+<br></br>
+<strong>Elementos para observar:</strong> El edificio de las actuales oficinas de la Policía Local y la oficina bancaria a su lado nos recuerdan también el pasado industrial del municipio. La antigua farmacia y la fábrica textil de Can’n Fortuny de arquitectura civil y construida en 1886, ocupaban este edificio. El año 2010 se reconvirtió con la voluntad de preservar el patrimonio de la población y poder mostrar la arquitectura y maquinaria de la época industrial del s.XIX. De la restauración hay que destacar la recuperación de un motor de gas pobre Crosley & Brothers del año 1909 y que funcionó en la fábrica de cartón de Can Magre de Esporles durante más de 70 años. Está expuesto y abierto a los visitantes dentro del edificio del Ayuntamiento.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-f">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Passeig del Rei y Placeta del Jardinet</h4>
+	            		                      <p class="datos">Distance 1.010 km - Time 25 minutes  - Altitude 179 m -  N39 40'4.379" E2 34'40.558"</p>
+	            		                      <p class="desc">Continuaremos el itinerario bajando por la carretera hasta llegar al Passeig del Rei y la Placeta des Jardinet, los puntos principales de encuentro de la población y dónde tienen lugar la mayoría de acontecimientos festivos y culturales del Pueblo. Allá encontraréis también el mercado semanal que se instala los sábados.
+<br></br>
+<strong>Elementos para observar:</strong> El Passeig del Rei debe su nombre al rey Juan Carlos I, a pesar de que antes era, en tiempo de la dictadura, Avenida General Franco. Los plateros que podemos observar en toda la carretera de entrada del pueblo se sembraron durante la II República, entre los años 1932-1936. La Placeta des Jardinet ocupa el emplazamiento del que había sido la llamada Tanca de sa Capelleta hasta principios del siglo XIX. Había sido un cementerio hasta que años después, durante la II República se formó un jardín. El más probable es que trasladasen el cementerio de la Placeta des Jardinet a las afueras del pueblo después de la epidemia de gripe del 1918 (gripe española), por temas de capacidad y por medidas de higiène. Durante el franquismo, la Plazoleta, pasó a denominarse Plaza de Gabriel Palmer, alcalde de la villa. Ya en la etapa democrática, el 1985, pasó a ser denominada oficialmente Plaza de la Constitución. Hace poco el Ayuntamiento aprobó la denominación de Placeta del Jardinet. En el año 2004 se remodeló la plazoleta quitando la capilla del antiguo cementerio y ampliando el espacio que actualmet ocupa la zona infantil. En la entrada de la plazoleta a la izquierda, podemos encontrar una placa conmemorativa en recuerdo de las personas que allí fuerón enterradas.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-g">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Calle Joan Riutort, la casa des Poble y restos del molino de Son Fort</h4>
+	            		                      <p class="datos">Distance 1.260 km - Time 30 minutes  - Altitude 178 m -  N39 39'58.618" E2 34'42.420"</p>
+	            		                      <p class="desc">Seguimos bajado por el Passeig hasta llegar a su final y cruzaremos la calle Jaume I. Seguimos la carretera, dicha ahora carrer Joan Riutort. Andados unos 120 m, llegamos a la calle de Sa Casa des Poble giramos a la derecha y subimos hasta al final de la calle donde encontraremos la Casa des Poble y un poco más arriba delante el Centro de Salud y ya en la calle Quarter, el molino de Son Fort.
+<br></br>
+<strong>Elementos para observar:</strong> Edificios calle Joan Riutort: En las fachadas de las casas que aquí encontramos se pueden observar ornamentos de estilo modernista, muy decorativos, de mezcla de estilos: hierros forjados artísticos, formas modeladas en relevos escultóricos, mosaicos con baldosas de diferentes colores, etc.<br>
+Casa des Poble: El edificio, de arquitectura y estética de época y estilo industrial, es hoy un patrimonio histórico muy importante para Esporles. En el 1923 se empezó a construir de manera cooperativa y promovida por la Federación Obrera de Esporles. Inaugurada el 1930 para usarlo como edificio para el pueblo, donde las clases trabajadoras tuvieran un espacio cultural y de encuentro. El edificio contiene un teatro y disponía de salas de reuniones y biblioteca. En la fachada destacan dos farolas, encuestados en la base de las pilastras plantas del tramo central. Gracias a la colaboración de los ciudadanos, recientemente se ha reformado y recuperado la función y uso que se le dio originariamente.<br>
+Molí de Son Fort: Justo ante el actual Centro de Salud ubicado en la calle Quarter, se pueden observar los restos del molino de Son Fort, el cual formaba parte de la red de molinos de Esporles en la época pre-industrial que eran movidos gracias a la fuerza del agua procedente de la Font Major de Sa Granja. Este molino era parte de la escorcera de Can Roig. Lo desuella de pino era empleada para teñir los ormejos de pesca y era exportada a Galicia y en el País Vasco. La corteza de encina era empleada por los blanquers para adobar las pieles.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-h">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Calle Quarter y camino des Rafal</h4>
+	            		                      <p class="datos">Distance 1.730 km - Time 36 minutes  - Altitude 191 m -  N39 39'44.881" E2 34'44.759"</p>
+	            		                      <p class="desc">Con los restos del molí de Son Fort delante, tumbamos a la izquierda y bajamos por la calle Quarter. A unos 270 m y justo después del cuartel de la Guardia Civil que dejamos a la derecha, cogemos a la derecha, la calle Camí des Rafal que sube con una pequeña inclinación. A 220 m encontramos un torrentó a la derecha y todo derecho un camino de tierra entre dos paredes de piedra en seco. Este camino se conoce como Camí des Rafal y nos conduce al conjunto de casas de la posesión des Rafal.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-i">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Barrio de sa Vilanova</h4>
+	            		                      <p class="datos">Distance 1.990 km - Time 42 minutes  - Altitude 192 m -  N39 39'38.221" E2 34'48.899"</p>
+	            		                      <p class="desc">Justo pasadas las casas des Rafal, que dejamos a la izquierda, llegaremos a un bello mirador con vistas al barrio de Sa Vilanova. Bajamos por las escaleras adoquinadas de la calle de Sa Costa des Rafal que nos llevarán en la calle de Sa Vilanova. Giramos a la izquierda bajando en dirección la carretera que vemos al final de la calle. Al llegar a la carretera giramos a la izquierda e iremos de nuevo hacia el núcleo del pueblo, Sa Villavella, siguiendo el curso del Torrent de Sant Pere. A unos 200 m delante de la escuela, llegamos al Pont de Fusta que cruza el torrente. Cruzamos el torrente y tumbamos a la izquierda por la primera calle, la calle des Balladors.
+<br></br>
+<strong>Elementos para observar:</strong> El barrio de Sa Vilanova data del s.XVII. En la calle Costa des Rafal, calle Vilanova y Joan Cabot, se encuentran varias fachadas con esgrafiados, y coronadas por un voladizo de tejas pintadas con motivos decorativos y geométricos.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-j">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Calle des Balladors</h4>
+	            		                      <p class="datos">Distance 2.540 km - Time 51 minutes  - Altitude 174 m -  N39 39'50.400" E2 34'52.680"</p>
+	            		                      <p class="desc">Seguimos por la calle Balladors, uno de los más emblemáticos y bellos del pueblo donde podremos contemplar diferentes ejemplos de la arquitectura tradicional, común en todos los pueblos de Mallorca, como son las casas aldeanas unifamiliares con paredes de piedra. Al final de la calle Balladors encontraremos la Placeta des Brollador, tumbamos a la derecha por la calle des Torrent hasta llegar a la calle de Mestre Munar, el primero a la izquierda, otra atractiva calle del municipio. Al final de esta calle, tumbamos a la izquierda por la calle Cotoner hasta llegar al Passeig del Rei.
+<br></br>
+<strong>Elementos para observar:</strong> Teulada de voladizo del número 30 de la calle Mestra Munar que muestra la fecha de 1847. Veremos también la placa del número 23 que nos recuerda que este edificio alojó las escuelas públicas a las cuales asistieron la mayoría de aldeanos de cierta edad. El nombre que tiene actualmente la calle des Balladors, se debe a una escuela de baile que había.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-k">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Passeig del Rei</h4>
+	            		                      <p class="datos">Distance 3.310 km - Time 1 hour  and 1 minute  - Altitude 179 m -  N39 40'2.341" E2 34'42.358"</p>
+	            		                      <p class="desc">Volvemos al Passeig del Rei, donde podemos acabar la visita tomando algo y descansando en una de las terrazas.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li>	        		  </ul>
+	    		    </div>
+	    		    <div class="otrasOpciones"><h3>Remarks</h3><p>Este itinerario esta incluido dentro del programa para la recuperación y difusión de los caminos de Esporles, "<a href="http://www.ajesporles.net/turisme/camina-esporles" rel="external">Camina per Esporles</a>". Más información en la web del <a href="http://www.ajesporles.net/turisme/camina-esporles" rel="external">Ajuntament d'Esporles</a></p></div></div>
+		</div></div></div>
+		            <div id="vcms-columnaDerecha" style="width:240px;"><div id="vcms-columnaIzquierda-inner" style=""><div id="vcms-premenu"><div style="margin-left:25px; margin-top:0px; margin-bottom:0px"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsenderosdemallorca.org%3Fref%3Dhl&amp;width=240&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:100px;" allowTransparency="true"></iframe>
+</div></div><div id="vcms-columna-derecha"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<script type="text/javascript">
+
+var images = [], 
+index = 0;
+
+images[0] = "<a href = 'http://www.refugisontrias.com' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/refugi/BANNER_240x300_refugi_EN.jpg'</a>";
+
+images[1] = "<a href = 'http://www.walkingmallorca.com/en/roadbook/' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/roadbook/RB_EN.jpg' alt='Sa Travessa - GR221'></a>";
+
+index = Math.floor(Math.random() * images.length);
+
+document.write(images[index]);
+
+</script><br></div></div><div id="vcms-columna-der-2"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-3"><div id="enviarPostal">
+				<div class="bot"></div>
+				
+				<h3>Send a postcard</h3>
+				
+				<p class="desc">Send a postcard of <strong>Ruta patrimonial urbana por Esporles</strong> with a note for the recipient. Write the mailing details and press “send”.</p>
+				<form id="formularioPostal" method="post" onsubmit="return comprobarCampos()" action="/rutas/envio_postal.en.html">
+					<fieldset>
+                        
+                        <input type="hidden" name="listadoOn" value="si"/>
+                        <input type="hidden" name="buscadorOn" value="no"/>
+                        
+						<div class="destinatario">
+							<p class="textlabel">Recipient:</p>
+							<input name="nomDestinatario" type="text" id="nomDestinatario" value="Recipient name" class="textInput"/> 
+							<input name="emailDestinatario" type="text" id="emailDestinatario" value="E-mail address" class="textInput" />
+						</div>
+						
+						<div class="remitente">
+							<p class="textlabel">Sender:</p>
+							<input name="nomRemitente" type="text" id="nomRemitente" value="Sender name" class="textInput"/>
+							<input name="emailRemitente" type="text" id="emailRemitente" value="E-mail address" class="textInput"/>
+							<input type="hidden" name="envio" value="1" /><input type="hidden" name="cr" value="45" /></div>				
+						
+						<div class="mensaje">
+							<p class="textlabel">Message</p>
+							<textarea name="mensajePostal" id="mensajePostal" rows="6" cols="21"></textarea>
+						</div>
+
+						<div class="captchaAntiSpam"><script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
+        <div class="g-recaptcha" data-sitekey="6LcYGxUTAAAAAPSmpKVHhSJuw7rffqBDt38Riuuj" data-stoken="ynvSyH826c47qaCIxUsEUmqrkZB91f3gS2N_HnlQApS59b4Sqe29HVq1vZsyzPluMHu6wS_tCrPTVumTjZo5mU9iJ4kTcju2R3kiyQlS1QE"></div></div>
+						
+                        <div id="botones">			
+	                        <div class="botonCapa1">
+							      <div class="botonCapa2">
+		       					      <input class="botonEnviar" type="submit" value="Send postcard" />
+	    						  </div>
+							</div>
+							
+							<input type="reset" value="delete data" id="limpiar_datos" />
+						</div>
+
+						
+					</fieldset>
+				</form>
+				
+			</div>
+			
+			</div><div id="vcms-columna-der-4"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-5"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<FONT FACE="Arial" SIZE="2" COLOR="#000000">Si te gusta el contenido de Senderos de Mallorca y quieres ayudar a mejorar, ayudanos con una donación a mantener la web y poder mejorarla. Gracias!</FONT><BR><BR><BR>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="3PEEC5GKH9SZ8">
+<input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div></div></div></div>
+		           </div>
+		           </div>
+		   </div>
+		   <div class="push"></div>
+        </div></div>
+		   </div><div id="piePagina" class="piePaginaDia">       
+        <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="en" href="/legal.en.html"><span>disclaimer</span></a></li>
+    <li class="creditos"><a class="en" href="/creditos.en.html"><span>credits</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural and the authors</strong>
+</p></div></div>
+       </div></body></html>
