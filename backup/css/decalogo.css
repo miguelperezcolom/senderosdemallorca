@@ -1,0 +1,42 @@
+#decalogoExcursionista li{
+    position:relative;
+    padding: 0 0 20px 40px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+#decalogoExcursionista li.lista_1{
+    background-image: url(/img/iconos/numeros/lista_1.gif);
+}
+#decalogoExcursionista li.lista_2{
+    background-image: url(/img/iconos/numeros/lista_2.gif);
+}
+#decalogoExcursionista li.lista_3{
+    background-image: url(/img/iconos/numeros/lista_3.gif);
+}
+#decalogoExcursionista li.lista_4{
+    background-image: url(/img/iconos/numeros/lista_4.gif);
+}
+#decalogoExcursionista li.lista_5{
+    background-image: url(/img/iconos/numeros/lista_5.gif);
+}
+#decalogoExcursionista li.lista_6{
+    background-image: url(/img/iconos/numeros/lista_6.gif);
+}
+#decalogoExcursionista li.lista_7{
+    background-image: url(/img/iconos/numeros/lista_7.gif);
+}
+#decalogoExcursionista li.lista_8{
+    background-image: url(/img/iconos/numeros/lista_8.gif);
+}
+#decalogoExcursionista li.lista_9{
+    background-image: url(/img/iconos/numeros/lista_9.gif);
+}
+#decalogoExcursionista li.lista_10{
+    background-image: url(/img/iconos/numeros/lista_10.gif);
+}
+#decalogoExcursionista li.lista_11{
+    background-image: url(/img/iconos/numeros/lista_11.gif);
+}
+#decalogoExcursionista li span{
+    display: none;
+}

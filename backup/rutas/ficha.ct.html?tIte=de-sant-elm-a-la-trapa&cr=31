@@ -1,0 +1,577 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - De Sant Elm a la Trapa - Fitxa ruta</title><link rel="stylesheet" href="/wms/css/templates/c2c_girado.css" type="text/css" />  <!--[if IE6]> <link rel="stylesheet" href="/wms/css/templates/c2c_girado-ie.css" type="text/css" /> <![endif]-->
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><link rel="stylesheet" href="/css/general.css " type="text/css" /><link rel="stylesheet" href="/css/ficha_ruta.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><style type="text/css">				#fichaRuta .itinerario li.punto-a .punto{
+				    background-image: url(/img/iconos/puntos/a.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/a.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-b .punto{
+				    background-image: url(/img/iconos/puntos/b.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/b.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-c .punto{
+				    background-image: url(/img/iconos/puntos/c.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/c.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-d .punto{
+				    background-image: url(/img/iconos/puntos/d.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/d.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-e .punto{
+				    background-image: url(/img/iconos/puntos/e.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/e.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-f .punto{
+				    background-image: url(/img/iconos/puntos/f.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/f.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-g .punto{
+				    background-image: url(/img/iconos/puntos/g.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/g.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-h .punto{
+				    background-image: url(/img/iconos/puntos/h.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/h.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-i .punto{
+				    background-image: url(/img/iconos/puntos/i.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/i.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-j .punto{
+				    background-image: url(/img/iconos/puntos/j.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/j.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-k .punto{
+				    background-image: url(/img/iconos/puntos/k.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/k.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-l .punto{
+				    background-image: url(/img/iconos/puntos/l.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/l.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-m .punto{
+				    background-image: url(/img/iconos/puntos/m.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/m.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-n .punto{
+				    background-image: url(/img/iconos/puntos/n.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/n.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-o .punto{
+				    background-image: url(/img/iconos/puntos/o.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/o.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-p .punto{
+				    background-image: url(/img/iconos/puntos/p.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/p.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-q .punto{
+				    background-image: url(/img/iconos/puntos/q.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/q.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-r .punto{
+				    background-image: url(/img/iconos/puntos/r.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/r.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-s .punto{
+				    background-image: url(/img/iconos/puntos/s.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/s.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-t .punto{
+				    background-image: url(/img/iconos/puntos/t.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/t.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-u .punto{
+				    background-image: url(/img/iconos/puntos/u.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/u.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-v .punto{
+				    background-image: url(/img/iconos/puntos/v.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/v.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-w .punto{
+				    background-image: url(/img/iconos/puntos/w.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/w.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-x .punto{
+				    background-image: url(/img/iconos/puntos/x.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/x.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-y .punto{
+				    background-image: url(/img/iconos/puntos/y.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/y.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-z .punto{
+				    background-image: url(/img/iconos/puntos/z.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/z.png", sizingMethod="crop");    
+				}
+				</style><style>
+			.captchaAntiSpam{
+				padding-left: 22px;
+				padding-top: 5px;
+			}
+			.g-recaptcha{
+				transform: scale(0.67);
+				transform-origin: 0 0;
+			}
+		</style>
+		
+		<script type="text/javascript">
+	    //<![CDATA[
+	    
+	       //comprueba si el léxico del correo es correcto
+		   	function isMail(mail){
+		       	//var reg_exp = '\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b';
+				reg_exp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			   	return reg_exp.test(mail);
+		   	}
+               
+	       	function comprobarCampos(){
+	           
+	           	//mensaje de error
+               	var arrMensaje = [];
+               
+	           	var objForm = document.getElementById('formularioPostal');
+	           
+				if ( objForm.nomDestinatario.value == '' ){
+					arrMensaje.push({msg:'Heu d’emplenar el nom del destinatari',focus:'nomDestinatario'});
+	           	}
+	           	
+	           	if ( objForm.emailDestinatario.value == '' ){
+	           		arrMensaje.push({msg:'Heu d’introduir un correu de destinatari vàlid',focus:'emailDestinatario'});	
+	           	}else if ( !isMail(objForm.emailDestinatario.value) ){
+	               	arrMensaje.push({msg:'Heu d’introduir un correu de destinatari vàlid',focus:'emailDestinatario'});	
+	           	}
+	           
+	           	if ( objForm.nomRemitente.value == '' ){
+	           		arrMensaje.push({msg:'Heu d’emplenar el nom del remitent',focus:'nomRemitente'});
+	           	}
+	           
+	           	if ( objForm.emailRemitente.value == '' ){
+	            	arrMensaje.push({msg:'Heu d’introduir un correu de remitent vàlid',focus:'emailRemitente'});	
+	           	}else if ( !isMail(objForm.emailRemitente.value) ){
+	            	arrMensaje.push({msg:'Heu d’introduir un correu de remitent vàlid',focus:'emailRemitente'});	
+	           	}
+	           
+	           	if ( objForm.mensajePostal.value == '' ){
+	           		arrMensaje.push({msg:'Heu d’emplenar el camp de missatge',focus:'mensajePostal'});	
+	           	}
+	           
+	           	if ( arrMensaje.length>0 ){
+	           		
+	           		var arrAux = [];
+	           		for (var i=0;i<arrMensaje.length;i++){
+	           			arrAux.push(arrMensaje[i].msg);
+	           		}
+	           		alert(arrAux.join("\n"));
+					document.getElementById(arrMensaje[0].focus).focus();	           			
+	           		
+					return false;
+	               
+	           	}else{
+	           		
+	            	return true;
+	            	
+	           	}
+	           
+	       	}
+	       
+	       	function limpiarDatos(){
+	        	document.getElementById('formularioPostal').reset();
+	       	}
+			
+			function fillFields(idObject, localeStr){
+				var tmpIdObj = '#' + idObject;
+                jQuery(tmpIdObj).focus(function(){
+                    if (this.value == localeStr){
+                       this.value = '';
+                    }
+                });
+                jQuery(tmpIdObj).blur(function(){
+                    if (this.value == ''){
+                        this.value = localeStr;
+                    }
+                });				
+			}
+			
+    		jQuery(document).ready(function(){
+				fillFields('nomDestinatario', 'Nom del destinatari');
+				fillFields('emailDestinatario', 'Adreça electrònica');
+				fillFields('nomRemitente', 'Nom del remitent');
+				fillFields('emailRemitente', 'Adreça electrònica');
+			});
+			
+			
+	    
+	    //]]>
+	    </script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script>            </head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="maq2c"><div id="paginaPrincipal" class="paginaDia">        
+	        <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.ct.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="ca"><strong id="botoActiu" class="botonUp"><span>Català</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+		<li class="de"><a href="index.de.html" onclick="wmsCambioIdioma('de');return false;">Deutsch</a></li>
+	</ul>
+</div>
+</div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.ct.html" class="btn-menu">			
+			<span class="nombre">Camina per Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.ct.html" class="btn-menu-on">			
+			<span class="nombre">En ruta</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.ct.html" class="btn-menu">			
+			<span class="nombre">Contacte</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="cuerpoPagina"><div id="vcms-postcabecera3"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.ct.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Catàleg de rutes</a></li>
+		    <li><a href="/rutas/buscador.ct.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Cercador</a></li></ul></div><div id="vcms-path"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>De Sant Elm a la Trapa</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.ct.html?cr=31&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Dades ruta</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/mapas.ct.html?cr=31&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Cartografia</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li><li style="float:left;"></li><li style="float:left;"></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-contenedorColumnas-wrapper">
+		            <div id="vcms-contenedorColumnas">
+		              <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><div id="fichaRuta"><p class="descripcion"><strong>La cala i la torre d’en Basset</strong><br />Excursió circular per una zona costanera de gran bellesa. Des de la Trapa, i durant tot el descens, gaudireu d’unes vistes impressionants sobre l’illa de sa Dragonera. Altres punts d’interès són l’antic monestir de la Trapa i Sant Elm, un petit centre turístic amb una bella platja. Podeu allargar l’excursió si anau a la torre de Cala en Basset.<br /><br /><strong>Atenció:</strong> Alerta a la senda de descens, que és rosta i pedregosa.</p><h3>Fitxa tècnica</h3>
+    		<div class="fichaTecnica"><p><strong>Tipus d’excursió: </strong>Senderisme</p><p><strong>Situació: </strong>Zona sud-oest de Mallorca</p><p><strong>Població més propera: </strong>Sant Elm (Andratx)</p><p><strong>Grau de dificultat: </strong>Mitjana</p><p><strong>Durada total: </strong>2 hores  i 30 minuts </p><p><strong>Accés: </strong>S’arriba a Sant Elm des de Peguera i Andratx amb transport públic. Si disposau de vehicle, agafau la desviació entre Andratx i el Port d’Andratx (Ma-1050) cap a s’Arracó i, després, la Ma-1030 cap a Sant Elm.</p><p><strong>Punt de partida: </strong>Plaça de Mossèn Sebastià Grau</p><p><strong>Ruta circular:</strong> Si</p><p><strong>Altitud màxima: </strong>365 m</p><p><strong>Altitud mínima: </strong>5 m</p><p><strong>Desnivell: </strong>400 m</p><p><strong>Època recomanada: </strong>Tot l’any</p>	        		<div class="itinerario">
+	        			<h3>Itinerari</h3>
+	        		  	<ul>
+						<li class="punto-a">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Plaça de Mossèn Sebastià Grau</h4>
+	            		                      <p class="datos">Distància 0,000 km - Temps 0 hores - Altitud 5 m -  N39 34'59.941" E2 20'58.560"</p>
+	            		                      <p class="desc">Preneu el carrer asfaltat de la dreta (avinguda de la Trapa), que es converteix en el camí de Can Tomeví.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-b">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Can Tomeví</h4>
+	            		                      <p class="datos">Temps 10 minuts  - Altitud 60 m</p>
+	            		                      <p class="desc">En aquesta petita finca rural, desviau-vos per la pista de la dreta, que heu de seguir fins que arribeu a una bifurcació important.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-c">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Bifurcació de pistes</h4>
+	            		                      <p class="datos">Temps 25 minuts  - Altitud 100 m</p>
+	            		                      <p class="desc">Girau a l’esquerra pel camí del coll des Cairats (en direcció al nord). La pista de terra puja en llaçades fins al tossal, passant per devora la caseta on vivia el monjo que recollia almoines.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-d">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Coll de ses Ànimes</h4>
+	            		                      <p class="datos">Temps 1:10 - Altitud 365 m</p>
+	            		                      <p class="desc">Descendiu cap a l’antic monestir.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-e">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>La Trapa</h4>
+	            		                      <p class="datos">Temps 1:30 - Altitud 270 m</p>
+	            		                      <p class="desc">Les ruïnes del monestir s’estan restaurant com a refugi de muntanya. Desviau-vos cap a la vostra dreta, en direcció a l’antic molí fariner (que era mogut per una mula), l’era de batre i el mirador.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-f">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Mirador</h4>
+	            		                      <p class="datos">Temps 1:35 - Altitud 250 m</p>
+	            		                      <p class="desc">Gaudiu d’un fantàstic panorama de l’illa de sa Dragonera i de Cala en Basset. Després d’una aturada obligatòria, tornau a les cases i pujau per la pista fins al segon revolt.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-g">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Bifurcació on abandonau la pista</h4>
+	            		                      <p class="datos">Temps 1:40 - Altitud 280 m</p>
+	            		                      <p class="desc">En aquest revolt comença una senda cap a la dreta en pujada (en direcció al sud-oest) que travessa el llom de la muntanya (5 minuts) i baixa per una senda rosta fins a una pista.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-h">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Bifurcació de Cala en Basset</h4>
+	            		                      <p class="datos">Temps 2:15 - Altitud 80 m</p>
+	            		                      <p class="desc">Si girau a mà dreta, podeu anar a Cala en Basset (vegeu «Altres opcions»). Si voleu anar directament a Sant Elm, travessau la pista en línia recta fins a Can Tomeví.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-i">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Sant Elm</h4>
+	            		                      <p class="datos">Temps 2:30 - Altitud 5 m</p>
+	            		                      <p class="desc">Podeu continuar a peu fins a la platja (10 minuts), on també hi ha una parada de l’autobús de línia.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li>	        		  </ul>
+	    		    </div>
+	    		    <div class="otrasOpciones"><h3>Altres opcions</h3><p><strong>Del coll de sa Gramola a la Trapa i Sant Elm</strong> (3 hores i 30 minuts): S’arriba al coll de sa Gramola (km 106 de la Ma-10 d’Andratx a Estellencs) amb l’autobús de línia de Peguera a Valldemossa (laborables a les 9 hores). Des de l’aparcament del coll de sa Gramola, agafau la pista de la dreta i ignorau totes les bifurcacions fins a arribar a la caseta de ses Basses (45 minuts). Pocs metres abans, heu d’optar per la senda de la dreta i, poc després, per la senda de l’esquerra, amb unes vistes meravelloses sobre la costa nord. Als 10 minuts, girau a la dreta i, 20 minuts més tard, podreu veure un fita de grans mides. Val la pena desviar-se per la senda de la dreta fins a un dels miradors més impressionants de Mallorca (2 minuts): el del cap sud-oest (punta Fabioler - 450 metres) sobre els penya-segats i l’illa de sa Dragonera. Tornau a la gran fita i girau a la dreta. Al cap de pocs minuts, comença el descens per una senda pedregosa que us condueix a la pista (30 minuts), que preneu a mà dreta cap a la Trapa, on heu de seguir l’itinerari anterior (punt E).<br /><br /><strong>Camí a Cala en Basset:</strong> Quan arribeu a la pista estreta (punt H), girau a mà dreta i, a pocs metres, seguiu per la pista de l’esquerra fins al final, on heu de continuar per una senda fins a la cala (10 minuts). Tornant pel camí d’anada, si us desviau, a mitjan camí, cap a la dreta (en direcció al sud-oest) podreu anar a la torre. Als 10 minuts, arribau al vessant on heu de girau a la dreta (en direcció al nord-oest) i baixau fins a la torre de senyals (10 minuts). Si voleu tornar per un itinerari més entretingut (senda pedregosa i amb pins arrancats), podeu seguir les fites que veureu a mà esquerra quan arribeu a la torre i que us condueixen cap al pas d’en Grau i Sant Elm (en direcció al sud-oest, 30 minuts).</p></div><div class="otrasOpciones"><h3>Observacions</h3><p>El monestir de la Trapa<br />A la vall de Sant Josep, quaranta monjos trapencs varen trobar refugi després de ser expulsats de Normandia el 1789 a causa de la Revolució Francesa, i el 1808 de Santa Susanna de Maella (mestrat aragonès) per Napoleó. En tan sols 10 anys, varen construir les marjades i els edificis d’aquest senzill monestir. Els trapencs eren vegetarians estrictes i no podien parlar entre ells. Com que estava prohibit el contacte amb la població local, el monjo que recollia almoines i menjar pels voltants havia de viure separat de la resta de la comunitat.<br />Es tracta d’un enclavament privilegiat amb una vista panoràmica immillorable de sa Dragonera. El <a href="http://www.gobmallorca.com" rel="external"><strong>GOB</strong></a> (Grup Balear d’Ornitologia i Defensa de la Naturalesa, grup ecologista de les Illes Balears) va adquirir la finca, de 75 hectàrees, mitjançant subscripció popular. Se n’ha iniciat la restauració per convertir-la en un refugi del GR 221. El 1994 aquesta zona va quedar molt afectada per un incendi forestal i es recupera lentament amb l’ajuda dels Voluntaris de la Trapa.</p></div></div>
+		</div></div></div>
+		            <div id="vcms-columnaDerecha" style="width:240px;"><div id="vcms-columnaIzquierda-inner" style=""><div id="vcms-premenu"><div style="margin-left:25px; margin-top:0px; margin-bottom:0px"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsenderosdemallorca.org%3Fref%3Dhl&amp;width=240&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:100px;" allowTransparency="true"></iframe>
+</div></div><div id="vcms-columna-derecha"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<script type="text/javascript">
+
+var images = [], 
+index = 0;
+
+images[0] = "<a href = 'http://www.refugisontrias.com' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/refugi/BANNER_240x300_refugi.jpg'</a>";
+
+images[1] = "<a href = 'http://www.walkingmallorca.com/roadbook/' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/roadbook/RB_ES_CAT.jpg' alt='Sa Travessa - GR221'></a>";
+
+index = Math.floor(Math.random() * images.length);
+
+document.write(images[index]);
+
+</script><br></div></div><div id="vcms-columna-der-2"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-3"><div id="enviarPostal">
+				<div class="bot"></div>
+				
+				<h3>Enviau una postal</h3>
+				
+				<p class="desc">Enviau una postal de <strong>De Sant Elm a La Trapa</strong> amb una dedicatòria al vostre destinatari. Escriviu les dades del vostre enviament i pitjau «envia».</p>
+				<form id="formularioPostal" method="post" onsubmit="return comprobarCampos()" action="/rutas/envio_postal.ct.html">
+					<fieldset>
+                        
+                        <input type="hidden" name="listadoOn" value="si"/>
+                        <input type="hidden" name="buscadorOn" value="no"/>
+                        
+						<div class="destinatario">
+							<p class="textlabel">Destinatari:</p>
+							<input name="nomDestinatario" type="text" id="nomDestinatario" value="Nom del destinatari" class="textInput"/> 
+							<input name="emailDestinatario" type="text" id="emailDestinatario" value="Adreça electrònica" class="textInput" />
+						</div>
+						
+						<div class="remitente">
+							<p class="textlabel">Remitent:</p>
+							<input name="nomRemitente" type="text" id="nomRemitente" value="Nom del remitent" class="textInput"/>
+							<input name="emailRemitente" type="text" id="emailRemitente" value="Adreça electrònica" class="textInput"/>
+							<input type="hidden" name="envio" value="1" /><input type="hidden" name="cr" value="31" /></div>				
+						
+						<div class="mensaje">
+							<p class="textlabel">Missatge</p>
+							<textarea name="mensajePostal" id="mensajePostal" rows="6" cols="21"></textarea>
+						</div>
+
+						<div class="captchaAntiSpam"><script src='https://www.google.com/recaptcha/api.js?hl=ct'></script>
+        <div class="g-recaptcha" data-sitekey="6LcYGxUTAAAAAPSmpKVHhSJuw7rffqBDt38Riuuj" data-stoken="ynvSyH826c47qaCIxUsEUps8fO_4Q32kgqM38N3czmRSzUS2_KQS_7sImufIwnJaL1DTuyYpWyddSZQdZ9BGGBCYWTR_Dqp6PnSsSHRFIwU"></div></div>
+						
+                        <div id="botones">			
+	                        <div class="botonCapa1">
+							      <div class="botonCapa2">
+		       					      <input class="botonEnviar" type="submit" value="Envia la postal" />
+	    						  </div>
+							</div>
+							
+							<input type="reset" value="Neteja les dades" id="limpiar_datos" />
+						</div>
+
+						
+					</fieldset>
+				</form>
+				
+			</div>
+			
+			</div><div id="vcms-columna-der-4"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-5"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<FONT FACE="Arial" SIZE="2" COLOR="#000000">Si t'agrada el contingut de Senderos de Mallorca i vols ajudar a millorar, pots fer-ho amb una donació que ens ajudarà a mantenir la web i poder millorar-la. Gràcies!</FONT><BR><BR><BR>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="3PEEC5GKH9SZ8">
+<input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div></div></div></div>
+		           </div>
+		           </div>
+		   </div>
+		   <div class="push"></div>
+        </div></div>
+		   </div><div id="piePagina" class="piePaginaDia">       
+        <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="ct" href="/legal.ct.html"><span>Avís legal</span></a></li>
+    <li class="creditos"><a class="ct" href="/creditos.ct.html"><span>Crèdits</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural i dels autors</strong>
+</p></div></div>
+       </div></body></html>

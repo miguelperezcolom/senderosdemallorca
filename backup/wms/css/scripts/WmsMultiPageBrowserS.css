@@ -1,0 +1,24 @@
+.WmsMultiPageBrowserS .btnAnterior{
+    float: left;
+}
+
+.WmsMultiPageBrowserS .btnSiguiente{
+    float: left;
+}
+
+.WmsMultiPageBrowserS .cajaPaginas{
+    float:left;
+}
+
+.WmsMultiPageBrowserS .cajaPaginas div{
+    float: left;
+    overflow: hidden;
+}
+
+.WmsMultiPageBrowserS ul,
+.WmsMultiPageBrowserS li{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    float: left;
+}

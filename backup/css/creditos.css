@@ -1,0 +1,98 @@
+.creditos{
+    
+}
+
+.creditos h2{
+    margin-bottom: 2px;
+}
+
+.creditos p{
+    font: normal 14px/18px Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: justify;
+}
+
+.creditos p em{
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.creditos .contenedorColumnas{
+    margin-bottom: 40px;
+}
+
+.creditos .contenedorColumnas .columna{
+    float: left;
+    width: 338px;
+}
+
+.creditos .contenedorColumnas p{
+    padding-bottom: 0;
+}
+
+.creditos .contenedorColumnas .izquierda img{
+    padding-bottom: 20px;
+}
+
+.creditos .contenedorColumnas .izquierda .direccion{
+    margin-bottom: 30px;
+}
+
+.creditos .contenedorColumnas .izquierda .direccion p{
+    line-height: normal;
+    font-size: 14px;
+}
+
+.creditos .contenedorColumnas .izquierda .direccion a{
+    color: #000;
+    text-decoration: underline;
+    font-size: 14px;
+    padding-right: 8px;
+}
+
+.creditos .contenedorColumnas .izquierda dl a{
+    text-decoration: underline;
+}
+
+.creditos .contenedorColumnas .izquierda dl dt{
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333; 
+}
+
+.creditos .contenedorColumnas .izquierda dl dd{
+    padding-bottom: 10px;
+}
+
+.construido{
+    margin-top: 30px;
+}
+
+.construido p{
+    font: normal 14px Arial, Helvetica, sans-serif;
+	 width:715px;
+}
+
+.construido .producto p{
+    padding-left: 30px;
+	 font-size:11px;
+}
+
+.construido a{
+    text-decoration: underline;
+}
+
+.creditos .contenedorColumnas .columna.derecha{
+    width: 566px;
+}
+
+.derecha ul{
+    
+}
+
+.derecha ul li{
+    float: left;
+    margin-right: 23px;
+}

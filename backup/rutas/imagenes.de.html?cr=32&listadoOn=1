@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Buchten und Aussichtsplattformen von Formentor - Galería de imágenes</title><link rel="stylesheet" href="/wms/css/templates/c1c.css" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><script type="text/javascript" src="/js/galeria.js"></script><link rel="stylesheet" href="/css/general.css" type="text/css" /><link rel="stylesheet" href="/css/galeria.css" type="text/css" /><link rel="stylesheet" href="/wms/css/scripts/WmsMultiPageBrowserS.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+	    //<![CDATA[
+	    
+	       var galeria = null;
+	       
+	       jQuery(document).ready(function(){
+    	       locale = new Array();
+    	       locale["anterior"] = "<strong>v</strong>orige";
+               locale["siguiente"] = "<strong>n</strong>ächste";
+               locale["cerrar"] = "<strong>s</strong>chließen";
+               locale["tecla_siguiente"] = "n";
+               locale["tecla_anterior"] = "v";
+               locale["tecla_cerrar"] = "s";
+            
+    	       galeria = new GaleriaMultimedia(locale);
+	       });
+	       
+	    //]]>
+	    </script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script></head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="paginaPrincipal" class="paginaDia">        
+            <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.de.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="de"><strong id="botoActiu" class="botonUp"><span>Deutsch</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="ca"><a href="index.ct.html" onclick="wmsCambioIdioma('ct');return false;">Català</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+	</ul>
+</div></div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.de.html" class="btn-menu">			
+			<span class="nombre">Wandern auf Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.de.html" class="btn-menu-on">			
+			<span class="nombre">Auf der Route</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.de.html" class="btn-menu">			
+			<span class="nombre">Kontakt </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="vcms-contenedorColumnas">
+        		  <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.de.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Routenverzeichnis</a></li>
+		    <li><a href="/rutas/buscador.de.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Suchmaschine</a></li></ul></div><div id="vcms-contenido-principal"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Buchten und Aussichtsplattformen von Formentor</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.de.html?cr=32&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Routendaten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li><li style="float:left;"><a href="/rutas/puntos.de.html?cr=32&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Sehenswürdigkeiten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li><li style="float:left;"><a href="/rutas/imagenes.de.html?cr=32&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Galerie </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-contenido-sub1"><div id="galeria">
+		    <div class="fotos"><div class="fila"><div class="foto">
+                            <a id="foto_0" class="galeriaMultimedia_enlace" rel="multimedia;width=737;height=553;tipo=image;" href="/imgdb/imagen_gra_iru748.jpg" title="Faro de Formentor">
+                                <img src="/imgdb/imagen_iru747.jpg" width="200" height="200"  alt="Faro de Formentor" title="Faro de Formentor" />                            </a>
+                            <p class="pieFoto">Faro de Formentor</p>
+                        </div><div class="foto">
+                            <a id="foto_1" class="galeriaMultimedia_enlace" rel="multimedia;width=737;height=535;tipo=image;" href="/imgdb/imagen_gra_iru746.jpg" title="Cala P&amp;iacute; de la Posada">
+                                <img src="/imgdb/imagen_iru745.jpg" width="200" height="200"  alt="Cala P&amp;iacute; de la Posada" title="Cala P&amp;iacute; de la Posada" />                            </a>
+                            <p class="pieFoto">Cala P&iacute; de la Posada</p>
+                        </div><div class="foto">
+                            <a id="foto_2" class="galeriaMultimedia_enlace" rel="multimedia;width=737;height=553;tipo=image;" href="/imgdb/imagen_gra_iru744.jpg" title="Cala Murta">
+                                <img src="/imgdb/imagen_iru743.jpg" width="200" height="200"  alt="Cala Murta" title="Cala Murta" />                            </a>
+                            <p class="pieFoto">Cala Murta</p>
+                        </div><div class="fotoUltima">
+                            <a id="foto_3" class="galeriaMultimedia_enlace" rel="multimedia;width=737;height=553;tipo=image;" href="/imgdb/imagen_gra_iru742.jpg" title="Far de Formentor des del Fumat">
+                                <img src="/imgdb/imagen_iru741.jpg" width="200" height="200"  alt="Far de Formentor des del Fumat" title="Far de Formentor des del Fumat" />                            </a>
+                            <p class="pieFoto">Far de Formentor des del Fumat</p>
+                        </div></div><div class="fila"><div class="foto">
+                            <a id="foto_4" class="galeriaMultimedia_enlace" rel="multimedia;width=709;height=531;tipo=image;" href="/imgdb/imagen_gra_iru740.jpg" title="Cala Figuera des del Fumat">
+                                <img src="/imgdb/imagen_iru739.jpg" width="200" height="200"  alt="Cala Figuera des del Fumat" title="Cala Figuera des del Fumat" />                            </a>
+                            <p class="pieFoto">Cala Figuera des del Fumat</p>
+                        </div><div class="foto">
+                            <a id="foto_5" class="galeriaMultimedia_enlace" rel="multimedia;width=709;height=531;tipo=image;" href="/imgdb/imagen_gra_iru738.jpg" title="Mirador del Colomer">
+                                <img src="/imgdb/imagen_iru737.jpg" width="200" height="200"  alt="Mirador del Colomer" title="Mirador del Colomer" />                            </a>
+                            <p class="pieFoto">Mirador del Colomer</p>
+                        </div><div class="foto">
+                            <a id="foto_6" class="galeriaMultimedia_enlace" rel="multimedia;width=709;height=531;tipo=image;" href="/imgdb/imagen_gra_iru736.jpg" title="Cala Figuera">
+                                <img src="/imgdb/imagen_iru735.jpg" width="200" height="200"  alt="Cala Figuera" title="Cala Figuera" />                            </a>
+                            <p class="pieFoto">Cala Figuera</p>
+                        </div></div></div><div class="infoResultados">
+                
+            <p class="numResultados">wird angezeigt                <strong></strong> Bilder.
+            </p></div></div></div><div id="vcms-contenido-sub2"></div></div>
+               </div>
+               
+           </div>
+           <div class="push"></div>
+       </div><div id="piePagina" class="piePaginaDia">       
+            <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="de" href="/legal.de.html"><span>Rechtlicher Hinweis</span></a></li>
+    <li class="creditos"><a class="de" href="/creditos.de.html"><span>Impressum</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural und die Autoren</strong>
+</p></div></div>
+       </div></body></html>

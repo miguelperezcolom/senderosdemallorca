@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Miramar Monastery - Ficha ruta</title><link rel="stylesheet" href="/wms/css/templates/c2c_girado.css" type="text/css" />  <!--[if IE6]> <link rel="stylesheet" href="/wms/css/templates/c2c_girado-ie.css" type="text/css" /> <![endif]-->
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><link rel="stylesheet" href="/css/general.css " type="text/css" /><link rel="stylesheet" href="/css/ficha_ruta.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><style type="text/css">				#fichaRuta .itinerario li.punto-a .punto{
+				    background-image: url(/img/iconos/puntos/a.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/a.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-b .punto{
+				    background-image: url(/img/iconos/puntos/b.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/b.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-c .punto{
+				    background-image: url(/img/iconos/puntos/c.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/c.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-d .punto{
+				    background-image: url(/img/iconos/puntos/d.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/d.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-e .punto{
+				    background-image: url(/img/iconos/puntos/e.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/e.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-f .punto{
+				    background-image: url(/img/iconos/puntos/f.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/f.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-g .punto{
+				    background-image: url(/img/iconos/puntos/g.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/g.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-h .punto{
+				    background-image: url(/img/iconos/puntos/h.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/h.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-i .punto{
+				    background-image: url(/img/iconos/puntos/i.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/i.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-j .punto{
+				    background-image: url(/img/iconos/puntos/j.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/j.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-k .punto{
+				    background-image: url(/img/iconos/puntos/k.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/k.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-l .punto{
+				    background-image: url(/img/iconos/puntos/l.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/l.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-m .punto{
+				    background-image: url(/img/iconos/puntos/m.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/m.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-n .punto{
+				    background-image: url(/img/iconos/puntos/n.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/n.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-o .punto{
+				    background-image: url(/img/iconos/puntos/o.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/o.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-p .punto{
+				    background-image: url(/img/iconos/puntos/p.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/p.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-q .punto{
+				    background-image: url(/img/iconos/puntos/q.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/q.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-r .punto{
+				    background-image: url(/img/iconos/puntos/r.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/r.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-s .punto{
+				    background-image: url(/img/iconos/puntos/s.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/s.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-t .punto{
+				    background-image: url(/img/iconos/puntos/t.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/t.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-u .punto{
+				    background-image: url(/img/iconos/puntos/u.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/u.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-v .punto{
+				    background-image: url(/img/iconos/puntos/v.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/v.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-w .punto{
+				    background-image: url(/img/iconos/puntos/w.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/w.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-x .punto{
+				    background-image: url(/img/iconos/puntos/x.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/x.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-y .punto{
+				    background-image: url(/img/iconos/puntos/y.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/y.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-z .punto{
+				    background-image: url(/img/iconos/puntos/z.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/z.png", sizingMethod="crop");    
+				}
+				</style><style>
+			.captchaAntiSpam{
+				padding-left: 22px;
+				padding-top: 5px;
+			}
+			.g-recaptcha{
+				transform: scale(0.67);
+				transform-origin: 0 0;
+			}
+		</style>
+		
+		<script type="text/javascript">
+	    //<![CDATA[
+	    
+	       //comprueba si el léxico del correo es correcto
+		   	function isMail(mail){
+		       	//var reg_exp = '\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b';
+				reg_exp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			   	return reg_exp.test(mail);
+		   	}
+               
+	       	function comprobarCampos(){
+	           
+	           	//mensaje de error
+               	var arrMensaje = [];
+               
+	           	var objForm = document.getElementById('formularioPostal');
+	           
+				if ( objForm.nomDestinatario.value == '' ){
+					arrMensaje.push({msg:'You must fill in the recipient’s name',focus:'nomDestinatario'});
+	           	}
+	           	
+	           	if ( objForm.emailDestinatario.value == '' ){
+	           		arrMensaje.push({msg:'You must enter a valid recipient’s address',focus:'emailDestinatario'});	
+	           	}else if ( !isMail(objForm.emailDestinatario.value) ){
+	               	arrMensaje.push({msg:'You must enter a valid recipient’s address',focus:'emailDestinatario'});	
+	           	}
+	           
+	           	if ( objForm.nomRemitente.value == '' ){
+	           		arrMensaje.push({msg:'You must fill in the sender’s name',focus:'nomRemitente'});
+	           	}
+	           
+	           	if ( objForm.emailRemitente.value == '' ){
+	            	arrMensaje.push({msg:'You must enter a valid sender’s address',focus:'emailRemitente'});	
+	           	}else if ( !isMail(objForm.emailRemitente.value) ){
+	            	arrMensaje.push({msg:'You must enter a valid sender’s address',focus:'emailRemitente'});	
+	           	}
+	           
+	           	if ( objForm.mensajePostal.value == '' ){
+	           		arrMensaje.push({msg:'You must fill in the message field',focus:'mensajePostal'});	
+	           	}
+	           
+	           	if ( arrMensaje.length>0 ){
+	           		
+	           		var arrAux = [];
+	           		for (var i=0;i<arrMensaje.length;i++){
+	           			arrAux.push(arrMensaje[i].msg);
+	           		}
+	           		alert(arrAux.join("\n"));
+					document.getElementById(arrMensaje[0].focus).focus();	           			
+	           		
+					return false;
+	               
+	           	}else{
+	           		
+	            	return true;
+	            	
+	           	}
+	           
+	       	}
+	       
+	       	function limpiarDatos(){
+	        	document.getElementById('formularioPostal').reset();
+	       	}
+			
+			function fillFields(idObject, localeStr){
+				var tmpIdObj = '#' + idObject;
+                jQuery(tmpIdObj).focus(function(){
+                    if (this.value == localeStr){
+                       this.value = '';
+                    }
+                });
+                jQuery(tmpIdObj).blur(function(){
+                    if (this.value == ''){
+                        this.value = localeStr;
+                    }
+                });				
+			}
+			
+    		jQuery(document).ready(function(){
+				fillFields('nomDestinatario', 'Recipient name');
+				fillFields('emailDestinatario', 'E-mail address');
+				fillFields('nomRemitente', 'Sender name');
+				fillFields('emailRemitente', 'E-mail address');
+			});
+			
+			
+	    
+	    //]]>
+	    </script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script>            </head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="maq2c"><div id="paginaPrincipal" class="paginaDia">        
+	        <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.en.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="en"><strong id="botoActiu" class="botonUp"><span>English</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="ca"><a href="index.ct.html" onclick="wmsCambioIdioma('ct');return false;">Català</a></li>
+		<li class="de"><a href="index.de.html" onclick="wmsCambioIdioma('de');return false;">Deutsch</a></li>
+	</ul>
+</div></div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.en.html" class="btn-menu">			
+			<span class="nombre">Hiking on Majorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.en.html" class="btn-menu-on">			
+			<span class="nombre">En route</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.en.html" class="btn-menu">			
+			<span class="nombre">Contact</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="cuerpoPagina"><div id="vcms-postcabecera3"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.en.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Route catalogue</a></li>
+		    <li><a href="/rutas/buscador.en.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Search</a></li></ul></div><div id="vcms-path"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Miramar Monastery</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.en.html?cr=24&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Route details</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li><li style="float:left;"></li><li style="float:left;"></li><li style="float:left;"></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-contenedorColumnas-wrapper">
+		            <div id="vcms-contenedorColumnas">
+		              <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><div id="fichaRuta"><div class="imagenRuta"><img src="/imgdb/foto_gra_rut726.jpg" width="658" height="292"  alt="Miramar Monastery" title="Miramar Monastery" /></div><p class="descripcion">A school was founded here in 1276 by King James II of Majorca, following a request by Ramon Llull, where Arabic and other Eastern languages where taught to missionaries attempting to convert Northern African Muslims to Christianity. A few centuries later, Miramar became the Archduke’s favourite place to live and thus he commissioned the creation of a system of paths and lookout platforms.</p><h3>Route Details</h3>
+    		<div class="fichaTecnica"><p><strong>Excursion type: </strong>Hiking</p><p><strong>Location: </strong>West Majorca</p><p><strong>Nearest town: </strong>Valldemossa</p><p><strong>Degree of difficulty: </strong>Family</p><p><strong>Total length: </strong>45 minutes </p><p><strong>Access: </strong>Bus <a href="http://www.caib.es/sacmicrofront/contenido.do?idsite=330&cont=8689&lang=ca&campa=yes" rel="external">L210</a> (Platja de Palma-Palma-Valldemossa-Deià-Llucalcari- Sóller-Port de Sóller) stops at Son Gallard, at the kilometre 67.300 marker. If travelling by car, take the Deià, Ma-10 motorway at Valldemossa and come off at the kilometre 67.500 marker.</p><p><strong>Starting point: </strong>Miramar</p><p><strong>Circular path:</strong> Yes</p><p><strong>Maximum altitude: </strong>340 m</p><p><strong>Grade: </strong>50 m</p><p><strong>Recommended season: </strong>Spring, Autumn and Winter</p>	        		<div class="itinerario">
+	        			<h3>Itinerary</h3>
+	        		  	<ul>
+						<li class="punto-a">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Miramar</h4>
+	            		                      <p class="datos">Distance 0.000 km - Time 0 hours - Altitude 340 m</p>
+	            		                      <p class="desc">Start your tour at the olive oil mill, then carry on through the garden (where part of the Gothic cloister of the Church of Santa Magdalena can be seen) and enter the Miramar ground floor. From the main front of the building, facing the sea, take right first and then left following the yellow arrows as you go down the steps towards the first lookout platform. You can enjoy the panoramic views of the north coast of the Sa Foradada peninsula and the ruins of the Ramon Llull chapel: the final destination of this itinerary. From the lookout platform, go down, then turn right and you will have reached the garden.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-b">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Garden of Sa Torre des Moro</h4>
+	            		                      <p class="datos">Time 5 minutes  - Altitude 325 m</p>
+	            		                      <p class="desc">The crenellated walls seem rather picturesque. They probably served the Archduke as a reminder of the castles owned by his family in Central Europe. You can also see the pond and Llull-style crosses. Go left of the crenellated walls and through the small latched gate. (The reason for using the gate latch is that, sometimes, when left open, the wild goats would ruin the gardens).  Go straight across the terrace, carry on as far as the irrigation channel, and go down and right towards three sets of stone steps. Mind your step so as not to slip.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-c">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Bridge over the irrigation channel</h4>
+	            		                      <p class="datos">Time 8 minutes  - Altitude 300 m</p>
+	            		                      <p class="desc">At the bottom of the steps, take left and cross the bridge. When you have passed the gate, you will see two fallen trees; go round them until you have reached another path a few meters to the right. At the next fork, turn left.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-d">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Chapel and lookout platform des Beat Ramon Llull</h4>
+	            		                      <p class="datos">Time 15 minutes  - Altitude 282 m</p>
+	            		                      <p class="desc">The location and panoramic views are exceptional. A few years ago, the chapel was struck by lightning but a potential reconstruction would be very complicated. Return to the bridge.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-e">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Bridge over the irrigation channel</h4>
+	            		                      <p class="datos">Time 20 minutes  - Altitude 300 m</p>
+	            		                      <p class="desc">Cross the bridge and, with the steps on the right-hand side, walk 10 metres towards a gate on the left. Down the winding path, turn right and go back up over the overhanging rocky crag, where stone steps have been dug out in the rock (to the right you can see a bas-relief of Ramon Llull). Go over the fence, past a lookout platform on the left and carry on straight ahead for a few meters. Although you could take a path leading straight back to Miramar, it is worth visiting the horse-shoe-shaped lookout platform, only 100 meters away.  From this lookout platform, return to the path and go up and left towards some cypress trees. Under the trees, there is a large green locked gate, which you have to jump over.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-f">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Miramar</h4>
+	            		                      <p class="datos">Time 45 minutes  - Altitude 340 m</p>
+	            		                      <p class="desc">Follow the red arrows that lead to the car park, beyond the chapel and garden.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li>	        		  </ul>
+	    		    </div>
+	    		    <div class="otrasOpciones"><h3>Other options</h3><p><strong>Caló de S’Estaca</strong> (one and a half hours, there and back): Take the motorway towards Port de Valldemossa and park your car a few metres before reaching the kilometre 4 marker. Follow a wide track to the right, going through a few openings and around the houses of S’Estaca, which were commissioned by the Archduke.  Shortly after, at the fork, veer left onto a paved track (if you veer right, it will lead you to Sa Foradada via a rough coastal path).  Caló de S’Estaca was a small fishing cove. Nowadays, it is a picturesque location, with small houses that seem to be in perfect harmony with the landscape and where you can go for a dip.<br /><br /><strong>Ermita de la Trinitat:</strong> By car, from Valldemossa, take the motorway towards Deià (first take the Ma-1100 and then Ma-10) as far as the Can Costa restaurant (kilometre 69.900 marker). Walk across the main motorway and walk a few metres towards Valldemossa following a paved track. A few minutes later, you will arrive at the chapel, which is open from 9.30 am to 6 pm (it is closed to the public while hermits are on spiritual retreat). It is a charming place in the middle of an oak grove, with a beautiful lookout platform on the north coast.<br /><br /><strong>Sa Foradada</strong> (two hours, there and back): Starting from Deià at the kilometre 65.500 marker on the Ma-10 motorway (where there is a city-line bus stop) and heading towards Valldemossa, bear right onto an access lane leading towards the splendid lookout platforms of Sa Foradada. Park your car there and head down towards the Son Marroig House Museum. As indicated by the sign, you must request permission before taking the track down towards Sa Foradada.  It is worth visiting the palace, which the Archduke had restored. The admission ticket can be taken as authorisation to visit. We leave that to your discretion. Usually, there is no one there to check. With your back to the house, take the track on the right and, within a few metres, you will find a small gate on the right with directions.  Cross it on the right and enter the olive grove and, after about 5 minutes, veer towards the track on the right. When you have passed another opening, go down the winding track towards the coast, and continue on the flat stretch of the track for 15 minutes until you reach a small cove, at the bottom of Sa Foradada. If you wish to reach the top, you will have to climb a short stretch (you will need good hiking skills).</p></div><div class="otrasOpciones"><h3>Remarks</h3><p>If you wish to do the tour, you must visit the museum first which is open from Tuesday to Saturday, including bank holidays, except on Sundays. Opening times are 10 am to 7 pm between 1 April and 31 October, and 9.30 am to 5 pm between 1 November and 31 March. Admission fee is about 3 €. Tel: 971 61 60 73).<br /><br /><strong>POINT OF INTEREST:</strong> Archduke Lluis Salvador<br />Archduke Lluis Salvador was a member of the Austrian Imperial family and arrived in Majorca in 1867 in order to write an encyclopaedia on the Balearic Islands. His enthusiasm for the area situated between Valldemossa and Deià was such that, over the years, he bought most of the land and property located between these two villages. He restored the manor houses where he lived, on an on-and-off basis, until 1915, and commissioned the creation of a system of paths and lookout platforms. His environmental awareness, it must be highlighted, was ahead of his time. Hunting and tree felling were banned within his properties. He wrote numerous scientific works, travel books (“Around the World by Chance”) and poetry (“Night Dreams by the Sea Shore”, in Catalan language). It is believed that he could speak 17 languages.</p></div></div>
+		</div></div></div>
+		            <div id="vcms-columnaDerecha" style="width:240px;"><div id="vcms-columnaIzquierda-inner" style=""><div id="vcms-premenu"><div style="margin-left:25px; margin-top:0px; margin-bottom:0px"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsenderosdemallorca.org%3Fref%3Dhl&amp;width=240&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:100px;" allowTransparency="true"></iframe>
+</div></div><div id="vcms-columna-derecha"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<script type="text/javascript">
+
+var images = [], 
+index = 0;
+
+images[0] = "<a href = 'http://www.refugisontrias.com' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/refugi/BANNER_240x300_refugi_EN.jpg'</a>";
+
+images[1] = "<a href = 'http://www.walkingmallorca.com/en/roadbook/' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/roadbook/RB_EN.jpg' alt='Sa Travessa - GR221'></a>";
+
+index = Math.floor(Math.random() * images.length);
+
+document.write(images[index]);
+
+</script><br></div></div><div id="vcms-columna-der-2"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-3"><div id="enviarPostal">
+				<div class="bot"></div>
+				
+				<h3>Send a postcard</h3>
+				
+				<p class="desc">Send a postcard of <strong>Monasterio de Miramar</strong> with a note for the recipient. Write the mailing details and press “send”.</p>
+				<form id="formularioPostal" method="post" onsubmit="return comprobarCampos()" action="/rutas/envio_postal.en.html">
+					<fieldset>
+                        
+                        <input type="hidden" name="listadoOn" value="si"/>
+                        <input type="hidden" name="buscadorOn" value="no"/>
+                        
+						<div class="destinatario">
+							<p class="textlabel">Recipient:</p>
+							<input name="nomDestinatario" type="text" id="nomDestinatario" value="Recipient name" class="textInput"/> 
+							<input name="emailDestinatario" type="text" id="emailDestinatario" value="E-mail address" class="textInput" />
+						</div>
+						
+						<div class="remitente">
+							<p class="textlabel">Sender:</p>
+							<input name="nomRemitente" type="text" id="nomRemitente" value="Sender name" class="textInput"/>
+							<input name="emailRemitente" type="text" id="emailRemitente" value="E-mail address" class="textInput"/>
+							<input type="hidden" name="envio" value="1" /><input type="hidden" name="cr" value="24" /></div>				
+						
+						<div class="mensaje">
+							<p class="textlabel">Message</p>
+							<textarea name="mensajePostal" id="mensajePostal" rows="6" cols="21"></textarea>
+						</div>
+
+						<div class="captchaAntiSpam"><script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
+        <div class="g-recaptcha" data-sitekey="6LcYGxUTAAAAAPSmpKVHhSJuw7rffqBDt38Riuuj" data-stoken="ynvSyH826c47qaCIxUsEUqBicjT8M1-TWgSGTq91Yx0NQ7z9Qa3U1tD9JtFUcKl53nRcZbSXfR9vLPdBT6_ZCk9iJ4kTcju2R3kiyQlS1QE"></div></div>
+						
+                        <div id="botones">			
+	                        <div class="botonCapa1">
+							      <div class="botonCapa2">
+		       					      <input class="botonEnviar" type="submit" value="Send postcard" />
+	    						  </div>
+							</div>
+							
+							<input type="reset" value="delete data" id="limpiar_datos" />
+						</div>
+
+						
+					</fieldset>
+				</form>
+				
+			</div>
+			
+			</div><div id="vcms-columna-der-4"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-5"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<FONT FACE="Arial" SIZE="2" COLOR="#000000">Si te gusta el contenido de Senderos de Mallorca y quieres ayudar a mejorar, ayudanos con una donación a mantener la web y poder mejorarla. Gracias!</FONT><BR><BR><BR>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="3PEEC5GKH9SZ8">
+<input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div></div></div></div>
+		           </div>
+		           </div>
+		   </div>
+		   <div class="push"></div>
+        </div></div>
+		   </div><div id="piePagina" class="piePaginaDia">       
+        <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="en" href="/legal.en.html"><span>disclaimer</span></a></li>
+    <li class="creditos"><a class="en" href="/creditos.en.html"><span>credits</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural and the authors</strong>
+</p></div></div>
+       </div></body></html>

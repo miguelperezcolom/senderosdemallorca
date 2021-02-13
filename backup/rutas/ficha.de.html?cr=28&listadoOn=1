@@ -1,0 +1,580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Von Deià nach Sóller - Ficha ruta</title><link rel="stylesheet" href="/wms/css/templates/c2c_girado.css" type="text/css" />  <!--[if IE6]> <link rel="stylesheet" href="/wms/css/templates/c2c_girado-ie.css" type="text/css" /> <![endif]-->
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><link rel="stylesheet" href="/css/general.css " type="text/css" /><link rel="stylesheet" href="/css/ficha_ruta.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><style type="text/css">				#fichaRuta .itinerario li.punto-a .punto{
+				    background-image: url(/img/iconos/puntos/a.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/a.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-b .punto{
+				    background-image: url(/img/iconos/puntos/b.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/b.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-c .punto{
+				    background-image: url(/img/iconos/puntos/c.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/c.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-d .punto{
+				    background-image: url(/img/iconos/puntos/d.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/d.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-e .punto{
+				    background-image: url(/img/iconos/puntos/e.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/e.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-f .punto{
+				    background-image: url(/img/iconos/puntos/f.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/f.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-g .punto{
+				    background-image: url(/img/iconos/puntos/g.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/g.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-h .punto{
+				    background-image: url(/img/iconos/puntos/h.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/h.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-i .punto{
+				    background-image: url(/img/iconos/puntos/i.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/i.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-j .punto{
+				    background-image: url(/img/iconos/puntos/j.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/j.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-k .punto{
+				    background-image: url(/img/iconos/puntos/k.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/k.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-l .punto{
+				    background-image: url(/img/iconos/puntos/l.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/l.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-m .punto{
+				    background-image: url(/img/iconos/puntos/m.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/m.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-n .punto{
+				    background-image: url(/img/iconos/puntos/n.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/n.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-o .punto{
+				    background-image: url(/img/iconos/puntos/o.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/o.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-p .punto{
+				    background-image: url(/img/iconos/puntos/p.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/p.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-q .punto{
+				    background-image: url(/img/iconos/puntos/q.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/q.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-r .punto{
+				    background-image: url(/img/iconos/puntos/r.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/r.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-s .punto{
+				    background-image: url(/img/iconos/puntos/s.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/s.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-t .punto{
+				    background-image: url(/img/iconos/puntos/t.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/t.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-u .punto{
+				    background-image: url(/img/iconos/puntos/u.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/u.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-v .punto{
+				    background-image: url(/img/iconos/puntos/v.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/v.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-w .punto{
+				    background-image: url(/img/iconos/puntos/w.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/w.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-x .punto{
+				    background-image: url(/img/iconos/puntos/x.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/x.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-y .punto{
+				    background-image: url(/img/iconos/puntos/y.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/y.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-z .punto{
+				    background-image: url(/img/iconos/puntos/z.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/z.png", sizingMethod="crop");    
+				}
+				</style><style>
+			.captchaAntiSpam{
+				padding-left: 22px;
+				padding-top: 5px;
+			}
+			.g-recaptcha{
+				transform: scale(0.67);
+				transform-origin: 0 0;
+			}
+		</style>
+		
+		<script type="text/javascript">
+	    //<![CDATA[
+	    
+	       //comprueba si el léxico del correo es correcto
+		   	function isMail(mail){
+		       	//var reg_exp = '\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b';
+				reg_exp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			   	return reg_exp.test(mail);
+		   	}
+               
+	       	function comprobarCampos(){
+	           
+	           	//mensaje de error
+               	var arrMensaje = [];
+               
+	           	var objForm = document.getElementById('formularioPostal');
+	           
+				if ( objForm.nomDestinatario.value == '' ){
+					arrMensaje.push({msg:'Bitte geben  Sie den Namen des Empfängers ein',focus:'nomDestinatario'});
+	           	}
+	           	
+	           	if ( objForm.emailDestinatario.value == '' ){
+	           		arrMensaje.push({msg:'Bitte geben Sie eine gültige E-Mail-Adresse ein',focus:'emailDestinatario'});	
+	           	}else if ( !isMail(objForm.emailDestinatario.value) ){
+	               	arrMensaje.push({msg:'Bitte geben Sie eine gültige E-Mail-Adresse ein',focus:'emailDestinatario'});	
+	           	}
+	           
+	           	if ( objForm.nomRemitente.value == '' ){
+	           		arrMensaje.push({msg:'Bitte geben Sie den Namen des Absenders aus',focus:'nomRemitente'});
+	           	}
+	           
+	           	if ( objForm.emailRemitente.value == '' ){
+	            	arrMensaje.push({msg:'Bitte geben Sie eine gültige E-Mail-Adresse ein.',focus:'emailRemitente'});	
+	           	}else if ( !isMail(objForm.emailRemitente.value) ){
+	            	arrMensaje.push({msg:'Bitte geben Sie eine gültige E-Mail-Adresse ein.',focus:'emailRemitente'});	
+	           	}
+	           
+	           	if ( objForm.mensajePostal.value == '' ){
+	           		arrMensaje.push({msg:'Bitte geben Sie eine Nachricht ein',focus:'mensajePostal'});	
+	           	}
+	           
+	           	if ( arrMensaje.length>0 ){
+	           		
+	           		var arrAux = [];
+	           		for (var i=0;i<arrMensaje.length;i++){
+	           			arrAux.push(arrMensaje[i].msg);
+	           		}
+	           		alert(arrAux.join("\n"));
+					document.getElementById(arrMensaje[0].focus).focus();	           			
+	           		
+					return false;
+	               
+	           	}else{
+	           		
+	            	return true;
+	            	
+	           	}
+	           
+	       	}
+	       
+	       	function limpiarDatos(){
+	        	document.getElementById('formularioPostal').reset();
+	       	}
+			
+			function fillFields(idObject, localeStr){
+				var tmpIdObj = '#' + idObject;
+                jQuery(tmpIdObj).focus(function(){
+                    if (this.value == localeStr){
+                       this.value = '';
+                    }
+                });
+                jQuery(tmpIdObj).blur(function(){
+                    if (this.value == ''){
+                        this.value = localeStr;
+                    }
+                });				
+			}
+			
+    		jQuery(document).ready(function(){
+				fillFields('nomDestinatario', 'Name des Empfängers');
+				fillFields('emailDestinatario', 'E-Mail');
+				fillFields('nomRemitente', 'Name des Absenders');
+				fillFields('emailRemitente', 'E-Mail');
+			});
+			
+			
+	    
+	    //]]>
+	    </script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script>            </head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="maq2c"><div id="paginaPrincipal" class="paginaDia">        
+	        <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.de.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="de"><strong id="botoActiu" class="botonUp"><span>Deutsch</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="ca"><a href="index.ct.html" onclick="wmsCambioIdioma('ct');return false;">Català</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+	</ul>
+</div></div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.de.html" class="btn-menu">			
+			<span class="nombre">Wandern auf Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.de.html" class="btn-menu-on">			
+			<span class="nombre">Auf der Route</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.de.html" class="btn-menu">			
+			<span class="nombre">Kontakt </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="cuerpoPagina"><div id="vcms-postcabecera3"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.de.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Routenverzeichnis</a></li>
+		    <li><a href="/rutas/buscador.de.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Suchmaschine</a></li></ul></div><div id="vcms-path"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Von Deià nach Sóller</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.de.html?cr=28&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Routendaten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/mapas.de.html?cr=28&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Kartographie</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li><li style="float:left;"><a href="/rutas/documentos.de.html?cr=28&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Dokumente</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-contenedorColumnas-wrapper">
+		            <div id="vcms-contenedorColumnas">
+		              <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><div id="fichaRuta"><div class="imagenRuta"><img src="/imgdb/foto_gra_rut728.jpg" width="658" height="292"  alt="Von Deià nach Sóller" title="Von Deià nach Sóller" /></div><p class="descripcion"><strong>Über die Bucht Cala Deià, Llucalcari und den Weg Camí de Castelló</strong><br />Abwechslungsreicher Ausflug mit dem Besuch zweier Ortschaften (Deià, eine der schönsten Ortschaften der Insel mit harmonischem Ortsbild und das von Bergen umgebene Sóller). Ein Teil verläuft auf einem wunderschönen Küstenweg, ein anderer auf einem Weg aus arabischer Zeit. Wir können den Ausflug auch abkürzen, indem wir die GR 221 nehmen. Bei dieser Variante würden wir jedoch nicht den wunderschönen Küstenweg nehmen und müssten 500 Meter an der Hauptstraße entlang wandern.<br /><br /><strong>ACHTUNG:</strong> Teile des Küstenwegs sind eng und rutschig.</p><h3>Technisches Datenblatt</h3>
+    		<div class="fichaTecnica"><p><strong>Art des Ausflugs: </strong>Wandern</p><p><strong>Lage: </strong>Westen von Mallorca</p><p><strong>Nächste Ortschaft: </strong>Deià</p><p><strong>Schwierigkeitsgrad: </strong>Mittel</p><p><strong>Dauer insgesamt: </strong>4 Stunden  und 30 Minuten </p><p><strong>Zugang: </strong>Mit dem Linienbus von Palma nach Valldemossa, Deià, Sóller und Port de Sóller. Mit dem eigenen Auto auf der Ma-10 von Sóller oder Valldemossa. Deià verfügt nur über wenige öffentlich zugängliche gebührenpflichtige Parkplätze.</p><p><strong>Ausgangspunkt: </strong>Deià – Haltestelle des Linienbusses</p><p><strong>Rundweg:</strong> Nein</p><p><strong>Höchster Punkt: </strong>300 m</p><p><strong>Höhenunterschied: </strong>750 m</p><p><strong>Bisheriger Höhenunterschied beim Aufstieg: </strong>300 m</p><p><strong>Bisheriger Höhenunterschied beim Abstieg: </strong>450 m</p><p><strong>Empfohlene Jahreszeit: </strong>Das ganze Jahr</p>	        		<div class="itinerario">
+	        			<h3>Strecke</h3>
+	        		  	<ul>
+						<li class="punto-a">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Deià – Haltestelle des Linienbusses</h4>
+	            		                      <p class="datos">Entfernung 0,000 km - Zeit 0 Stunden - Höhe 160 m</p>
+	            		                      <p class="desc">Wir beginnen die Route mit einem Besuch der Ortschaft: Wir gehen einige Meter Richtung Sóller und nehmen die erste Straße linkerhand (Carrer des Porxo). Diese führt uns auf einen Platz, wo wir eine Treppe hinter dem Brunnen hinaufgehen. Wir gehen auf der ansteigenden Straße weiter bis zum Friedhof und der Kirche. Auf der Straße “Carrer Ramon Llull” gehen wir wieder nach unten und am Ende biegen wir nach rechts ab und gehen über einige Steinstufen (Costa d’en Topa). Sobald wir wieder die asphaltierte Straße erreichen, gehen wir geradeaus weiter über den Sturzbach und dann nach rechts am Bach entlang bis zu einer Kreuzung, wo wir das erste Hinweisschild zur Bucht sehen, das nach rechts zeigt. Wir nehmen diese Straße, die nur am Beginnen asphaltiert ist, bis ans Ende.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-b">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Beginn des Weges “Camí des Ribassos”</h4>
+	            		                      <p class="datos">Zeit 30 Minuten  - Höhe 100 m</p>
+	            		                      <p class="desc">Der Weg durchquert über Holztreppen zwei Zwischenmauern, führt dann über eine Holzbrücke über den Sturzbach und mündet schließlich in die Straße. Wenn wir linkerhand weitergehen, kommen wir zur Bucht.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-c">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Cala Deià</h4>
+	            		                      <p class="datos">Zeit 1 Stunde </p>
+	            		                      <p class="desc">Diese malerische Bucht macht Lust auf ein Bad. Zwischen April und Oktober sind auch die beiden Restaurants geöffnet. Wir gehen ungefähr 50 Meter auf dem gleichen Weg zurück und sehen linkerhand nach oben führende Steinstufen. Wir steigen diese hinauf und biegen nach 2 Minuten nach links ab, gehen auf die untere Terrasse hinunter und umrunden die Bucht auf der Anhöhe. Dort sehen wir ein Holzgeländer, kurz darauf beginnt der Weg leicht anzusteigen. Wir gehen nicht zu dem Haus am anderen Ende der Bucht hinunter, sondern biegen nach rechts ab. Von dort haben wir einen wunderschönen Ausblick. Auf dem weiteren Küstenweg kommen wir immer wieder an umgestürzten Pinien vorbei, die dem Sturm im November 2001 zum Opfer fielen. Nach einer Aussichtsplattform führt der Weg ein kleines Stück über eine Holztreppe. </p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-d">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Pinie von son Beltran</h4>
+	            		                      <p class="datos">Zeit 1 Stunde  und 30 Minuten  - Höhe 10 m</p>
+	            		                      <p class="desc">Esplanade mit einem rustikalen Steintisch und idealer Ort für eine Pause. Der Weg führt eben weiter, es geht über zwei Holztreppen und wir sehen eine Abzweigung rechterhand. Wenige Meter dahinter sehen wir rechts eine hohe Steinwand. Wir gehen noch einige Meter weiter. </p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-e">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Es Canyeret</h4>
+	            		                      <p class="datos">Zeit 1 Stunde  und 45 Minuten  - Höhe 10 m</p>
+	            		                      <p class="desc">Dieser steinige FKK-Strand befindet sich unterhalb unseres Weges. Hier verlassen wir den Küstenweg über einige steile Stufen auf der rechten Seite (an jeder Seite befindet sich ein Haus). Der Weg mündet in einen anderen, auf dem wir nach links weitergehen. Wir kommen durch ein Gatter und schließlich auf eine asphaltierte Straße.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-f">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Llucalcari</h4>
+	            		                      <p class="datos">Zeit 2 Stunden  - Höhe 70 m</p>
+	            		                      <p class="desc">Eine zauberhafte Häusergruppe, wo wir auch mehrere Verteidigungstürme bewundern können. Wir gehen die Straße hinauf und biegen nach etwa 40 Metern nach links ab. Der Weg führt zuerst über einige Stufen (auf einer Fliese steht: “Camí Vell”). Wenn wir uns nach etwa 50 Metern nach dem letzten Haus umdrehen, haben wir eine wunderschöne Aussicht über die gesamte Insel, wie sie nur von wenigen anderen Punkten zu bewundern ist. Kurz danach überqueren wir die Straße und nehmen einen asphaltierten Weg, der in Serpentinen nach oben führt. Anschließend nehmen wir den ersten asphaltierten Weg rechts, der während ungefähr 5 Minuten steil nach oben führt, bis wir zu einer scharfen Linkskurve kommen. Rechterhand geht dort ein leicht zu übersehender Pfad weg, dem wir folgen und der nach 5 Minuten in einen Weg mündet.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-g">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Weg Camí de Castelló</h4>
+	            		                      <p class="datos">Zeit 2 Stunden  und 20 Minuten  - Höhe 210 m</p>
+	            		                      <p class="desc">Dieser Weg aus arabischer Zeit ist auch unter dem Namen “Camí Vell de Sóller a Deià” bekannt. In den letzten Jahren wurden verschiedene Teilstücke restauriert. Wir biegen nach links, sehen in der Nähe die Häuser von Son Coll und kommen nach ungefähr 10 Minuten in einen Wald. Nach einigen nach oben führenden Kurven und einem flachen Stück kommen wir zu einem Dreschplatz (30 Minuten). Der Pfad mündet in einen Weg, der an den Herrenhäusern Son Mico und Can Prohom vorbeiführt. Kurz darauf kommen wir zu einer großen Wegkreuzung.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-h">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Kapelle von Castelló</h4>
+	            		                      <p class="datos">Zeit 3 Stunden  und 15 Minuten  - Höhe 260 m</p>
+	            		                      <p class="desc">Links sehen wir die Wege, die nach Port de Sóller und zur Hütte Muleta (siehe “Andere Optionen”) führen. Wir nehmen den Weg geradeaus, der später einen asphaltierten Weg kreuzt (von hier aus führt ein weiterer Weg nach Sóller) und nehmen später einen engen Pfad links. Nach einigen Minuten ist der Weg für etwa 100 Meter asphaltiert und führt dann über einige Terrassen hinunter auf einen asphaltierten Weg. Kurz darauf kreuzen wir die Straße von Palma nach Port de Sóller und gehen Richtung Zentrum.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-i">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Sóller</h4>
+	            		                      <p class="datos">Zeit 4 Stunden  und 30 Minuten  - Höhe 40 m</p>
+	            		                      <p class="desc">Von hier aus können wir mit dem Linienbus oder einem Taxi nach Deià zurückfahren.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li>	        		  </ul>
+	    		    </div>
+	    		    <div class="otrasOpciones"><h3>Andere Optionen</h3><p>Hier finden Sie zwei verschiedene Möglichkeiten für das Ende der Route: die Hütte Muleta oder Port de Sóller:<br /><br /><strong>Zur Hütte Muleta oder nach Port de Sóller:</strong> Am Punkt H biegen wir nach links ab und gehen bis zur Straße, an der wir nach links (Richtung Deià) weitergehen. Nach ungefähr 50 Metern in einer scharfen Kurve biegt ein asphaltierter Weg ab, der zum Restaurant Bens d’Avall führt. Diesen gehen wir etwa 10 Minuten entlang und nehmen an der ersten Gabelung den rechten Weg, der am Haus Son Augustinus vorbeiführt. Nach wenigen Minuten verlassen wir den asphaltierten Weg, nehmen den ersten Weg rechterhand und wählen an der nächsten Kreuzung den Weg nach links. Wir druchqueren einen beeindruckenden Olivenhain mit einigen an die hundert Jahre alten Bäumen und kommen in der Nähe der Häuser Muleta Gran an eine weitere Gabelung, an der sich die Wege zu den beiden genannten Zielen trennen.<br /><br /><strong>Zur Hütte Muleta</strong> nehmen wir den Weg linkerhand, der nach wenigen Minuten eine Zwischenmauer kreuzt und zur Küste hinunterführt. An der Wegkreuzung in der Nähe der Hütte nehmen wir den Weg rechts, der leicht nach oben und schließlich zur Rückseite der Hütte führt. Von der Kapelle Capilla de Castelló benötigt man ungefähr 1 Stunde.<br /><br /><strong>Wenn wir nach Port de Sóller</strong> gehen möchten, gehen wir geradeaus weiter und kommen gleich an eine Kreuzung mit vier Wegen. Hier gehen wir geradeaus weiter und kurz danach nach rechts. Hinter den Häusern von Muleta nehmen wir einen Pfad linkerhand und durchqueren ein Gatter. Dieser Weg führt an bizarren Olivenbäumen vorbei, dann durch ein weiteres Gatter und anschließend zu einem kleinen Sturzbach mit einem weiteren Gatter. Kurz darauf kommen wir linkerhand am Bauernhof Ca S’Hereu de Muleta vorbei. Der Weg biegt dort nach rechts ab und führt eben weiter. Von dort geht es über einen holprigen Steinweg bis zum Ortsrand von Port de Sóller. Von der Kapelle Capilla de Castelló benötigt man ungefähr 1 Stunde und 15 Minuten.</p></div></div>
+		</div></div></div>
+		            <div id="vcms-columnaDerecha" style="width:240px;"><div id="vcms-columnaIzquierda-inner" style=""><div id="vcms-premenu"><div style="margin-left:25px; margin-top:0px; margin-bottom:0px"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsenderosdemallorca.org%3Fref%3Dhl&amp;width=240&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:100px;" allowTransparency="true"></iframe>
+</div></div><div id="vcms-columna-derecha"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<script type="text/javascript">
+
+var images = [], 
+index = 0;
+
+images[0] = "<a href = 'http://www.refugisontrias.com' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/refugi/BANNER_240x300_refugi_EN.jpg'</a>";
+
+images[1] = "<a href = 'http://www.walkingmallorca.com/de/roadbook/' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/roadbook/RB_DE.jpg' alt='Sa Travessa - GR221'></a>";
+
+index = Math.floor(Math.random() * images.length);
+
+document.write(images[index]);
+
+</script><br></div></div><div id="vcms-columna-der-2"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-3"><div id="enviarPostal">
+				<div class="bot"></div>
+				
+				<h3>Eine Postkarte senden</h3>
+				
+				<p class="desc">Senden Sie eine Postkarte aus<strong>De Deià a Sóller</strong> mit einer Widmung für den Empfänger. Geben Sie die Daten ein  und klicken Sie auf „Senden“.</p>
+				<form id="formularioPostal" method="post" onsubmit="return comprobarCampos()" action="/rutas/envio_postal.de.html">
+					<fieldset>
+                        
+                        <input type="hidden" name="listadoOn" value="si"/>
+                        <input type="hidden" name="buscadorOn" value="no"/>
+                        
+						<div class="destinatario">
+							<p class="textlabel">Empfänger:</p>
+							<input name="nomDestinatario" type="text" id="nomDestinatario" value="Name des Empfängers" class="textInput"/> 
+							<input name="emailDestinatario" type="text" id="emailDestinatario" value="E-Mail" class="textInput" />
+						</div>
+						
+						<div class="remitente">
+							<p class="textlabel">Absender:</p>
+							<input name="nomRemitente" type="text" id="nomRemitente" value="Name des Absenders" class="textInput"/>
+							<input name="emailRemitente" type="text" id="emailRemitente" value="E-Mail" class="textInput"/>
+							<input type="hidden" name="envio" value="1" /><input type="hidden" name="cr" value="28" /></div>				
+						
+						<div class="mensaje">
+							<p class="textlabel">Nachricht</p>
+							<textarea name="mensajePostal" id="mensajePostal" rows="6" cols="21"></textarea>
+						</div>
+
+						<div class="captchaAntiSpam"><script src='https://www.google.com/recaptcha/api.js?hl=de'></script>
+        <div class="g-recaptcha" data-sitekey="6LcYGxUTAAAAAPSmpKVHhSJuw7rffqBDt38Riuuj" data-stoken="ynvSyH826c47qaCIxUsEUvmfiMd6FYlvjQRXZxZJrXBxPvvpz7YbkrKn0TzFmho-QZDXlhxYkRQAe435vhPP909iJ4kTcju2R3kiyQlS1QE"></div></div>
+						
+                        <div id="botones">			
+	                        <div class="botonCapa1">
+							      <div class="botonCapa2">
+		       					      <input class="botonEnviar" type="submit" value="Postkarte senden" />
+	    						  </div>
+							</div>
+							
+							<input type="reset" value="Daten löschen" id="limpiar_datos" />
+						</div>
+
+						
+					</fieldset>
+				</form>
+				
+			</div>
+			
+			</div><div id="vcms-columna-der-4"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-5"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<FONT FACE="Arial" SIZE="2" COLOR="#000000">Si te gusta el contenido de Senderos de Mallorca y quieres ayudar a mejorar, ayudanos con una donación a mantener la web y poder mejorarla. Gracias!</FONT><BR><BR><BR>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="3PEEC5GKH9SZ8">
+<input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div></div></div></div>
+		           </div>
+		           </div>
+		   </div>
+		   <div class="push"></div>
+        </div></div>
+		   </div><div id="piePagina" class="piePaginaDia">       
+        <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="de" href="/legal.de.html"><span>Rechtlicher Hinweis</span></a></li>
+    <li class="creditos"><a class="de" href="/creditos.de.html"><span>Impressum</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural und die Autoren</strong>
+</p></div></div>
+       </div></body></html>

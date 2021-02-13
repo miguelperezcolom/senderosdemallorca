@@ -1,0 +1,226 @@
+#listadoPuntosInteres #cabeceraListado{
+    /*padding-bottom: 4px;
+    margin-bottom: 30px;*/
+}
+
+#listadoPuntosInteres #cabeceraListado h2{
+}
+
+#listadoPuntosInteres #cabeceraListado p.subtitulo{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+#listadoPuntosInteres #datosResultado p strong{
+    color: #B30000;
+}
+
+#listadoPuntosInteres #datosResultado #encontrados{
+    float: left;
+    font-size: 12px;
+}
+
+#listadoPuntosInteres #datosResultado #numItems{
+    float: right;
+    font-size: 12px;
+}
+
+#listadoPuntosInteres #datosResultado #numItems a{
+    text-decoration: underline;
+}
+
+#listadoPuntosInteres #listadoResultados{
+    
+}
+
+#listadoResultados ul .puntoItem{
+    float: left;
+    width: 444px;
+    margin-bottom: 35px;
+}
+
+#listadoResultados ul .puntoItem h3{
+    font: 22px Arial, Helvetica, sans-serif;
+    margin-bottom: 4px;
+}
+
+#listadoResultados ul li.separador{
+    margin-right: 37px !important;
+    margin-right: 25px;
+}
+
+#listadoResultados ul .puntoItem img{
+    margin-top: 5px;
+}
+
+#listadoResultados ul .puntoItem p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+#filtroPuntosRuta{
+    margin: 20px 0px 23px 0px;
+}
+
+#filtroPuntosRuta fieldset {
+    position:relative;
+    background-color: #f4f4f4;
+    padding:0px;;
+    width:924px;
+}
+
+#filtroPuntosRuta fieldset .leftTop,
+#filtroPuntosRuta fieldset .leftBottom,
+#filtroPuntosRuta fieldset .rightTop,
+#filtroPuntosRuta fieldset .rightBottom {
+    position:absolute;
+    width:10px;
+    height:11px;
+    z-index:1;
+    background-position:left top;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}
+
+#filtroPuntosRuta fieldset .leftTop {left:0;top:0;background-image:url(/img/cajas/azul_small/left_top.gif)}
+#filtroPuntosRuta fieldset .leftBottom {left:0;bottom:0;background-image:url(/img/cajas/azul_small/left_bottom.gif)}
+#filtroPuntosRuta fieldset .rightTop {right:0;top:0;background-image:url(/img/cajas/azul_small/right_top.gif)}
+#filtroPuntosRuta fieldset .rightBottom {right:0;bottom:0;background-image:url(/img/cajas/azul_small/right_bottom.gif)}
+
+
+#filtroPuntosRuta .capsaCamps {
+    overflow: hidden;
+    padding:16px 0px 16px 18px;
+    height: 1%;
+}
+
+#filtroPuntosRuta .campo {
+    float:left;
+    width:192px;
+}
+
+#filtroPuntosRuta .campo label{
+    font: normal 13px Arial, Helvetica, sans-serif;
+    /*float: left;*/
+    line-height: 22px;
+    margin-right: 7px;
+}
+
+#filtroPuntosRuta .campo label em {
+    font:bold 11px arial,verdana,sans-serif;
+    color:#CC0000;
+}
+
+#filtroPuntosRuta .campo input{
+    /*float: left;*/
+    margin:0px 5px 0px 0px; 
+}
+
+#filtroPuntosRuta .filtrar{
+    position:absolute;
+    right:18px;
+    bottom:16px;
+    display: block;
+    width: 58px;
+    height: 22px;
+    background: url(/img/general/boton_filtrar.gif) top center no-repeat;
+    cursor: pointer;
+    border: 0;
+    color: #ffffff;
+    font: bold 13px/12px Arial, Helvetica, sans-serif;
+    padding:0px 0px 3px 0px;
+}
+
+.capsaContacte {
+    position:relative;
+    height:1%;
+}
+
+.capsaContacte .leftTop,
+.capsaContacte .leftBottom,
+.capsaContacte .rightTop,
+.capsaContacte .rightBottom {
+    position:absolute;
+    width:10px;
+    height:11px;
+    z-index:1;
+    background-position:left top;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}
+
+.capsaContacte .leftTop {left:0;top:0;background-image:url(/img/cajas/azul_small/left_top.gif)}
+.capsaContacte .leftBottom {left:0;bottom:0;background-image:url(/img/cajas/azul_small/left_bottom.gif)}
+.capsaContacte .rightTop {right:0;top:0;background-image:url(/img/cajas/azul_small/right_top.gif)}
+.capsaContacte .rightBottom {right:0;bottom:0;background-image:url(/img/cajas/azul_small/right_bottom.gif)}
+
+.puntoItem {
+    z-index:10;
+}
+
+.puntoItem ul.contacte {
+    
+    background-color:#f4f4f4;
+    padding:14px 18px 14px 18px;
+
+}
+
+.puntoItem ul.contacte li {
+    font:normal 11px arial,verdana,sans-serif;
+}
+
+.innerPunto{
+    width: 450px;
+}
+
+.innerPunto .imagenPunto{
+    float: left;
+    width: 200px;
+    margin-right: 18px; 
+}
+
+.innerPunto .descPunto{
+    float: left;
+    width: 232px;
+}
+
+.innerPunto .descripcion{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.innerPunto .direccion{
+    padding-bottom: 3px;
+}
+
+.innerPunto .contacto strong{
+    font-size: 11px;
+}
+
+.innerPunto .btn{
+    float: left;
+    background: url(/img/general/btn/der.gif) right no-repeat;
+    padding-right: 10px;
+    margin-right: 8px;
+}
+
+.innerPunto .izq{
+    background: url(/img/general/btn/izq.jpg) left no-repeat;
+    padding-left: 10px;
+    line-height: 17px;
+    padding-bottom: 1px;
+}
+
+.innerPunto .cen{
+    background: url(/img/general/btn/cen.jpg) center repeat-x;
+    line-height: 17px;
+    padding-bottom: 1px;
+}
+
+.innerPunto .izq a{
+    color: #666666;
+    font: normal 11px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 17px;
+}

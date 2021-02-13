@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Sa Costera - Cartografia</title><link rel="stylesheet" href="/wms/css/templates/c2c_girado.css" type="text/css" />  <!--[if IE6]> <link rel="stylesheet" href="/wms/css/templates/c2c_girado-ie.css" type="text/css" /> <![endif]-->
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><script type="text/javascript" src="/js/loadgpx.js"></script><script type="text/javascript" src="/js/gmap-wms.js"></script><link rel="stylesheet" href="/css/general.css" type="text/css" /><link rel="stylesheet" href="/css/mapasRuta.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script src="http://maps.google.com/maps?file=api&amp;v=2&amp;hl=ca&amp;key=AIzaSyA6mmznJOu0ReZGmJbNSrM5kwmhXwapVGw" type="text/javascript"></script>
+        <script type="text/javascript">
+        //<![CDATA[
+		
+		//obtenim la url del servidor de mapes adicional
+		//var WMS_URL_SITIBSA = 'http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?';
+		
+		//cream l'objecte necessari pel servidor adicional
+		//var SITIBSA_MAP_SPEC = createWMSSpec(WMS_URL_SITIBSA, "Catastro", "Cat", "catastro", "default", "image/jpeg", "1.1.1");
+		
+        var MyMap;
+        var itemsCOL = [];
+        var puntosTrazado = [];
+        
+        var iconaLletra = new GIcon(G_DEFAULT_ICON);
+        iconaLletra.image = "/img/iconos/recorte_a.png";
+        iconaLletra.iconSize = new GSize(35,29);
+        iconaLletra.shadow = null;
+        iconaLletra.shadowSize = null;
+        iconaLletra.iconAnchor = new GPoint(11,29);
+        
+        var iconaPunt = new GIcon(G_DEFAULT_ICON);
+        iconaPunt.image = "/img/iconos/icono_punto_interes.png";
+        iconaPunt.iconSize = new GSize(24,34);
+        iconaPunt.shadow = null;
+        iconaPunt.shadowSize = null;
+        iconaPunt.iconAnchor = new GPoint(3,30);
+        
+        var iconaImatge = new GIcon(G_DEFAULT_ICON);
+        iconaImatge.image = "/img/iconos/icono_imagen.png";
+        iconaImatge.iconSize = new GSize(36,32);
+        iconaImatge.shadow = null;
+        iconaImatge.shadowSize = null;
+        iconaImatge.iconAnchor = new GPoint(13,32);
+        
+        //afegeix els items al mapa
+        function addItemsToMap(hitCOL, map){
+        		
+    		for (index in hitCOL){
+				map.addOverlay(createMarker(hitCOL[index]));
+			}
+			
+			fixGooglePngs();
+    		
+    	}
+    	
+    	//crea un item sobre el mapa
+    	function createMarker(oPunt) {
+    		
+    		if (oPunt.tipo=='hito'){
+    			
+    			var icono = iconaLletra;
+    			icono.image = '/img/iconos/recorte_'+oPunt.letra+'.png';
+    			
+    		}else if (oPunt.tipo=='punto'){
+    			
+    			var icono = iconaPunt;
+    			
+    		}else{
+    			
+    			var icono = iconaImatge;
+    			
+    		}
+    		
+    		var marker = new GMarker(new GLatLng(oPunt.latitud,oPunt.longitud),icono);
+		  	GEvent.addListener(marker, "click", function() {
+		    	marker.openInfoWindowHtml(createHtmlForPoint(oPunt));
+		  	});
+		  return marker;
+		}
+        
+        function truncateFloat(valor){
+            valor = valor * 10000;
+            valor = Math.round(valor);
+            valor = valor / 10000;
+            return valor;
+        }
+		
+		//crea l'html necessari per l'infowindow de cada item sobre el mapa
+		function createHtmlForPoint(oPunt){
+			
+            if (oPunt.tipo == 'hito'){
+                
+                var strHtml = '<div class="puntoHito" style="width: 250px; height: 120px;">';
+                var imagenUrl = '/img/iconos/puntos/' + oPunt.letra + '.png';
+                strHtml += '<img class="letra" src="' + imagenUrl + '" alt="' + oPunt.letra +'" width="83" height="97" />';
+                strHtml += '<div class="data">';
+                    if (oPunt.nombre){
+        	  			strHtml+= '<h4>'+oPunt.nombre+'</h4>';
+        	  		}
+                    strHtml += '<div class="specs">';
+                        if (oPunt.distancia){
+                            strHtml += '<p>Distància: ' + oPunt.distancia + ' Km</p>';
+                        }
+                        if (oPunt.tiempo){
+                            strHtml += '<p>Temps: ' + oPunt.tiempo + '</p>';
+                        }
+                        if (oPunt.altitud){
+                            strHtml += '<p>Altitud: ' + oPunt.altitud  + '</p>';
+                        }
+                        strHtml += '<p>' + oPunt.lat_gms + '<br />' + oPunt.lon_gms + '</p>';
+                    strHtml += '</div>';
+                strHtml += '</div>';
+            
+            } else if (oPunt.tipo == 'punto'){
+            
+                var strHtml = '<div class="puntoInteres" style="width: 250px; height: 120px;">';
+                strHtml += '<div class="top">';
+                    if(oPunt.img){
+                        strHtml += oPunt.img;
+                    }
+                    if(oPunt.nombre){
+                        strHtml += '<h4>' + oPunt.nombre + '</h4>';
+                    }
+                strHtml += '</div>';
+                strHtml += '<div class="vcms-separadorH"></div>';
+                strHtml += '<div class="specs">';
+                if (oPunt.direccion){
+                    strHtml += '<p><strong>Adreça: </strong>' + oPunt.direccion + '</p>';
+                }
+                if (oPunt.telefono){
+                    strHtml += '<p><strong>Telèfon: </strong>' + oPunt.telefono + '</p>';
+                }
+                if (oPunt.url){
+					
+					if (!oPunt.url.match(/http:\/\//)) {
+						oPunt.url='http://'+oPunt.url;
+					}
+					
+                    strHtml += '<p><strong>Més informació: </strong><a href="' + oPunt.url + '" target="_blank">' + oPunt.url + '</a></p>';
+                }
+                strHtml += '</div>';
+            
+            } else if (oPunt.tipo == 'imagen'){
+            
+                var strHtml = '<div class="puntoImg" style="width: 250px; height: 120px;">';
+                strHtml += oPunt.img;
+                if(oPunt.nombre){
+                    strHtml += '<h4>' + oPunt.nombre + '</h4>';
+                }
+                strHtml += '<div class="vcms-separadorH"></div>';
+                            
+            }
+            
+	  		strHtml+='</div>';
+	  		
+	  		return strHtml;
+			
+		}
+		
+		//enquadra els punts
+		function centerItems(puntos,mapa){
+			
+			var minLong = 999, minLat = 999, maxLong = -999, maxLat = -999;
+			for( i in puntos ){
+				minLat = Math.min( puntos[i].latitud, minLat );
+				maxLat = Math.max( puntos[i].latitud, maxLat );
+				minLong = Math.min( puntos[i].longitud, minLong );
+				maxLong = Math.max( puntos[i].longitud, maxLong );
+			}
+			
+			var mapBounds = new GLatLngBounds( new GLatLng(minLat, minLong),  new GLatLng(maxLat, maxLong) );
+			mapa.setCenter( mapBounds.getCenter(), mapa.getBoundsZoomLevel(mapBounds));
+		
+		}
+        
+        //Función que llama al parseador xml y actualiza los puntos
+        //en el mapa, también carga el mapa
+        function LoadGPXFileIntoGoogleMap(map, filename){
+        	//Guarda las elevaciones obtenidas
+        	var elevaciones;
+			var puntosTrazado;
+        	
+        	// Elimina cualquier punto que haya 
+        	map.clearOverlays();
+        
+        	var request = GXmlHttp.create();
+        	request.open("GET", filename, true);
+        	request.onreadystatechange = function()
+        	{
+        		if (request.readyState == 4)
+        		{
+        			parser = new GPXParser(request.responseXML, map);
+        			parser.SetTrackColour("#B50707");					// Set the track line colour
+        			parser.SetTrackWidth(5);							// Set the track line width
+        			//parser.SetMinTrackPointDelta(0.001);				// Set the minimum distance between track points
+        			//parser.SetMinTrackPointDelta(0.0001);				// Set the minimum distance between track points
+        			parser.SetMinTrackPointDelta(0);				// Set the minimum distance between track points
+        			//parser.CenterAndZoom(request.responseXML, G_NORMAL_MAP); // Center and Zoom the map over all the points.
+        			parser.AddTrackpointsToMap();						// Add the trackpoints
+        			//parser.AddWaypointsToMap();							// Add the waypoints
+        			
+        			//obtenim els punts del traçat de la ruta
+        			puntosTrazado = getPuntosTrazado(request.responseXML);
+		        	        			
+        		}
+				
+				//juntem els items amb els punts de traçat
+                var elements = myConcatArray(itemsCOL,puntosTrazado);
+				
+				//centra els elements
+                centerItems(elements,map);
+				
+        	}
+        	request.send(null);
+        }
+        
+        
+        //concatena 2 arrays indexats
+        function myConcatArray(arr1,arr2){
+        	
+        	var aux = [];
+        	
+        	for(index in arr1){
+        		aux[index] = arr1[index];
+        	}
+        	
+        	for(index in arr2){
+        		aux[index] = arr2[index];
+        	}
+        	
+        	return aux;
+        	
+        }
+        
+        
+        function getPuntosTrazado(trackSegment){
+        	
+        	var aux = [];
+        	var trackpoints = trackSegment.getElementsByTagName('trkpt');
+        	
+        	for (var i=0; i < trackpoints.length; i++){
+				
+        		var lon = parseFloat(trackpoints[i].getAttribute("lon"));
+				var lat = parseFloat(trackpoints[i].getAttribute("lat"));
+				
+				aux[aux.length] = {latitud:lat,longitud:lon};
+				
+			}
+			
+			return aux;
+			
+        }
+        
+        //LLama a todas las funciones necesarias
+        jQuery(document).ready(function(){
+			
+			MyMap = new GMap2(document.getElementById("capsaMapa"));
+			
+			/**
+			 * AFEGIM EL NOU TIPUS DE MAPA (NOU SERVIDOR DE MAPES)
+			 * I EL SELECTOR DE MAPES 
+			 */
+			/*
+			MyMap.addMapType(SITIBSA_MAP_SPEC);
+			MyMap.addControl( new GMenuMapTypeControl(false) );
+			*/
+			
+        	MyMap.addControl(new GLargeMapControl());
+        	MyMap.addControl(new GMapTypeControl());
+        	LoadGPXFileIntoGoogleMap(MyMap, 'http://www.senderosdemallorca.com/remotecall.ct.html?cr=25');            
+        	
+        	//afegeix les fites, els punts i les imatges
+        	addItemsToMap(itemsCOL,MyMap);
+			
+        });
+        
+                //]]>
+	    </script>
+	            <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script>            </head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="maq2c"><div id="paginaPrincipal" class="paginaDia">        
+	        <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.ct.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="ca"><strong id="botoActiu" class="botonUp"><span>Català</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+		<li class="de"><a href="index.de.html" onclick="wmsCambioIdioma('de');return false;">Deutsch</a></li>
+	</ul>
+</div>
+</div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.ct.html" class="btn-menu">			
+			<span class="nombre">Camina per Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.ct.html" class="btn-menu-on">			
+			<span class="nombre">En ruta</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.ct.html" class="btn-menu">			
+			<span class="nombre">Contacte</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="cuerpoPagina"><div id="vcms-postcabecera3"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.ct.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Catàleg de rutes</a></li>
+		    <li><a href="/rutas/buscador.ct.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Cercador</a></li></ul></div><div id="vcms-path"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Sa Costera</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.ct.html?cr=25&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Dades ruta</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/mapas.ct.html?cr=25&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Cartografia</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li><li style="float:left;"></li><li style="float:left;"></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-postpath"></div><div id="vcms-contenedorColumnas-wrapper">
+		            <div id="vcms-contenedorColumnas">
+		              <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><div id="wrapPerfil" style="width: 660px;">
+		<h3><a name="perfil">Perfil de la ruta</a></h3>
+        <div id="perfilRuta">
+            <img src="/libre/imgdir/perfil-ruta-25-872.png" alt="" width="660" height="248" />        </div></div></div></div>
+		            <div id="vcms-columnaDerecha" style="width:240px;"><div id="vcms-columnaIzquierda-inner" style=""><div id="vcms-premenu"><div id="listadoHitos">
+					<h3><a name="localizacion">Localització</a></h3><ul><li><p><strong><span>A -</span>Mirador de ses Barques</strong></p>Temps <strong>0 h. 0 min. </strong> Altitud <strong>400 m.</strong></li><li><p><strong><span>B -</span>Font de Bàlitx</strong></p>Temps <strong>0 h. 30 min. </strong> Altitud <strong>380 m.</strong></li><li><p><strong><span>C -</span>Bàlitx d'Avall</strong></p>Temps <strong>1 h. 15 min. </strong> Altitud <strong>150 m.</strong></li><li><p><strong><span>D -</span>Coll de Biniamar</strong></p>Temps <strong>1 h. 45 min. </strong> Altitud <strong>365 m.</strong></li><li><p><strong><span>E -</span>Bifurcació de la font des Verger</strong></p>Temps <strong>2 h. 30 min. </strong> Altitud <strong>200 m.</strong></li><li><p><strong><span>F -</span>Coll de na Polla</strong></p>Temps <strong>3 h. 15 min. </strong> Altitud <strong>150 m.</strong></li><li><p><strong><span>G -</span>Cala Tuent</strong></p>Temps <strong>3 h. 15 min. </strong> Altitud <strong>0 m.</strong></li></ul></div></div></div></div>
+		           </div>
+		           </div>
+		   </div>
+		   <div class="push"></div>
+        </div></div>
+		   </div><div id="piePagina" class="piePaginaDia">       
+        <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="ct" href="/legal.ct.html"><span>Avís legal</span></a></li>
+    <li class="creditos"><a class="ct" href="/creditos.ct.html"><span>Crèdits</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural i dels autors</strong>
+</p></div></div>
+       </div></body></html>

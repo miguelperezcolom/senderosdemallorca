@@ -1,0 +1,56 @@
+/* Hoja de estilos de "contenido 2 calles" */
+
+/* Cabecera */
+#vcms-contenedorCabecera{
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+/**/
+
+/*principal*/        
+#vcms-contenedorPrincipal{
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+
+/*contenedor de las columnas*/        
+
+#vcms-contenedorColumnas-wrapper {
+ 	display:table;
+ 	width:100%;
+}
+ 
+#vcms-contenedorColumnas{
+	clear:both;
+	margin:0px;
+	padding:0px;
+	display:table-row;
+}
+
+/* contingut principal */
+#vcms-columnaPrincipal{
+	margin:0px;
+	padding:0px;
+	display:table-cell;
+	vertical-align:top;
+}
+/* fin contingut principal */
+
+/* columna derecha */
+#vcms-columnaDerecha{
+   	padding:0px;
+	display:table-cell;
+	vertical-align:top;
+}
+/* fi columna derecha */
+
+/* pie */
+#vcms-contenedorPie{
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+
+/**/

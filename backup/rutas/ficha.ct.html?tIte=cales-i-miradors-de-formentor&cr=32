@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Cales i miradors de Formentor - Fitxa ruta</title><link rel="stylesheet" href="/wms/css/templates/c2c_girado.css" type="text/css" />  <!--[if IE6]> <link rel="stylesheet" href="/wms/css/templates/c2c_girado-ie.css" type="text/css" /> <![endif]-->
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><link rel="stylesheet" href="/css/general.css " type="text/css" /><link rel="stylesheet" href="/css/ficha_ruta.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><style type="text/css">				#fichaRuta .itinerario li.punto-a .punto{
+				    background-image: url(/img/iconos/puntos/a.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/a.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-b .punto{
+				    background-image: url(/img/iconos/puntos/b.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/b.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-c .punto{
+				    background-image: url(/img/iconos/puntos/c.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/c.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-d .punto{
+				    background-image: url(/img/iconos/puntos/d.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/d.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-e .punto{
+				    background-image: url(/img/iconos/puntos/e.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/e.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-f .punto{
+				    background-image: url(/img/iconos/puntos/f.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/f.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-g .punto{
+				    background-image: url(/img/iconos/puntos/g.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/g.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-h .punto{
+				    background-image: url(/img/iconos/puntos/h.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/h.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-i .punto{
+				    background-image: url(/img/iconos/puntos/i.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/i.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-j .punto{
+				    background-image: url(/img/iconos/puntos/j.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/j.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-k .punto{
+				    background-image: url(/img/iconos/puntos/k.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/k.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-l .punto{
+				    background-image: url(/img/iconos/puntos/l.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/l.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-m .punto{
+				    background-image: url(/img/iconos/puntos/m.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/m.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-n .punto{
+				    background-image: url(/img/iconos/puntos/n.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/n.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-o .punto{
+				    background-image: url(/img/iconos/puntos/o.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/o.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-p .punto{
+				    background-image: url(/img/iconos/puntos/p.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/p.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-q .punto{
+				    background-image: url(/img/iconos/puntos/q.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/q.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-r .punto{
+				    background-image: url(/img/iconos/puntos/r.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/r.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-s .punto{
+				    background-image: url(/img/iconos/puntos/s.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/s.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-t .punto{
+				    background-image: url(/img/iconos/puntos/t.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/t.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-u .punto{
+				    background-image: url(/img/iconos/puntos/u.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/u.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-v .punto{
+				    background-image: url(/img/iconos/puntos/v.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/v.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-w .punto{
+				    background-image: url(/img/iconos/puntos/w.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/w.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-x .punto{
+				    background-image: url(/img/iconos/puntos/x.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/x.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-y .punto{
+				    background-image: url(/img/iconos/puntos/y.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/y.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-z .punto{
+				    background-image: url(/img/iconos/puntos/z.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/z.png", sizingMethod="crop");    
+				}
+				</style><style>
+			.captchaAntiSpam{
+				padding-left: 22px;
+				padding-top: 5px;
+			}
+			.g-recaptcha{
+				transform: scale(0.67);
+				transform-origin: 0 0;
+			}
+		</style>
+		
+		<script type="text/javascript">
+	    //<![CDATA[
+	    
+	       //comprueba si el léxico del correo es correcto
+		   	function isMail(mail){
+		       	//var reg_exp = '\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b';
+				reg_exp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			   	return reg_exp.test(mail);
+		   	}
+               
+	       	function comprobarCampos(){
+	           
+	           	//mensaje de error
+               	var arrMensaje = [];
+               
+	           	var objForm = document.getElementById('formularioPostal');
+	           
+				if ( objForm.nomDestinatario.value == '' ){
+					arrMensaje.push({msg:'Heu d’emplenar el nom del destinatari',focus:'nomDestinatario'});
+	           	}
+	           	
+	           	if ( objForm.emailDestinatario.value == '' ){
+	           		arrMensaje.push({msg:'Heu d’introduir un correu de destinatari vàlid',focus:'emailDestinatario'});	
+	           	}else if ( !isMail(objForm.emailDestinatario.value) ){
+	               	arrMensaje.push({msg:'Heu d’introduir un correu de destinatari vàlid',focus:'emailDestinatario'});	
+	           	}
+	           
+	           	if ( objForm.nomRemitente.value == '' ){
+	           		arrMensaje.push({msg:'Heu d’emplenar el nom del remitent',focus:'nomRemitente'});
+	           	}
+	           
+	           	if ( objForm.emailRemitente.value == '' ){
+	            	arrMensaje.push({msg:'Heu d’introduir un correu de remitent vàlid',focus:'emailRemitente'});	
+	           	}else if ( !isMail(objForm.emailRemitente.value) ){
+	            	arrMensaje.push({msg:'Heu d’introduir un correu de remitent vàlid',focus:'emailRemitente'});	
+	           	}
+	           
+	           	if ( objForm.mensajePostal.value == '' ){
+	           		arrMensaje.push({msg:'Heu d’emplenar el camp de missatge',focus:'mensajePostal'});	
+	           	}
+	           
+	           	if ( arrMensaje.length>0 ){
+	           		
+	           		var arrAux = [];
+	           		for (var i=0;i<arrMensaje.length;i++){
+	           			arrAux.push(arrMensaje[i].msg);
+	           		}
+	           		alert(arrAux.join("\n"));
+					document.getElementById(arrMensaje[0].focus).focus();	           			
+	           		
+					return false;
+	               
+	           	}else{
+	           		
+	            	return true;
+	            	
+	           	}
+	           
+	       	}
+	       
+	       	function limpiarDatos(){
+	        	document.getElementById('formularioPostal').reset();
+	       	}
+			
+			function fillFields(idObject, localeStr){
+				var tmpIdObj = '#' + idObject;
+                jQuery(tmpIdObj).focus(function(){
+                    if (this.value == localeStr){
+                       this.value = '';
+                    }
+                });
+                jQuery(tmpIdObj).blur(function(){
+                    if (this.value == ''){
+                        this.value = localeStr;
+                    }
+                });				
+			}
+			
+    		jQuery(document).ready(function(){
+				fillFields('nomDestinatario', 'Nom del destinatari');
+				fillFields('emailDestinatario', 'Adreça electrònica');
+				fillFields('nomRemitente', 'Nom del remitent');
+				fillFields('emailRemitente', 'Adreça electrònica');
+			});
+			
+			
+	    
+	    //]]>
+	    </script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script>            </head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="maq2c"><div id="paginaPrincipal" class="paginaDia">        
+	        <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.ct.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="ca"><strong id="botoActiu" class="botonUp"><span>Català</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+		<li class="de"><a href="index.de.html" onclick="wmsCambioIdioma('de');return false;">Deutsch</a></li>
+	</ul>
+</div>
+</div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.ct.html" class="btn-menu">			
+			<span class="nombre">Camina per Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.ct.html" class="btn-menu-on">			
+			<span class="nombre">En ruta</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.ct.html" class="btn-menu">			
+			<span class="nombre">Contacte</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="cuerpoPagina"><div id="vcms-postcabecera3"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.ct.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Catàleg de rutes</a></li>
+		    <li><a href="/rutas/buscador.ct.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Cercador</a></li></ul></div><div id="vcms-path"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Cales i miradors de Formentor</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.ct.html?cr=32&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Dades ruta</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li><li style="float:left;"><a href="/rutas/puntos.ct.html?cr=32&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Punts d’interès</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li><li style="float:left;"><a href="/rutas/imagenes.ct.html?cr=32&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Galeria </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-contenedorColumnas-wrapper">
+		            <div id="vcms-contenedorColumnas">
+		              <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><div id="fichaRuta"><div class="imagenRuta"><img src="/imgdb/foto_gra_rut734.jpg" width="658" height="292"  alt="Cales i miradors de Formentor" title="Cales i miradors de Formentor" /></div><p class="descripcion"><strong>Ascensió al Fumat</strong><br />El cap de Formentor és un dels llocs més bells de l’illa. Per comparació al veí cap des Pinar, el de Formentor no té sendes fàcils i atractives per recórrer-lo. Les millors vistes es gaudeixen des de la carretera. Els 20 quilòmetres que separen el Port de Pollença del far de Formentor ens ofereixen una de les carreteres més belles de Mallorca (vegeu «Altres opcions»). L’itinerari descrit combina un passeig per una cala a través d’una pista asfaltada (nivell de passejants) amb una senda rosta i coberta de mala herba que arriba al Fumat.</p><h3>Fitxa tècnica</h3>
+    		<div class="fichaTecnica"><p><strong>Tipus d’excursió: </strong>Senderisme</p><p><strong>Situació: </strong>extrem nord de la serra de Tramuntana</p><p><strong>Població més propera: </strong>Formentor (Pollença)</p><p><strong>Grau de dificultat: </strong>Mitjana</p><p><strong>Durada total: </strong>2 hores  i 15 minuts </p><p><strong>Accés: </strong>l’autobús de línia només arriba a la platja de Formentor, a uns 4 quilòmetres de l’inici de l’itinerari. Amb vehicle propi, anau del Port de Pollença al far de Formentor (Ma-2210).</p><p><strong>Punt de partida: </strong>Aparcament al km 13 de la carretera Ma-2210</p><p><strong>Ruta circular:</strong> Si</p><p><strong>Altitud màxima: </strong>334 m</p><p><strong>Desnivell: </strong>334 m</p><p><strong>Època recomanada: </strong>Tot l’any</p>	        		<div class="itinerario">
+	        			<h3>Itinerari</h3>
+	        		  	<ul>
+						<li class="punto-a">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Aparcament al km 13 de la carretera Ma-2210</h4>
+	            		                      <p class="datos">Distància 0,000 km - Temps 0 hores - Altitud 90 m</p>
+	            		                      <p class="desc">Per damunt vosaltres, destaca la impressionant mola del Fumat, l’objectiu de l’itinerari. Seguiu la carretera cap a la dreta (en direcció al Port de Pollença) uns 100 metres, travessau-la cap a l’esquerra i agafau la pista asfaltada (cartell). Passau a la dreta de la barrera i descendiu a través d’un pinar en què creixen nombrosos garballons.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-b">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Cala Murta</h4>
+	            		                      <p class="datos">Temps 20 minuts </p>
+	            		                      <p class="desc">Lloc ideal per fer-hi una aturada. Des de la part dreta de la cala es pot fer un passeig de 20 minuts (anada i tornada) fins al mirador del Castellet. A l’embarcador, i passant per la casa, comença el camí que comunicava la cala amb el far i pel qual, fins que no es va construir la carretera, arribaven els subministraments. Aquest és el camí que heu de seguir, però l’heu d’agafar més amunt. Tornau per la pista asfaltada d’anada, travessau tres ponts, deixau a l’esquerra una pista forestal i travessau novament el torrent.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-c">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Bifurcació (poc clara)</h4>
+	            		                      <p class="datos">Temps 27 minuts  - Altitud 40 m</p>
+	            		                      <p class="desc">Pocs metres després del pont, preneu, a la dreta, en diagonal, una senda sense senyalitzar. Al cap de pocs minuts, passau per devora un forn de calç i podreu veure el tàlveg pel qual puja l’antic camí al far (que s’origina a Cala Murta). Seguiu tot dret uns 10 minuts fins que arribeu a aquesta senda coberta per mala herba per la qual heu de pujar descrivint nombroses llaçades.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-d">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Coll de la Bretxa</h4>
+	            		                      <p class="datos">Temps 1:10 - Altitud 245 m</p>
+	            		                      <p class="desc">No fa falta arribar al tossal. Al darrer revolt cap a la dreta (50 metres abans del tossal) surt una senda a l’esquerra. Les marques de pintura us condueixen, entre la mala herba i els cingles, fins al cim.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-e">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>El Fumat</h4>
+	            		                      <p class="datos">Temps 1:30 - Altitud 334 m</p>
+	            		                      <p class="desc">Bella vista panoràmica de la badia de Pollença i del far de Formentor. Si voleu gaudir d’una vista impressionant de Cala Figuera, heu d’anar uns 50 metres cap a l’oest. Per baixar, seguiu durant 5 minuts la senda de pujada i, després d’un descens fàcil, dirigiu-vos cap al nord (en direcció al far) per una senda de pedres soltes senyalitzada amb fites. Més avall, es veuen les llaçades del camí antic. Dirigiu-vos a un coll ample.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-f">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Coll de sa Creu</h4>
+	            		                      <p class="datos">Temps 1:50 - Altitud 238 m</p>
+	            		                      <p class="desc">Aquí trobau el camí antic. Seguiu-lo fins a la carretera, que heu d’agafar cap a l’esquerra. Travessau el túnel estret i fosc, i continuau per la carretera.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-g">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Aparcament al km 13 de la carretera Ma-2210</h4>
+	            		                      <p class="datos">Temps 2:15 - Altitud 90 m</p>
+	            		                      <p class="desc">Val la pena davallar també des de l’aparcament fins a Cala Figuera (30 minuts, anada i tornada).</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li>	        		  </ul>
+	    		    </div>
+	    		    <div class="otrasOpciones"><h3>Altres opcions</h3><p>Altres passejades pel cap de Formentor: des de l’aparcament del mirador des Colomer podem fer un passeig pels penya-segats, de 200 metres d’altura, fins als miradors. De davant l’aparcament, surt una carretera estreta que podeu seguir amb cotxe fins al final. Si pujau pels escalons de ferro de la talaia d’Albercutx, gaudireu d’una vista panoràmica meravellosa. Si continuau en direcció al far, arribareu a la platja de Formentor, on podeu fer un passeig. Des de l’aparcament del km 13, podeu baixar a peu a Cala Murta o a Cala Figuera. Des del km 14,9 surt a la dreta una senda que ens porta, en 20 minuts, a Cala en Gossalba. Poc abans del far, podeu baixar pel camí del moll del Patronet, per on arribaven subministraments abans que es construís la carretera.<br /><br />A Pollença i als seus voltants, es poden visitar les coves funeràries de la Cala de Sant Vicenç, pujar a peu al puig de Maria o visitar el Calvari. Des del Port de Pollença, es pot caminar cap a Cala Bóquer o enfilar-se per la perillosa cresta de la serra del Cavall Bernat.</p></div><div class="otrasOpciones"><h3>Observacions</h3><p>Atenció als 200 metres de túnel de la carretera de tornada (és millor disposar d’una llanterna o de guardapits reflectors), i a la senda per pujar i baixar el Fumat, que es troba en mal estat.</p></div></div>
+		</div></div></div>
+		            <div id="vcms-columnaDerecha" style="width:240px;"><div id="vcms-columnaIzquierda-inner" style=""><div id="vcms-premenu"><div style="margin-left:25px; margin-top:0px; margin-bottom:0px"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsenderosdemallorca.org%3Fref%3Dhl&amp;width=240&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:100px;" allowTransparency="true"></iframe>
+</div></div><div id="vcms-columna-derecha"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<script type="text/javascript">
+
+var images = [], 
+index = 0;
+
+images[0] = "<a href = 'http://www.refugisontrias.com' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/refugi/BANNER_240x300_refugi.jpg'</a>";
+
+images[1] = "<a href = 'http://www.walkingmallorca.com/roadbook/' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/roadbook/RB_ES_CAT.jpg' alt='Sa Travessa - GR221'></a>";
+
+index = Math.floor(Math.random() * images.length);
+
+document.write(images[index]);
+
+</script><br></div></div><div id="vcms-columna-der-2"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-3"><div id="enviarPostal">
+				<div class="bot"></div>
+				
+				<h3>Enviau una postal</h3>
+				
+				<p class="desc">Enviau una postal de <strong>Calas y miradores de Formentor</strong> amb una dedicatòria al vostre destinatari. Escriviu les dades del vostre enviament i pitjau «envia».</p>
+				<form id="formularioPostal" method="post" onsubmit="return comprobarCampos()" action="/rutas/envio_postal.ct.html">
+					<fieldset>
+                        
+                        <input type="hidden" name="listadoOn" value="si"/>
+                        <input type="hidden" name="buscadorOn" value="no"/>
+                        
+						<div class="destinatario">
+							<p class="textlabel">Destinatari:</p>
+							<input name="nomDestinatario" type="text" id="nomDestinatario" value="Nom del destinatari" class="textInput"/> 
+							<input name="emailDestinatario" type="text" id="emailDestinatario" value="Adreça electrònica" class="textInput" />
+						</div>
+						
+						<div class="remitente">
+							<p class="textlabel">Remitent:</p>
+							<input name="nomRemitente" type="text" id="nomRemitente" value="Nom del remitent" class="textInput"/>
+							<input name="emailRemitente" type="text" id="emailRemitente" value="Adreça electrònica" class="textInput"/>
+							<input type="hidden" name="envio" value="1" /><input type="hidden" name="cr" value="32" /></div>				
+						
+						<div class="mensaje">
+							<p class="textlabel">Missatge</p>
+							<textarea name="mensajePostal" id="mensajePostal" rows="6" cols="21"></textarea>
+						</div>
+
+						<div class="captchaAntiSpam"><script src='https://www.google.com/recaptcha/api.js?hl=ct'></script>
+        <div class="g-recaptcha" data-sitekey="6LcYGxUTAAAAAPSmpKVHhSJuw7rffqBDt38Riuuj" data-stoken="ynvSyH826c47qaCIxUsEUrqVTz3DXN-iurREv1bUx-mNDrVDz8gtOujtbYOLWhLB6BS6ZtBl5LMH7_-0UE9HRU9iJ4kTcju2R3kiyQlS1QE"></div></div>
+						
+                        <div id="botones">			
+	                        <div class="botonCapa1">
+							      <div class="botonCapa2">
+		       					      <input class="botonEnviar" type="submit" value="Envia la postal" />
+	    						  </div>
+							</div>
+							
+							<input type="reset" value="Neteja les dades" id="limpiar_datos" />
+						</div>
+
+						
+					</fieldset>
+				</form>
+				
+			</div>
+			
+			</div><div id="vcms-columna-der-4"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-5"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<FONT FACE="Arial" SIZE="2" COLOR="#000000">Si t'agrada el contingut de Senderos de Mallorca i vols ajudar a millorar, pots fer-ho amb una donació que ens ajudarà a mantenir la web i poder millorar-la. Gràcies!</FONT><BR><BR><BR>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="3PEEC5GKH9SZ8">
+<input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div></div></div></div>
+		           </div>
+		           </div>
+		   </div>
+		   <div class="push"></div>
+        </div></div>
+		   </div><div id="piePagina" class="piePaginaDia">       
+        <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="ct" href="/legal.ct.html"><span>Avís legal</span></a></li>
+    <li class="creditos"><a class="ct" href="/creditos.ct.html"><span>Crèdits</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural i dels autors</strong>
+</p></div></div>
+       </div></body></html>

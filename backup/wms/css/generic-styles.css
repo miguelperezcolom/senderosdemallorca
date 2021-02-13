@@ -1,0 +1,58 @@
+
+/** --------- Clases para estilos genéricos --------------- *>
+
+/** boxMarkup */
+
+/* caja 1 para el centrado vertical */
+.vcms-genstl-box-vcn1 {
+	display: table; height: 100%; overflow: visible; width:100%; text-align:left;
+}
+
+/* caja 2 para el centrado vertical */
+.vcms-genstl-box-vcn2-bottom {
+	display: table-cell; vertical-align: bottom; width:100%
+}
+.vcms-genstl-box-vcn2-middle {
+	display: table-cell; vertical-align: middle; width:100%
+}
+
+
+
+/* caja para el centrado horizontal */
+.vcms-genstl-box-hcn-right {
+ margin:0;margin-left:auto;display:table;
+}
+.vcms-genstl-box-hcn-center {
+ margin-right:auto;margin-left:auto;display:table;
+}
+
+
+/* estilos para botones (buttonPres) */
+.vcms-buttonPres h1, .vcms-buttonPres h2, .vcms-buttonPres h3, .vcms-buttonPres h4, .vcms-buttonPres h5, .vcms-buttonPres h6{
+	display: inline;
+	font-size: 9px;
+}
+
+/* estilo para boton submit */
+.vcms-buttonPres-submit {
+   display:inline;
+   /*background-color: transparent;*/
+   border: none;
+   cursor: pointer;
+   padding:0px;
+   margin:0px;
+}
+
+/* estilos para colecciones (collectionPres) */
+
+.vcms-collectionPres ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.vcms-collectionPres ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+

@@ -1,0 +1,571 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Puig des Teix - Ficha ruta</title><link rel="stylesheet" href="/wms/css/templates/c2c_girado.css" type="text/css" />  <!--[if IE6]> <link rel="stylesheet" href="/wms/css/templates/c2c_girado-ie.css" type="text/css" /> <![endif]-->
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><link rel="stylesheet" href="/css/general.css " type="text/css" /><link rel="stylesheet" href="/css/ficha_ruta.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><style type="text/css">				#fichaRuta .itinerario li.punto-a .punto{
+				    background-image: url(/img/iconos/puntos/a.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/a.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-b .punto{
+				    background-image: url(/img/iconos/puntos/b.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/b.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-c .punto{
+				    background-image: url(/img/iconos/puntos/c.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/c.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-d .punto{
+				    background-image: url(/img/iconos/puntos/d.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/d.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-e .punto{
+				    background-image: url(/img/iconos/puntos/e.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/e.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-f .punto{
+				    background-image: url(/img/iconos/puntos/f.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/f.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-g .punto{
+				    background-image: url(/img/iconos/puntos/g.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/g.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-h .punto{
+				    background-image: url(/img/iconos/puntos/h.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/h.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-i .punto{
+				    background-image: url(/img/iconos/puntos/i.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/i.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-j .punto{
+				    background-image: url(/img/iconos/puntos/j.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/j.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-k .punto{
+				    background-image: url(/img/iconos/puntos/k.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/k.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-l .punto{
+				    background-image: url(/img/iconos/puntos/l.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/l.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-m .punto{
+				    background-image: url(/img/iconos/puntos/m.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/m.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-n .punto{
+				    background-image: url(/img/iconos/puntos/n.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/n.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-o .punto{
+				    background-image: url(/img/iconos/puntos/o.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/o.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-p .punto{
+				    background-image: url(/img/iconos/puntos/p.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/p.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-q .punto{
+				    background-image: url(/img/iconos/puntos/q.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/q.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-r .punto{
+				    background-image: url(/img/iconos/puntos/r.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/r.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-s .punto{
+				    background-image: url(/img/iconos/puntos/s.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/s.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-t .punto{
+				    background-image: url(/img/iconos/puntos/t.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/t.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-u .punto{
+				    background-image: url(/img/iconos/puntos/u.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/u.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-v .punto{
+				    background-image: url(/img/iconos/puntos/v.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/v.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-w .punto{
+				    background-image: url(/img/iconos/puntos/w.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/w.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-x .punto{
+				    background-image: url(/img/iconos/puntos/x.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/x.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-y .punto{
+				    background-image: url(/img/iconos/puntos/y.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/y.png", sizingMethod="crop");    
+				}
+								#fichaRuta .itinerario li.punto-z .punto{
+				    background-image: url(/img/iconos/puntos/z.png);
+				    background-image: expression( document.all ? "none" : "" );
+				    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/iconos/puntos/z.png", sizingMethod="crop");    
+				}
+				</style><style>
+			.captchaAntiSpam{
+				padding-left: 22px;
+				padding-top: 5px;
+			}
+			.g-recaptcha{
+				transform: scale(0.67);
+				transform-origin: 0 0;
+			}
+		</style>
+		
+		<script type="text/javascript">
+	    //<![CDATA[
+	    
+	       //comprueba si el léxico del correo es correcto
+		   	function isMail(mail){
+		       	//var reg_exp = '\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b';
+				reg_exp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			   	return reg_exp.test(mail);
+		   	}
+               
+	       	function comprobarCampos(){
+	           
+	           	//mensaje de error
+               	var arrMensaje = [];
+               
+	           	var objForm = document.getElementById('formularioPostal');
+	           
+				if ( objForm.nomDestinatario.value == '' ){
+					arrMensaje.push({msg:'Bitte geben  Sie den Namen des Empfängers ein',focus:'nomDestinatario'});
+	           	}
+	           	
+	           	if ( objForm.emailDestinatario.value == '' ){
+	           		arrMensaje.push({msg:'Bitte geben Sie eine gültige E-Mail-Adresse ein',focus:'emailDestinatario'});	
+	           	}else if ( !isMail(objForm.emailDestinatario.value) ){
+	               	arrMensaje.push({msg:'Bitte geben Sie eine gültige E-Mail-Adresse ein',focus:'emailDestinatario'});	
+	           	}
+	           
+	           	if ( objForm.nomRemitente.value == '' ){
+	           		arrMensaje.push({msg:'Bitte geben Sie den Namen des Absenders aus',focus:'nomRemitente'});
+	           	}
+	           
+	           	if ( objForm.emailRemitente.value == '' ){
+	            	arrMensaje.push({msg:'Bitte geben Sie eine gültige E-Mail-Adresse ein.',focus:'emailRemitente'});	
+	           	}else if ( !isMail(objForm.emailRemitente.value) ){
+	            	arrMensaje.push({msg:'Bitte geben Sie eine gültige E-Mail-Adresse ein.',focus:'emailRemitente'});	
+	           	}
+	           
+	           	if ( objForm.mensajePostal.value == '' ){
+	           		arrMensaje.push({msg:'Bitte geben Sie eine Nachricht ein',focus:'mensajePostal'});	
+	           	}
+	           
+	           	if ( arrMensaje.length>0 ){
+	           		
+	           		var arrAux = [];
+	           		for (var i=0;i<arrMensaje.length;i++){
+	           			arrAux.push(arrMensaje[i].msg);
+	           		}
+	           		alert(arrAux.join("\n"));
+					document.getElementById(arrMensaje[0].focus).focus();	           			
+	           		
+					return false;
+	               
+	           	}else{
+	           		
+	            	return true;
+	            	
+	           	}
+	           
+	       	}
+	       
+	       	function limpiarDatos(){
+	        	document.getElementById('formularioPostal').reset();
+	       	}
+			
+			function fillFields(idObject, localeStr){
+				var tmpIdObj = '#' + idObject;
+                jQuery(tmpIdObj).focus(function(){
+                    if (this.value == localeStr){
+                       this.value = '';
+                    }
+                });
+                jQuery(tmpIdObj).blur(function(){
+                    if (this.value == ''){
+                        this.value = localeStr;
+                    }
+                });				
+			}
+			
+    		jQuery(document).ready(function(){
+				fillFields('nomDestinatario', 'Name des Empfängers');
+				fillFields('emailDestinatario', 'E-Mail');
+				fillFields('nomRemitente', 'Name des Absenders');
+				fillFields('emailRemitente', 'E-Mail');
+			});
+			
+			
+	    
+	    //]]>
+	    </script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script>            </head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="maq2c"><div id="paginaPrincipal" class="paginaDia">        
+	        <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.de.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="de"><strong id="botoActiu" class="botonUp"><span>Deutsch</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="ca"><a href="index.ct.html" onclick="wmsCambioIdioma('ct');return false;">Català</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+	</ul>
+</div></div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.de.html" class="btn-menu">			
+			<span class="nombre">Wandern auf Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.de.html" class="btn-menu-on">			
+			<span class="nombre">Auf der Route</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.de.html" class="btn-menu">			
+			<span class="nombre">Kontakt </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="cuerpoPagina"><div id="vcms-postcabecera3"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.de.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Routenverzeichnis</a></li>
+		    <li><a href="/rutas/buscador.de.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Suchmaschine</a></li></ul></div><div id="vcms-path"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Puig des Teix</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.de.html?cr=29&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Routendaten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/mapas.de.html?cr=29&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Kartographie</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/puntos.de.html?cr=29&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Sehenswürdigkeiten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/documentos.de.html?cr=29&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Dokumente</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-contenedorColumnas-wrapper">
+		            <div id="vcms-contenedorColumnas">
+		              <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><div id="fichaRuta"><div class="imagenRuta"><img src="/imgdb/foto_gra_rut732.jpg" width="658" height="292"  alt="Puig des Teix" title="Puig des Teix" /></div><p class="descripcion"><strong>Rundwanderweg mit Ausgangspunkt Valldemossa</strong><br />Obwohl der Puig des Teix (der Name kommt von den Eiben (teix), die man früher nahe dem Gipfel vorfand und von denen es heute nur mehr einige wenige gibt) nicht zu den höchsten Gipfeln der Insel gehört, ist er doch einer der meist besuchten. Neben den weitläufigen Eichenwäldern ist die größte Attraktion der Weg “Camí de S’Arxiduc”, der am Ende des 19. Jahrhunderts am Kamm gebaut wurde. Er wurde vom Erzherzog Luis Salvador, einem Mitglied des österreichischen Kaiserhauses, der zwischen 1867 und 1915 lange Aufenthalte auf seinen Gütern zwischen Valldemossa und Deià verbrachte, in Auftrag gegeben.</p><h3>Technisches Datenblatt</h3>
+    		<div class="fichaTecnica"><p><strong>Art des Ausflugs: </strong>Wandern</p><p><strong>Lage: </strong>Westen von Mallorca</p><p><strong>Nächste Ortschaft: </strong>Valldemossa</p><p><strong>Schwierigkeitsgrad: </strong>Mittel</p><p><strong>Entfernung insgesamt: </strong>14,470 km</p><p><strong>Dauer insgesamt: </strong>4 Stunden  und 30 Minuten </p><p><strong>Zugang: </strong>Mit dem Autobus der Linie <a href="http://www.caib.es/sacmicrofront/contenido.do?idsite=330&cont=8689&lang=ca&campa=yes#" rel="external">L210</a>: Platja de Palma-Palma-Valldemossa-Deià-Llucalcari- Sóller-Port de Sóller. Mit dem eigenen Auto von Palma über die Ma-1110.</p><p><strong>Ausgangspunkt: </strong>Haltestelle des Linienbusses in Valldemossa</p><p><strong>Rundweg:</strong> Ja</p><p><strong>Höchster Punkt: </strong>1.064 m</p><p><strong>Tiefster Punkt: </strong>400 m</p><p><strong>Höhenunterschied: </strong>664 m</p><p><strong>Bisheriger Höhenunterschied beim Aufstieg: </strong>990 m</p><p><strong>Bisheriger Höhenunterschied beim Abstieg: </strong>949 m</p><p><strong>Ungefähre Dauer des Hinwegs: </strong>2 Stunden  und 45 Minuten </p><p><strong>Ungefähre Dauer des Rückwegs: </strong>1 Stunde  und 45 Minuten </p><p><strong>Empfohlene Jahreszeit: </strong>Das ganze Jahr</p>	        		<div class="itinerario">
+	        			<h3>Strecke</h3>
+	        		  	<ul>
+						<li class="punto-a">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Haltestelle des Linienbusses in Valldemossa</h4>
+	            		                      <p class="datos">Entfernung 0,000 km - Zeit 0 Stunden - Höhe 400 m -  N39 42'35.939" E2 37'13.440"</p>
+	            		                      <p class="desc">Von der Bushaltestelle aus von der Straße abgewandt folgen wir der vor uns liegenden Straße (Carrer Rector Joan Mir), biegen in die zweite Straße rechts ein vorbei am Fußballplatz (Carrer Joan Fuster) und nehmen die zweite Straße links (Carrer de les Oliveres). Am Ende dieser Straße beginnt der Wanderweg, der nach etwa 100 Metern nach links abbiegt und in eine Holztreppe mündet, die eine Mauer durchquert. Kurz darauf nehmen wir den Weg rechts und gehen in Serpentinen nach oben durch eine Zwischenmauer, nach der wir auf eine ebene Waldlichtung mit einer Zisterne gelangen.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-b">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Pla des Pouet</h4>
+	            		                      <p class="datos">Entfernung 2,230 km - Zeit 1 Stunde  - Höhe 685 m -  N39 43'22.018" E2 37'14.041"</p>
+	            		                      <p class="desc">Hinter der Zisterne können wir einen Umweg machen (siehe “Andere Optionen”). Der empfohlene Weg führt jedoch kurz vor der Zisterne nach rechts und führt uns nach 10 Minuten zum Coll de Son Gallard (766 m. N39 43.701 E2 37.336). Hier befinden wir uns auf dem Weg “Camí de S’Arxiduc”, wo wir nach rechts abbiegen und den Berg hinaufsteigen. Rechterhand sehen wir einen Weg, der uns nach 3 Minuten zur Höhle Cova de S’Ermità Guiem führen würde, die während des Jahres teilweise bewohnt wird und sehr gut erhalten ist. Wir kreuzen eine Zwischenmauer und nehmen an der nächsten Gabelung den linken Weg, der uns bis auf den Kamm führt. Von hier aus haben wir einen wunderschönen Blick auf die Nordküste mit der Halbinsel Sa Foradada und dem Küstenstreifen bis Port de Sóller. Der Weg führt 20 Minuten am Kamm entlang. Kurz nachdem er breiter wird sehen wir links einige steinerne Wegweiser.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-c">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Gabelung nach Deià</h4>
+	            		                      <p class="datos">Entfernung 4,730 km - Zeit 1 Stunde  und 45 Minuten  - Höhe 925 m -  N39 43'51.780" E2 37'56.279"</p>
+	            		                      <p class="desc">Obwohl diese Gabelung In Zukunft als GR 221 gekennzeichnet wird, ist sie nicht einfach zu finden (falls wir nach Deià hinuntergehen möchten, siehe “Andere Optionen”). Für unseren Weg ist das jedoch unbedeutend, da wir geradeaus weitergehen, linkerhand am Puig des Caragolí vorbei, bis wir an eine Wegkreuzung kommen.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-d">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Gabelung zum Pas d'en Miquel</h4>
+	            		                      <p class="datos">Entfernung 5,460 km - Zeit 2 Stunden  und 5 Minuten  - Höhe 908 m -  N39 43'41.879" E2 38'19.140"</p>
+	            		                      <p class="desc">Würden wir den rechten Weg nehmen, kämen wir zur Ebene des Pla des Pouet und nach Valldemossa zurück (1h 30 Minuten). Unsere Route folgt jedoch dem linken Weg, führt kurz nach oben und dann hinab zur nächsten Gabelung, die durch einen riesigen Meilenstein gekennzeichnet ist.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-e">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Gabelung zum Gipfel</h4>
+	            		                      <p class="datos">Entfernung 7,040 km - Zeit 2 Stunden  und 25 Minuten  - Höhe 880 m -  N39 43'52.859" E2 39'8.341"</p>
+	            		                      <p class="desc">Wir nehmen den linken Weg, klettern einige Meter und kreuzen über eine Treppe eine Zwischenmauer. Zuerst überqueren wir eine Hochebene und gelangen schließlich über einen steilen Weg auf den Gipfel.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-f">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Puig des Teix</h4>
+	            		                      <p class="datos">Entfernung 8,160 km - Zeit 2 Stunden  und 45 Minuten  - Höhe 1.064 m -  N39 43'52.859" E2 39'40.799"</p>
+	            		                      <p class="desc">Von hier aus haben wir einen wunderschönen Ausblick nach Norden auf die höchsten Gipfel. Anschließend beginnt der Abstieg bis zur ersten Weggabelung.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-g">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Gabelung zum Gipfel</h4>
+	            		                      <p class="datos">Entfernung 9,250 km - Zeit 3 Stunden  und 5 Minuten  - Höhe 880 m -  N39 43'52.561" E2 39'8.399"</p>
+	            		                      <p class="desc">Wir nehmen den linken Weg und kommen nach etwa 15 Minuten an einem Schneebrunnen (N39 43.647 E2 39.249), der unbewohnten Hütte Es Cairats und der normalerweise trockenen Quelle Font des Polls vorbei. Der Weg führt steil nach unten und kreuzt schließlich eine Zwischenmauer. An den nächsten beiden Gabelungen wählen wir jeweils den rechten Weg. Sobald wir zu einer Siedlung kommen, geht es geradeaus weiter.</p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li><li class="punto-h">
+	        		          <div class="capa1">
+	            		          <div class="capa2">
+	            		              <div class="capa3">
+	            		                  <div class="capa4">
+	            		                      <div class="punto"></div>
+	            		                      <h4>Haltestelle des Linienbusses in Valldemossa</h4>
+	            		                      <p class="datos">Entfernung 14,400 km - Zeit 4 Stunden  und 30 Minuten  - Höhe 400 m -  N39 42'35.939" E2 37'13.861"</p>
+	            		                      <p class="desc"></p>
+	            		                  </div>
+	            		              </div>
+	            		          </div>
+	        		          </div>
+	        		      </li>	        		  </ul>
+	    		    </div>
+	    		    <div class="otrasOpciones"><h3>Andere Optionen</h3><p><strong>Eine alternative Route führt über den Aussichtspunkt Can Costa (1 h):</strong> vom Punkt B gehen wir an der Zisterne vorbei und dort geradeaus weiter. So kommen wir an einen Aussichtspunkt, zur Talaia Vella (dort befinden sich die Reste der Hütte S’Arxiduc) und zum Coll de Son Gallard, wo wir wieder auf den oben beschriebenen Weg stoßen.<br /><br /><strong>Von Valldemossa nach Deià (insgesamt 3h 30 Minuten):</strong> dieses Stück wird bald als GR 221 ausgeschildert. Wir folgen dem beschriebenen Weg bis zum Punkt C (1h 45 Minuten ab Valldemossa). Hier biegen wir nach links ab – der Weg ist mit steinernen Markierungen gekennzeichnet – und gelangen nach 10 Minuten zu steilen Felsen. 20 Minuten später geht es in einen Wald mit zahlreichen Wegen: An den Gabelungen folgen wir immer den Wegweisern nach Deià. Sobald wir auf eine Zwischenmauer ohne Gatter stoßen (35 Minuten), biegen wir nach rechts ab und gehen auf einem bewachsenen Weg bis Can Borràs (30 Minuten), Es Molí und Deià (15 Minuten). Von hier aus können wir mit dem Linienbus oder mit dem Taxi nach Valldemossa zurückfahren.</p></div><div class="otrasOpciones"><h3>Bemerkungen</h3><p><strong>Umgebung von Valldemossa:</strong> Man sollte die Gelegenheit nutzen, um durch die Gassen eines der schönsten Dörfer der Insel zu spazieren und das Karthäuserkloster zu besuchen. Andere Sehenswürdigkeiten sind: die Kapelle Sa Marina und die Bucht Caló de S’Estaca.</p></div></div>
+		</div></div></div>
+		            <div id="vcms-columnaDerecha" style="width:240px;"><div id="vcms-columnaIzquierda-inner" style=""><div id="vcms-premenu"><div style="margin-left:25px; margin-top:0px; margin-bottom:0px"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsenderosdemallorca.org%3Fref%3Dhl&amp;width=240&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:100px;" allowTransparency="true"></iframe>
+</div></div><div id="vcms-columna-derecha"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<script type="text/javascript">
+
+var images = [], 
+index = 0;
+
+images[0] = "<a href = 'http://www.refugisontrias.com' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/refugi/BANNER_240x300_refugi_EN.jpg'</a>";
+
+images[1] = "<a href = 'http://www.walkingmallorca.com/de/roadbook/' target='_blank'><img src='http://www.walkingmallorca.com/publicitat/roadbook/RB_DE.jpg' alt='Sa Travessa - GR221'></a>";
+
+index = Math.floor(Math.random() * images.length);
+
+document.write(images[index]);
+
+</script><br></div></div><div id="vcms-columna-der-2"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-3"><div id="enviarPostal">
+				<div class="bot"></div>
+				
+				<h3>Eine Postkarte senden</h3>
+				
+				<p class="desc">Senden Sie eine Postkarte aus<strong>Puig des Teix</strong> mit einer Widmung für den Empfänger. Geben Sie die Daten ein  und klicken Sie auf „Senden“.</p>
+				<form id="formularioPostal" method="post" onsubmit="return comprobarCampos()" action="/rutas/envio_postal.de.html">
+					<fieldset>
+                        
+                        <input type="hidden" name="listadoOn" value="si"/>
+                        <input type="hidden" name="buscadorOn" value="no"/>
+                        
+						<div class="destinatario">
+							<p class="textlabel">Empfänger:</p>
+							<input name="nomDestinatario" type="text" id="nomDestinatario" value="Name des Empfängers" class="textInput"/> 
+							<input name="emailDestinatario" type="text" id="emailDestinatario" value="E-Mail" class="textInput" />
+						</div>
+						
+						<div class="remitente">
+							<p class="textlabel">Absender:</p>
+							<input name="nomRemitente" type="text" id="nomRemitente" value="Name des Absenders" class="textInput"/>
+							<input name="emailRemitente" type="text" id="emailRemitente" value="E-Mail" class="textInput"/>
+							<input type="hidden" name="envio" value="1" /><input type="hidden" name="cr" value="29" /></div>				
+						
+						<div class="mensaje">
+							<p class="textlabel">Nachricht</p>
+							<textarea name="mensajePostal" id="mensajePostal" rows="6" cols="21"></textarea>
+						</div>
+
+						<div class="captchaAntiSpam"><script src='https://www.google.com/recaptcha/api.js?hl=de'></script>
+        <div class="g-recaptcha" data-sitekey="6LcYGxUTAAAAAPSmpKVHhSJuw7rffqBDt38Riuuj" data-stoken="ynvSyH826c47qaCIxUsEUpX5LD-N_pVaja8qOipJQqjUZPsK1ewF9DV6-YaBb8h3riQoBVwkAv2tYhErofSSjk9iJ4kTcju2R3kiyQlS1QE"></div></div>
+						
+                        <div id="botones">			
+	                        <div class="botonCapa1">
+							      <div class="botonCapa2">
+		       					      <input class="botonEnviar" type="submit" value="Postkarte senden" />
+	    						  </div>
+							</div>
+							
+							<input type="reset" value="Daten löschen" id="limpiar_datos" />
+						</div>
+
+						
+					</fieldset>
+				</form>
+				
+			</div>
+			
+			</div><div id="vcms-columna-der-4"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Senderos -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:300px"
+     data-ad-client="ca-pub-5208983867579379"
+     data-ad-slot="8490457022"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div id="vcms-columna-der-5"><div style="margin-left:25px; margin-top:20px; margin-bottom:20px">
+
+<FONT FACE="Arial" SIZE="2" COLOR="#000000">Si te gusta el contenido de Senderos de Mallorca y quieres ayudar a mejorar, ayudanos con una donación a mantener la web y poder mejorarla. Gracias!</FONT><BR><BR><BR>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="3PEEC5GKH9SZ8">
+<input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div></div></div></div>
+		           </div>
+		           </div>
+		   </div>
+		   <div class="push"></div>
+        </div></div>
+		   </div><div id="piePagina" class="piePaginaDia">       
+        <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="de" href="/legal.de.html"><span>Rechtlicher Hinweis</span></a></li>
+    <li class="creditos"><a class="de" href="/creditos.de.html"><span>Impressum</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural und die Autoren</strong>
+</p></div></div>
+       </div></body></html>

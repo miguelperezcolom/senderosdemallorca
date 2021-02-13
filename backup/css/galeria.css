@@ -1,0 +1,348 @@
+#galeria{
+    float:left;
+    width:100%;
+}
+#galeria .fila{
+    clear:both;
+    float:left;
+    width:100%;
+    padding-bottom:10px;
+}
+#galeria .foto,
+#galeria .fotoUltima{
+    float: left;
+    width: 222px;
+}
+#galeria .foto,
+#galeria .fotoUltima{
+    font: 15px Arial, Helvetica, sans-serif;
+    color: Black;
+    margin-right: 12px;
+}
+#galeria .fotoUltima{    
+    margin-right: 0;
+}
+
+#galeria .foto a,
+#galeria .fotoUltima a{
+    display:block;
+    width: 222px;
+    height: 221px;   
+}
+#galeria .foto a:hover,
+#galeria .fotoUltima a:hover{
+    background: url(/img/marco_foto.gif) 0 0 no-repeat;
+}
+#galeria img{
+    display:block;
+    position: relative;
+    margin: auto;
+    top:10px;
+}
+#galeria .pieFoto{
+    padding: 0 10px;
+}
+
+#galeria .infoResultados{
+    margin-top: 30px;
+    float:left;
+    width:100%;
+    padding-top:8px;
+	margin-bottom: 70px;
+}
+
+
+/* Galeria multimedia */
+
+.galeriaMultimedia_fondo{
+    position: fixed;
+    position: expression( document.all ? "absolute" : "" );
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    top:0;
+    background-color: Black;
+    opacity: 0.4;
+    filter: Alpha(opacity=40);
+    visibility: hidden;
+    width:100%;
+}
+
+.galeriaMultimedia{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: 1001;    
+    background-color: #EFEFEF;
+    display: none;
+    visibility: visible;
+}
+
+.galeriaMultimedia .capa1,
+.galeriaMultimedia .capa2,
+.galeriaMultimedia .capa3,
+.galeriaMultimedia .capa4,
+.galeriaMultimedia .capa5,
+.galeriaMultimedia .capa6,
+.galeriaMultimedia .capa7,
+.galeriaMultimedia .capa8{
+    position: absolute;
+    /*background-color: #EFEFEF;*/
+}
+
+.galeriaMultimedia .capa3,
+.galeriaMultimedia .capa4{    
+    /*width: 19px;
+    height: 19px;*/
+    width: 31px;
+    height: 31px;
+}
+.galeriaMultimedia .capa1{
+    /*left: -19px;
+    top: -19px;*/
+    left: -12px;
+    top: -12px;
+    /*background-image: url(/img/galeria/top_left.gif);*/
+    background-image: url(/img/galeria/top-left.png);
+}
+.galeriaMultimedia .capa1,
+.galeriaMultimedia .capa2{
+    width: 31px;
+    height: 31px;
+}
+.galeriaMultimedia .capa2{    
+    /*right: -19px;
+    top: -19px;*/
+    right: -12px;
+    top: -12px;
+    /*background-image: url(/img/galeria/top_right.gif);*/
+    background-image: url(/img/galeria/top-right.png);
+}
+.galeriaMultimedia .capa3{    
+    /*right: -19px;
+    bottom: -19px;*/
+    right: -12px;
+    bottom: -31px;
+    background-image: url(/img/galeria/bot-right.png);
+}
+.galeriaMultimedia .capa4{
+    /*bottom: -19px;
+    left: -19px;*/
+    bottom: -31px;
+    left: -12px;
+    background-image: url(/img/galeria/bot-left.png);
+}
+
+
+.galeriaMultimedia .capa5,
+.galeriaMultimedia .capa6{
+    /*width: 19px;*/
+    width: 12px;
+    background-color: #EFEFEF;
+}
+
+.galeriaMultimedia .capa5{    
+    top: 16px;
+    /*left:-19px; */
+    left: -12px;   
+}
+
+.galeriaMultimedia .capa6{
+    top: 16px;
+    /*right:-19px;*/
+    right: -12px;
+}
+
+.galeriaMultimedia .capa7,
+.galeriaMultimedia .capa8{
+    /*height: 19px;*/
+    height: 12px;
+    background-color: #EFEFEF;
+}
+
+.galeriaMultimedia .capa7{
+    left: 16px;
+    /*top: -19px;*/
+    top: -12px;
+}
+.galeriaMultimedia .capa8{
+    left:16px;
+    /*bottom: -19px;*/
+    bottom: -31px;
+    height: 31px;    
+}
+
+.galeriaMultimedia .capaMultimedia{    
+    background-color: #EFEFEF;
+    position: relative;
+}
+
+.galeriaMultimedia .capaMultimedia .botonAnterior,
+.galeriaMultimedia .capaMultimedia .botonSiguiente{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    width: 20%;
+    top: 0;    
+    color: #585858;
+    
+    /*  Correcci?n para IE6 */
+    background-image: url(/img/galeria/sp.gif);
+}
+.galeriaMultimedia .capaMultimedia .botonAnterior{
+    left: -11px;
+}
+.galeriaMultimedia .capaMultimedia .botonSiguiente{
+    right: -11px;
+}
+.galeriaMultimedia .capaMultimedia .botonAnterior span.interior,
+.galeriaMultimedia .capaMultimedia .botonSiguiente span.interior{
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    width: 126px;
+    height: 74px;   
+    top: 100px;
+}
+.galeriaMultimedia .capaMultimedia .botonAnterior span.interior{
+    text-align: left;
+}
+.galeriaMultimedia .capaMultimedia .botonSiguiente span.interior{
+    text-align: right;
+}
+.galeriaMultimedia .capaMultimedia .botonAnterior span.interior{
+    left: 0;
+    background: url(/img/galeria/btn_ant.png);
+    
+    background: expression( document.all ? "none" : "" );
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/galeria/btn_ant.png', sizingMethod='crop'); 
+}
+.galeriaMultimedia .capaMultimedia .botonSiguiente span.interior{
+    right: 0;
+    background: url(/img/galeria/btn_sig.png);
+    
+    background: expression( document.all ? "none" : "" );
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/galeria/btn_sig.png', sizingMethod='crop'); 
+}
+.galeriaMultimedia .capaMultimedia .botonAnterior .texto,
+.galeriaMultimedia .capaMultimedia .botonSiguiente .texto{
+    font: bold 12px/74px "Courier New", Courier, monospace;
+}
+.galeriaMultimedia .capaMultimedia .botonAnterior .texto{
+    padding-left: 45px;
+}
+.galeriaMultimedia .capaMultimedia .botonSiguiente .texto{
+    padding-right: 45px;
+}
+.galeriaMultimedia .capaMultimedia .botonAnterior .texto strong,
+.galeriaMultimedia .capaMultimedia .botonSiguiente .texto strong{
+    text-decoration: underline;
+}
+
+.galeriaMultimedia .dummy{
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.galeriaMultimedia .capaMultimedia .capaTitulo{
+    font: 15px/15px Arial, Helvetica, sans-serif;
+    color: #585858;
+    margin: 0;
+    padding: 2px 0 0 5px;
+    float:left;
+}
+.galeriaMultimedia .capaMultimedia .capaDescripcion{
+    font: 12px Arial, Helvetica, sans-serif;
+    color: Black;    
+}
+.galeriaMultimedia .capaMultimedia .capaNavegacion{
+    padding-top: 24px;
+    height: 28px;
+}
+.galeriaMultimedia .capaMultimedia .capaNavegacion .btnAnterior,
+.galeriaMultimedia .capaMultimedia .capaNavegacion .btnSiguiente{
+    display:block;
+    float:left;    
+    width:14px;
+    height:21px;
+    cursor: pointer;
+}
+.galeriaMultimedia .capaMultimedia .capaNavegacion .btnAnterior{
+    background: url(/img/galeria/anterior.gif) 0 50% no-repeat;
+}
+.galeriaMultimedia .capaMultimedia .capaNavegacion .btnSiguiente{
+    background: url(/img/galeria/siguiente.gif) 100% 50% no-repeat;
+}
+.galeriaMultimedia .capaMultimedia .capaNavegacion .btnAnterior span,
+.galeriaMultimedia .capaMultimedia .capaNavegacion .btnSiguiente span{
+    display:none;
+}
+.galeriaMultimedia .capaMultimedia .capaNavegacion .capaNumItems{
+    display:block;
+    float: left;
+    font: bold 18px "Courier New", Courier, monospace;
+    color: #5C788E;
+}
+.galeriaMultimedia .capaMultimedia .capaNavegacion .btnAnterior span{
+    display: none;
+}
+.galeriaMultimedia .capaMultimedia .btnCerrar{
+    float:right;
+    height: 28px;
+    background: url(/img/galeria/cerrar.gif) 100% 0 no-repeat;
+    font: bold 12px/28px Arial, Helvetica, sans-serif;
+    padding-right: 32px;
+    color: #585858;
+    z-index: 90000;
+}
+.galeriaMultimedia .capaMultimedia .btnCerrar strong{
+    text-decoration: underline;
+}
+
+.innerImg{
+    position: relative;
+}
+
+.innerImg img{
+    display: block;
+}
+
+.innerImg #izq,
+.innerImg #der,
+.innerImg #tizq,
+.innerImg #tder{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+}
+
+.innerImg #izq{
+    bottom: 0 !important;
+    bottom: -1px;    
+    left: 0;
+    background-image: url(/img/galeria/in-izq.png);
+}
+
+.innerImg #der{
+    bottom: 0 !important;
+    bottom: -1px;
+    right: 0;
+    background-image: url(/img/galeria/in-der.png);
+}
+
+.innerImg #tizq{
+    top: 0;
+    left: 0;
+    background-image: url(/img/galeria/in-tizq.png);
+}
+
+.innerImg #tder{
+    top: 0;
+    right: 0;
+    background-image: url(/img/galeria/in-tder.png);
+}

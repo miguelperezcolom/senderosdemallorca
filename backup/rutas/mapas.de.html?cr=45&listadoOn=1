@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Ruta patrimonial urbana por Esporles - Cartografía</title><link rel="stylesheet" href="/wms/css/templates/c2c_girado.css" type="text/css" />  <!--[if IE6]> <link rel="stylesheet" href="/wms/css/templates/c2c_girado-ie.css" type="text/css" /> <![endif]-->
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><script type="text/javascript" src="/js/loadgpx.js"></script><script type="text/javascript" src="/js/gmap-wms.js"></script><link rel="stylesheet" href="/css/general.css" type="text/css" /><link rel="stylesheet" href="/css/mapasRuta.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script><script src="http://maps.google.com/maps?file=api&amp;v=2&amp;hl=de&amp;key=AIzaSyA6mmznJOu0ReZGmJbNSrM5kwmhXwapVGw" type="text/javascript"></script>
+        <script type="text/javascript">
+        //<![CDATA[
+		
+		//obtenim la url del servidor de mapes adicional
+		//var WMS_URL_SITIBSA = 'http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?';
+		
+		//cream l'objecte necessari pel servidor adicional
+		//var SITIBSA_MAP_SPEC = createWMSSpec(WMS_URL_SITIBSA, "Catastro", "Cat", "catastro", "default", "image/jpeg", "1.1.1");
+		
+        var MyMap;
+        var itemsCOL = [];
+        var puntosTrazado = [];
+        
+        var iconaLletra = new GIcon(G_DEFAULT_ICON);
+        iconaLletra.image = "/img/iconos/recorte_a.png";
+        iconaLletra.iconSize = new GSize(35,29);
+        iconaLletra.shadow = null;
+        iconaLletra.shadowSize = null;
+        iconaLletra.iconAnchor = new GPoint(11,29);
+        
+        var iconaPunt = new GIcon(G_DEFAULT_ICON);
+        iconaPunt.image = "/img/iconos/icono_punto_interes.png";
+        iconaPunt.iconSize = new GSize(24,34);
+        iconaPunt.shadow = null;
+        iconaPunt.shadowSize = null;
+        iconaPunt.iconAnchor = new GPoint(3,30);
+        
+        var iconaImatge = new GIcon(G_DEFAULT_ICON);
+        iconaImatge.image = "/img/iconos/icono_imagen.png";
+        iconaImatge.iconSize = new GSize(36,32);
+        iconaImatge.shadow = null;
+        iconaImatge.shadowSize = null;
+        iconaImatge.iconAnchor = new GPoint(13,32);
+        
+        //afegeix els items al mapa
+        function addItemsToMap(hitCOL, map){
+        		
+    		for (index in hitCOL){
+				map.addOverlay(createMarker(hitCOL[index]));
+			}
+			
+			fixGooglePngs();
+    		
+    	}
+    	
+    	//crea un item sobre el mapa
+    	function createMarker(oPunt) {
+    		
+    		if (oPunt.tipo=='hito'){
+    			
+    			var icono = iconaLletra;
+    			icono.image = '/img/iconos/recorte_'+oPunt.letra+'.png';
+    			
+    		}else if (oPunt.tipo=='punto'){
+    			
+    			var icono = iconaPunt;
+    			
+    		}else{
+    			
+    			var icono = iconaImatge;
+    			
+    		}
+    		
+    		var marker = new GMarker(new GLatLng(oPunt.latitud,oPunt.longitud),icono);
+		  	GEvent.addListener(marker, "click", function() {
+		    	marker.openInfoWindowHtml(createHtmlForPoint(oPunt));
+		  	});
+		  return marker;
+		}
+        
+        function truncateFloat(valor){
+            valor = valor * 10000;
+            valor = Math.round(valor);
+            valor = valor / 10000;
+            return valor;
+        }
+		
+		//crea l'html necessari per l'infowindow de cada item sobre el mapa
+		function createHtmlForPoint(oPunt){
+			
+            if (oPunt.tipo == 'hito'){
+                
+                var strHtml = '<div class="puntoHito" style="width: 250px; height: 120px;">';
+                var imagenUrl = '/img/iconos/puntos/' + oPunt.letra + '.png';
+                strHtml += '<img class="letra" src="' + imagenUrl + '" alt="' + oPunt.letra +'" width="83" height="97" />';
+                strHtml += '<div class="data">';
+                    if (oPunt.nombre){
+        	  			strHtml+= '<h4>'+oPunt.nombre+'</h4>';
+        	  		}
+                    strHtml += '<div class="specs">';
+                        if (oPunt.distancia){
+                            strHtml += '<p>Entfernung: ' + oPunt.distancia + ' Km</p>';
+                        }
+                        if (oPunt.tiempo){
+                            strHtml += '<p>Zeit: ' + oPunt.tiempo + '</p>';
+                        }
+                        if (oPunt.altitud){
+                            strHtml += '<p>Höhe: ' + oPunt.altitud  + '</p>';
+                        }
+                        strHtml += '<p>' + oPunt.lat_gms + '<br />' + oPunt.lon_gms + '</p>';
+                    strHtml += '</div>';
+                strHtml += '</div>';
+            
+            } else if (oPunt.tipo == 'punto'){
+            
+                var strHtml = '<div class="puntoInteres" style="width: 250px; height: 120px;">';
+                strHtml += '<div class="top">';
+                    if(oPunt.img){
+                        strHtml += oPunt.img;
+                    }
+                    if(oPunt.nombre){
+                        strHtml += '<h4>' + oPunt.nombre + '</h4>';
+                    }
+                strHtml += '</div>';
+                strHtml += '<div class="vcms-separadorH"></div>';
+                strHtml += '<div class="specs">';
+                if (oPunt.direccion){
+                    strHtml += '<p><strong>Adresse: </strong>' + oPunt.direccion + '</p>';
+                }
+                if (oPunt.telefono){
+                    strHtml += '<p><strong>Telefon: </strong>' + oPunt.telefono + '</p>';
+                }
+                if (oPunt.url){
+					
+					if (!oPunt.url.match(/http:\/\//)) {
+						oPunt.url='http://'+oPunt.url;
+					}
+					
+                    strHtml += '<p><strong>Mehr: </strong><a href="' + oPunt.url + '" target="_blank">' + oPunt.url + '</a></p>';
+                }
+                strHtml += '</div>';
+            
+            } else if (oPunt.tipo == 'imagen'){
+            
+                var strHtml = '<div class="puntoImg" style="width: 250px; height: 120px;">';
+                strHtml += oPunt.img;
+                if(oPunt.nombre){
+                    strHtml += '<h4>' + oPunt.nombre + '</h4>';
+                }
+                strHtml += '<div class="vcms-separadorH"></div>';
+                            
+            }
+            
+	  		strHtml+='</div>';
+	  		
+	  		return strHtml;
+			
+		}
+		
+		//enquadra els punts
+		function centerItems(puntos,mapa){
+			
+			var minLong = 999, minLat = 999, maxLong = -999, maxLat = -999;
+			for( i in puntos ){
+				minLat = Math.min( puntos[i].latitud, minLat );
+				maxLat = Math.max( puntos[i].latitud, maxLat );
+				minLong = Math.min( puntos[i].longitud, minLong );
+				maxLong = Math.max( puntos[i].longitud, maxLong );
+			}
+			
+			var mapBounds = new GLatLngBounds( new GLatLng(minLat, minLong),  new GLatLng(maxLat, maxLong) );
+			mapa.setCenter( mapBounds.getCenter(), mapa.getBoundsZoomLevel(mapBounds));
+		
+		}
+        
+        //Función que llama al parseador xml y actualiza los puntos
+        //en el mapa, también carga el mapa
+        function LoadGPXFileIntoGoogleMap(map, filename){
+        	//Guarda las elevaciones obtenidas
+        	var elevaciones;
+			var puntosTrazado;
+        	
+        	// Elimina cualquier punto que haya 
+        	map.clearOverlays();
+        
+        	var request = GXmlHttp.create();
+        	request.open("GET", filename, true);
+        	request.onreadystatechange = function()
+        	{
+        		if (request.readyState == 4)
+        		{
+        			parser = new GPXParser(request.responseXML, map);
+        			parser.SetTrackColour("#B50707");					// Set the track line colour
+        			parser.SetTrackWidth(5);							// Set the track line width
+        			//parser.SetMinTrackPointDelta(0.001);				// Set the minimum distance between track points
+        			//parser.SetMinTrackPointDelta(0.0001);				// Set the minimum distance between track points
+        			parser.SetMinTrackPointDelta(0);				// Set the minimum distance between track points
+        			//parser.CenterAndZoom(request.responseXML, G_NORMAL_MAP); // Center and Zoom the map over all the points.
+        			parser.AddTrackpointsToMap();						// Add the trackpoints
+        			//parser.AddWaypointsToMap();							// Add the waypoints
+        			
+        			//obtenim els punts del traçat de la ruta
+        			puntosTrazado = getPuntosTrazado(request.responseXML);
+		        	        			
+        		}
+				
+				//juntem els items amb els punts de traçat
+                var elements = myConcatArray(itemsCOL,puntosTrazado);
+				
+				//centra els elements
+                centerItems(elements,map);
+				
+        	}
+        	request.send(null);
+        }
+        
+        
+        //concatena 2 arrays indexats
+        function myConcatArray(arr1,arr2){
+        	
+        	var aux = [];
+        	
+        	for(index in arr1){
+        		aux[index] = arr1[index];
+        	}
+        	
+        	for(index in arr2){
+        		aux[index] = arr2[index];
+        	}
+        	
+        	return aux;
+        	
+        }
+        
+        
+        function getPuntosTrazado(trackSegment){
+        	
+        	var aux = [];
+        	var trackpoints = trackSegment.getElementsByTagName('trkpt');
+        	
+        	for (var i=0; i < trackpoints.length; i++){
+				
+        		var lon = parseFloat(trackpoints[i].getAttribute("lon"));
+				var lat = parseFloat(trackpoints[i].getAttribute("lat"));
+				
+				aux[aux.length] = {latitud:lat,longitud:lon};
+				
+			}
+			
+			return aux;
+			
+        }
+        
+        //LLama a todas las funciones necesarias
+        jQuery(document).ready(function(){
+			
+			MyMap = new GMap2(document.getElementById("capsaMapa"));
+			
+			/**
+			 * AFEGIM EL NOU TIPUS DE MAPA (NOU SERVIDOR DE MAPES)
+			 * I EL SELECTOR DE MAPES 
+			 */
+			/*
+			MyMap.addMapType(SITIBSA_MAP_SPEC);
+			MyMap.addControl( new GMenuMapTypeControl(false) );
+			*/
+			
+        	MyMap.addControl(new GLargeMapControl());
+        	MyMap.addControl(new GMapTypeControl());
+        	LoadGPXFileIntoGoogleMap(MyMap, 'http://www.senderosdemallorca.com/remotecall.de.html?cr=45');            
+        	
+        	//afegeix les fites, els punts i les imatges
+        	addItemsToMap(itemsCOL,MyMap);
+			
+        });
+        
+        itemsCOL["hito_1"] = {clave:"hito_1",nombre:"Iglesia de Sant Pere y calle Nou de Sant Pere",descripcion:"Para empezar la visita os recomendamos partir de la Plaza del Ayuntamiento y la Iglesia de Sant Pere y seguir por carrer Nou de Sant Pere. De espaldas a la fachada del templo, bajamos por la calle que tenemos justo delante, carrer Nou de Sant Pere (antiguamente el centro de la actividad comercial de...",latitud:"39.66875",longitud:"2.5775",url:"",img:"",tipo:"hito",letra:"a",altitud:"180m",distancia:"0,00",tiempo:"0h 00min",lat_gms:"N39 40\'7.500\"",lon_gms:"E2 34\'39.000\"" };
+		itemsCOL["hito_2"] = {clave:"hito_2",nombre:"Barrio de Son Torrat",descripcion:"Subiendo las escaleras, descubriremos el encanto de los rincones escondidos del barrio de Son Torrat, una red de calles estrechas, cortas y sinuosas de un antiguo barrio dentro del entorno urbano, un tipo de isla urbana al margen del tránsito general del pueblo. Bajando por la calle de Son Torrat co...",latitud:"39.671017",longitud:"2.577533",url:"",img:"",tipo:"hito",letra:"b",altitud:"189m",distancia:"0,43",tiempo:"0h 10min",lat_gms:"N39 40\'15.661\"",lon_gms:"E2 34\'39.118\"" };
+		itemsCOL["hito_3"] = {clave:"hito_3",nombre:"Can Campos",descripcion:"Al otro lado del puente, a mano derecha hay una amplia zona de aparcamiento donde antiguamente había localizada la fábrica de Can Campos, la más grande del pueblo. Aprovechando la fuerza motriz de los saltos de agua y el antiguo sistema de molinos ya existentes desde la época medieval, se pudieron i...",latitud:"39.67035",longitud:"2.577167",url:"",img:"",tipo:"hito",letra:"c",altitud:"181m",distancia:"0,65",tiempo:"0h 17min",lat_gms:"N39 40\'13.259\"",lon_gms:"E2 34\'37.801\"" };
+		itemsCOL["hito_4"] = {clave:"hito_4",nombre:"Sa Rectoria",descripcion:"Andando unos 60 m llegamos a la calle de la Rectoria que coincide con la carretera. A la derecha, a la otro lado de carretera, encontramos un edificio que hace esquina y que tiene una entrada a la clastra (o patio interior) por una portal foráneo, de Sa Rectoria.<br /><br></br><br /><strong>Elemento...",latitud:"39.669633",longitud:"2.577033",url:"",img:"",tipo:"hito",letra:"d",altitud:"184m",distancia:"0,78",tiempo:"0h 21min",lat_gms:"N39 40\'10.678\"",lon_gms:"E2 34\'37.319\"" };
+		itemsCOL["hito_5"] = {clave:"hito_5",nombre:"Plaza del Ayuntamiento y fábrica de Ca’n Fortuny",descripcion:"Seguimos la carretera en dirección la iglesia hasta llegar a la plaza del Ayuntamiento. Allá encontraremos la escultura de Remigia Caubet, homenaje en la figura de la filadora, representativa de las trabajadoras de las fábricas.<br /><br></br><br /><strong>Elementos para observar:</strong> El edific...",latitud:"39.668733",longitud:"2.577467",url:"",img:"",tipo:"hito",letra:"e",altitud:"180m",distancia:"0,90",tiempo:"0h 23min",lat_gms:"N39 40\'7.439\"",lon_gms:"E2 34\'38.881\"" };
+		itemsCOL["hito_6"] = {clave:"hito_6",nombre:"Passeig del Rei y Placeta del Jardinet",descripcion:"Continuaremos el itinerario bajando por la carretera hasta llegar al Passeig del Rei y la Placeta des Jardinet, los puntos principales de encuentro de la población y dónde tienen lugar la mayoría de acontecimientos festivos y culturales del Pueblo. Allá encontraréis también el mercado semanal que se...",latitud:"39.667883",longitud:"2.577933",url:"",img:"",tipo:"hito",letra:"f",altitud:"179m",distancia:"1,01",tiempo:"0h 25min",lat_gms:"N39 40\'4.379\"",lon_gms:"E2 34\'40.558\"" };
+		itemsCOL["hito_7"] = {clave:"hito_7",nombre:"Calle Joan Riutort, la casa des Poble y restos del molino de Son Fort",descripcion:"Seguimos bajado por el Passeig hasta llegar a su final y cruzaremos la calle Jaume I. Seguimos la carretera, dicha ahora carrer Joan Riutort. Andados unos 120 m, llegamos a la calle de Sa Casa des Poble giramos a la derecha y subimos hasta al final de la calle donde encontraremos la Casa des Poble y...",latitud:"39.666283",longitud:"2.57845",url:"",img:"",tipo:"hito",letra:"g",altitud:"178m",distancia:"1,26",tiempo:"0h 30min",lat_gms:"N39 39\'58.618\"",lon_gms:"E2 34\'42.420\"" };
+		itemsCOL["hito_8"] = {clave:"hito_8",nombre:"Calle Quarter y camino des Rafal",descripcion:"Con los restos del molí de Son Fort delante, tumbamos a la izquierda y bajamos por la calle Quarter. A unos 270 m y justo después del cuartel de la Guardia Civil que dejamos a la derecha, cogemos a la derecha, la calle Camí des Rafal que sube con una pequeña inclinación. A 220 m encontramos un torre...",latitud:"39.662467",longitud:"2.5791",url:"",img:"",tipo:"hito",letra:"h",altitud:"191m",distancia:"1,73",tiempo:"0h 36min",lat_gms:"N39 39\'44.881\"",lon_gms:"E2 34\'44.759\"" };
+		itemsCOL["hito_9"] = {clave:"hito_9",nombre:"Barrio de sa Vilanova",descripcion:"Justo pasadas las casas des Rafal, que dejamos a la izquierda, llegaremos a un bello mirador con vistas al barrio de Sa Vilanova. Bajamos por las escaleras adoquinadas de la calle de Sa Costa des Rafal que nos llevarán en la calle de Sa Vilanova. Giramos a la izquierda bajando en dirección la carret...",latitud:"39.660617",longitud:"2.58025",url:"",img:"",tipo:"hito",letra:"i",altitud:"192m",distancia:"1,99",tiempo:"0h 42min",lat_gms:"N39 39\'38.221\"",lon_gms:"E2 34\'48.899\"" };
+		itemsCOL["hito_10"] = {clave:"hito_10",nombre:"Calle des Balladors",descripcion:"Seguimos por la calle Balladors, uno de los más emblemáticos y bellos del pueblo donde podremos contemplar diferentes ejemplos de la arquitectura tradicional, común en todos los pueblos de Mallorca, como son las casas aldeanas unifamiliares con paredes de piedra. Al final de la calle Balladors encon...",latitud:"39.664",longitud:"2.5813",url:"",img:"",tipo:"hito",letra:"j",altitud:"174m",distancia:"2,54",tiempo:"0h 51min",lat_gms:"N39 39\'50.400\"",lon_gms:"E2 34\'52.680\"" };
+		itemsCOL["hito_11"] = {clave:"hito_11",nombre:"Passeig del Rei",descripcion:"Volvemos al Passeig del Rei, donde podemos acabar la visita tomando algo y descansando en una de las terrazas.",latitud:"39.667317",longitud:"2.578433",url:"",img:"",tipo:"hito",letra:"k",altitud:"179m",distancia:"3,31",tiempo:"1h 01min",lat_gms:"N39 40\'2.341\"",lon_gms:"E2 34\'42.358\"" };
+		itemsCOL["punto_1"] = {clave:"punto_1",nombre:"Parada autobús",descripcion:"Parada de la linea 200, trasporte público",latitud:"39.66715",longitud:"2.577667",url:"http://www.consorcidetransports.org/web/ctm/inici",img:"<img src=\"/imgdb/imagen_pin640.jpg\" width=\"110\" height=\"110\" alt=\"Parada autobús\" />",tipo:"punto",letra:"",direccion:"C/ Jaume I 07190 Esporles Illes Balears",telefono:"",url:"http://www.consorcidetransports.org/web/ctm/inici",lat_gms:"N39 40\'1.739\"",lon_gms:"E2 34\'39.601\""};
+		itemsCOL["punto_2"] = {clave:"punto_2",nombre:"Refugi de son Trias",descripcion:"",latitud:"39.665307",longitud:"2.57552",url:"www.refugisontrias.com",img:"<img src=\"/imgdb/imagen_pin884.jpg\" width=\"110\" height=\"110\" alt=\"Refugi de son Trias\" />",tipo:"punto",letra:"",direccion:"Carrer Costa de Son Trias, 19 07190 Esporles Illes Balears",telefono:"+34 656 232 363",url:"www.refugisontrias.com",lat_gms:"N39 39\'55.105\"",lon_gms:"E2 34\'31.871\""};
+		itemsCOL["punto_3"] = {clave:"punto_3",nombre:"Ajuntament d\'Esporles",descripcion:"Ayuntamiento de Esporles, podeis encontrar la información turística y cultural que necesiteis.",latitud:"39.668817",longitud:"2.577567",url:"http://www.ajesporles.net/",img:"<img src=\"/imgdb/imagen_pin869.jpg\" width=\"110\" height=\"110\" alt=\"Ajuntament d\\\'Esporles\" />",tipo:"punto",letra:"",direccion:"Plaça d'Espanya, 1 07190 Esporles Illes Balears",telefono:"971 610 002",url:"http://www.ajesporles.net/",lat_gms:"N39 40\'7.741\"",lon_gms:"E2 34\'39.241\""};
+		        //]]>
+	    </script>
+	            <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script>            </head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="maq2c"><div id="paginaPrincipal" class="paginaDia">        
+	        <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.de.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="de"><strong id="botoActiu" class="botonUp"><span>Deutsch</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="ca"><a href="index.ct.html" onclick="wmsCambioIdioma('ct');return false;">Català</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+	</ul>
+</div></div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.de.html" class="btn-menu">			
+			<span class="nombre">Wandern auf Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.de.html" class="btn-menu-on">			
+			<span class="nombre">Auf der Route</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.de.html" class="btn-menu">			
+			<span class="nombre">Kontakt </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="cuerpoPagina"><div id="vcms-postcabecera3"><ul class="menuListadoBuscador">
+		    <li><a href="/rutas/index.de.html" class="active">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Routenverzeichnis</a></li>
+		    <li><a href="/rutas/buscador.de.html">                <span class="capa1"></span>
+	            <span class="capa2"></span>
+	            Suchmaschine</a></li></ul></div><div id="vcms-path"><div class="CsmMenuPersonalizado">
+<div style="margin-bottom:24px; text-align:left"><!-- end echoSimpleBoxStart -' 7-->
+<h2>Ruta patrimonial urbana por Esporles</h2><div class="subMenu">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 9-->
+<ul><li style="clear:both;float:left;"><a href="/rutas/ficha.de.html?cr=45&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Routendaten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/mapas.de.html?cr=45&amp;listadoOn=1" class="btn-menu-on">			
+			<span class="nombre">Kartographie</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/puntos.de.html?cr=45&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Sehenswürdigkeiten</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"></li><li style="float:left;"><a href="/rutas/imagenes.de.html?cr=45&amp;listadoOn=1" class="btn-menu">			
+			<span class="nombre">Galerie </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 9-->
+    </div><!-- end echoSimpleBoxEnd -' 9-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 7-->
+</div><!-- end echoSimpleBoxEnd -' 7-->
+</div><div id="vcms-postpath"><div id="mapasRecorrido">
+        
+            <h3><a name="mapa">Route</a></h3>
+            <div id="capsaMapa"></div>
+            <div class="leyendaMapa">
+                <div class="capa1"></div>
+                <div class="capa2"></div>
+                <div class="capa3"></div>
+                <div class="capa4"></div>
+                <ul>
+                    <li class="recorrido">Route</li>
+                    <li class="itinerario">Meilenstein</li>
+                    <li class="puntos">Sehenswürdigkeiten</li>
+                    <li class="imagenes">Bilder</li>
+                </ul>
+            </div>
+			
+        </div></div><div id="vcms-contenedorColumnas-wrapper">
+		            <div id="vcms-contenedorColumnas">
+		              <div id="vcms-columnaPrincipal" style=""><div id="vcms-precontenido"><div id="wrapPerfil" style="width: 660px;">
+		<h3><a name="perfil">Profil der Route</a></h3>
+        <div id="perfilRuta">
+            <img src="/libre/imgdir/perfil-ruta-45-851.png" alt="" width="660" height="248" />        </div></div></div></div>
+		            <div id="vcms-columnaDerecha" style="width:240px;"><div id="vcms-columnaIzquierda-inner" style=""><div id="vcms-premenu"><div id="listadoHitos">
+					<h3><a name="localizacion">Standort</a></h3><ul><li><p><strong><span>A -</span>Iglesia de Sant Pere y calle Nou de Sant Pere</strong></p>Zeit <strong>0 h. 0 min. </strong> Höhe <strong>180 m.</strong></li><li><p><strong><span>B -</span>Barrio de Son Torrat</strong></p>Zeit <strong>0 h. 10 min. </strong> Höhe <strong>189 m.</strong></li><li><p><strong><span>C -</span>Can Campos</strong></p>Zeit <strong>0 h. 17 min. </strong> Höhe <strong>181 m.</strong></li><li><p><strong><span>D -</span>Sa Rectoria</strong></p>Zeit <strong>0 h. 21 min. </strong> Höhe <strong>184 m.</strong></li><li><p><strong><span>E -</span>Plaza del Ayuntamiento y fábrica de Ca’n Fortuny</strong></p>Zeit <strong>0 h. 23 min. </strong> Höhe <strong>180 m.</strong></li><li><p><strong><span>F -</span>Passeig del Rei y Placeta del Jardinet</strong></p>Zeit <strong>0 h. 25 min. </strong> Höhe <strong>179 m.</strong></li><li><p><strong><span>G -</span>Calle Joan Riutort, la casa des Poble y restos del molino de Son Fort</strong></p>Zeit <strong>0 h. 30 min. </strong> Höhe <strong>178 m.</strong></li><li><p><strong><span>H -</span>Calle Quarter y camino des Rafal</strong></p>Zeit <strong>0 h. 36 min. </strong> Höhe <strong>191 m.</strong></li><li><p><strong><span>I -</span>Barrio de sa Vilanova</strong></p>Zeit <strong>0 h. 42 min. </strong> Höhe <strong>192 m.</strong></li><li><p><strong><span>J -</span>Calle des Balladors</strong></p>Zeit <strong>0 h. 51 min. </strong> Höhe <strong>174 m.</strong></li><li><p><strong><span>K -</span>Passeig del Rei</strong></p>Zeit <strong>1 h. 1 min. </strong> Höhe <strong>179 m.</strong></li></ul></div></div></div></div>
+		           </div>
+		           </div>
+		   </div>
+		   <div class="push"></div>
+        </div></div>
+		   </div><div id="piePagina" class="piePaginaDia">       
+        <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="de" href="/legal.de.html"><span>Rechtlicher Hinweis</span></a></li>
+    <li class="creditos"><a class="de" href="/creditos.de.html"><span>Impressum</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural und die Autoren</strong>
+</p></div></div>
+       </div></body></html>

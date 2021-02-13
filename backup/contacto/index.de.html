@@ -1,0 +1,478 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><!-- mmaq: xhtml1  --><head><title>Senderos de Mallorca - Formulario de contacto - Contacto</title><link rel="stylesheet" href="/wms/css/templates/c1c.css" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" type="image/png" href="/img/favicon.png" /><meta name="generator" content="at4 vistaCMS" /><link rel="stylesheet" href="/wms/css/generic.css" type="text/css" /><link rel="stylesheet" href="/wms/css/generic-styles.css" type="text/css" /><!--[if IE]> <link rel="stylesheet" href="/wms/css/generic-styles-ie.css" type="text/css" /><![endif]--><script type="text/javascript" src="/wms/js/common-funcs.js"></script><script type="text/javascript" src="/wms/js/common-xhtml.js"></script><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/general.js"></script><script type="text/javascript" src="/js/pngfix.js"></script><link rel="stylesheet" href="/css/general.css" type="text/css" /><script type="text/javascript">
+		  //<![CDATA[
+			jQuery(document).ready(function(){
+				//SOLO IE EXPLORER 6							
+				if (jQuery.browser['msie'] && jQuery.browser['version']=='6.0'){
+					fixPngs();
+				}
+		  //]]>
+		});
+		</script>        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13304077-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+<script type="text/javascript">
+        //<![CDATA[
+		
+            jQuery(document).ready(function(){            
+                
+                // Calculamos la zona horaria del lado del cliente.
+                var hora = (new Date()).getHours();
+                var zonaHoraria = "Dia";
+            
+                if( hora >= 8 && hora <= 18 ){
+                    zonaHoraria = "Dia";            
+                }
+                if( (hora >= 19 && hora <= 20) || (hora >= 6 && hora <= 7) ){
+                    zonaHoraria = "Tarde";
+                }
+                if( (hora >=21 && hora <= 24 ) || (hora >= 0 && hora <= 5) ){
+                    zonaHoraria = "Noche";
+                }
+                
+                jQuery("#paginaPrincipal").attr("class","pagina"+zonaHoraria);
+                jQuery("#piePagina").attr("class","piePagina"+zonaHoraria);
+            });
+			
+		//]]>
+        </script></head>
+<body style=" background-color:#ffffff; margin:0px 0px 0px 0px;">
+<div id="paginaPrincipal" class="paginaDia">        
+            <div class="contenidoPagina"><div class="cabeceraPagina"><div id="vcms-cabecera"><h1 class="tituloCabecera">
+	<a href="/index.de.html"><span>Senderos de Mallorca</span></a>
+</h1>
+<div class="selectorIdiomas">
+	<ul>
+		<li class="de"><strong id="botoActiu" class="botonUp"><span>Deutsch</span></strong></li>
+		<li class="es"><a href="index.es.html" onclick="wmsCambioIdioma('es');return false;">Castellano</a></li>
+		<li class="ca"><a href="index.ct.html" onclick="wmsCambioIdioma('ct');return false;">Català</a></li>
+		<li class="en"><a href="index.en.html" onclick="wmsCambioIdioma('en');return false;">English</a></li>
+	</ul>
+</div></div><div id="vcms-postcabecera2"><div class="CsmMenuPersonalizado">
+<div style="margin-left:25px; margin-bottom:34px; text-align:left"><!-- end echoSimpleBoxStart -' 2-->
+<div class="menuPrincipal">
+    <div style="text-align:left" class="vcms-collectionPres"><!-- end echoSimpleBoxStart -' 4-->
+<ul><li style="clear:both;float:left;"><a href="/informacion/index.de.html" class="btn-menu">			
+			<span class="nombre">Wandern auf Mallorca</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/rutas/index.de.html" class="btn-menu">			
+			<span class="nombre">Auf der Route</span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li><li style="float:left;"><a href="/contacto/index.de.html" class="btn-menu-on">			
+			<span class="nombre">Kontakt </span>
+			<span class="capa1"></span>
+			<span class="capa2"></span>
+		</a></li></ul><div class="vcms-separadorH"></div><!-- start echoSimpleBoxEnd -' 4-->
+    </div><!-- end echoSimpleBoxEnd -' 4-->
+</div>
+    		</div><!-- start echoSimpleBoxEnd -' 2-->
+</div><!-- end echoSimpleBoxEnd -' 2-->
+</div></div><div id="vcms-contenedorColumnas">
+        		  <div id="vcms-columnaPrincipal" style=""><div id="vcms-contenido-principal">        <script type="text/javascript">
+            //<![CDATA[
+                function contador(field, id, maxlimit) {
+                    var countfield = document.getElementById(id);
+                    if (field.value.length > maxlimit){
+                        field.value = field.value.substring(0, maxlimit);
+                    }else{
+                        countfield.innerHTML = maxlimit - field.value.length;
+                    }
+                }
+        
+                function dcoFormCheck (frm) {
+					
+                	var bien=true, stral = "";
+        
+                    if (frm.nombre.value == '') { 
+                        stral += 'Das Feld # Name';
+                        stral += ' muss ausgefüllt werden\n';
+                        bien = false;
+                    }
+                    if (frm.apellidos.value == '') { 
+                        stral += 'Das Feld # Nachname ';
+                        stral += ' muss ausgefüllt werden\n';
+                        bien = false;
+                    }
+                    if (frm.pais.value == '') { 
+                        stral += 'Das Feld # Land ';
+                        stral += ' muss ausgefüllt werden\n';
+                        bien = false;
+                    }
+                    if (frm.sender.value == '') { 
+                        stral += 'Das Feld # E-mail ';
+                        stral += ' muss ausgefüllt werden\n';
+                        bien = false;
+                    }
+                    if (frm.asunto.value == '') { 
+                        stral += 'Das Feld # Betreff ';
+                        stral += ' muss ausgefüllt werden\n';
+                        bien = false;
+                    }
+                    /* if (frm.resultado_suma.value == '') { 
+                        stral += 'Das Feld # anti-spam ';
+                        stral += ' muss ausgefüllt werden\n';
+                        bien = false;
+                    } */
+					if (frm.comentario.value == '') { 
+                        stral += 'Das Feld # Nachricht ';
+                        stral += ' muss ausgefüllt werden\n';
+                        bien = false;
+                    }
+					if (bien) {
+            			frm.submit();
+        	    	}else {
+                		if( stral != "" ) { 
+            				alert(stral); 
+                		}
+        		    }
+        	    }
+
+        //]]>
+        </script><div id="vcms-contenido-principal_contenido-sub1"><div class="CsmFormularioContactoS">
+			
+			<div class="cabeceraFormulario">
+				<h2>Kontaktformular</h2>
+				<p>Im Anschluss finden Sie ein Kontaktformular, mit dem Sie sich mit uns in Verbindung setzen können um uns Ihre Fragen bzw. Vorschläge mitzuteilen. Bitte vergessen Sie nicht, dass die Felder mit dem Symbol (<strong>#</strong>) und in <strong>rot</strong> obligatorisch sind.</p>
+			</div>
+			
+			<div id="formulario-content">
+			<form method="post" action="" id="DcoFormularioContactoF">
+			<fieldset>
+			<input type="hidden" name="sentFlag" value="1" />
+			<input type="hidden" name="nombrepais" value="" /><div class="separadorCampo"><div class="campo">
+    <div style="margin-top:1px; text-align:left"><!-- end echoSimpleBoxStart -' 8-->
+<label for="idnombre" style=""><span class="textog14" style="color:#BF0000">#Name</span></label><!-- start echoSimpleBoxEnd -' 8-->
+    </div><!-- end echoSimpleBoxEnd -' 8-->
+<input id="idnombre" type="text" name="nombre" maxlength="200" value="" class="input-text" />
+            </div><div class="campo">
+    <div style="margin-top:1px; text-align:left"><!-- end echoSimpleBoxStart -' 8-->
+<label for="idapellidos" style=""><span class="textog14" style="color:#BF0000">#Nachname</span></label><!-- start echoSimpleBoxEnd -' 8-->
+    </div><!-- end echoSimpleBoxEnd -' 8-->
+<input id="idapellidos" type="text" name="apellidos" maxlength="200" value="" class="input-text" />
+            </div><div class="vcms-separadorH"></div></div><div class="separadorCampo"><div class="campo">
+    <div style="margin-top:1px; text-align:left"><!-- end echoSimpleBoxStart -' 8-->
+<label for="idpais" style=""><span class="textog14" style="color:#BF0000">Land</span></label><!-- start echoSimpleBoxEnd -' 8-->
+    </div><!-- end echoSimpleBoxEnd -' 8-->
+<select id="idpais" name="pais" class="capsaSel amp230"  onchange="document.getElementById('DcoFormularioContactoF').nombrepais.value=document.getElementById('DcoFormularioContactoF').pais.options[document.getElementById('DcoFormularioContactoF').pais.selectedIndex].text"><option value=""></option><option value="es">Spain</option>
+<option value="uk">United Kingdom</option>
+<option value="de">Germany</option>
+<option value="fr">France</option>
+<option value="af">Afghanistan</option>
+<option value="al">Albania</option>
+<option value="dz">Algeria</option>
+<option value="as">American Samoa</option>
+<option value="ad">Andorra, Principality of</option>
+<option value="ao">Angola</option>
+<option value="ai">Anguilla</option>
+<option value="aq">Antartica</option>
+<option value="ag">Antigua and Barbuda</option>
+<option value="ar">Argentina</option>
+<option value="am">Armenia</option>
+<option value="aw">Aruba</option>
+<option value="au">Australia</option>
+<option value="at">Austria</option>
+<option value="az">Azerbaidjan</option>
+<option value="bs">Bahamas</option>
+<option value="bh">Bahrain</option>
+<option value="bd">Bangladesh</option>
+<option value="bb">Barbados</option>
+<option value="by">Belarus</option>
+<option value="be">Belgium</option>
+<option value="bz">Belize</option>
+<option value="bj">Benin</option>
+<option value="bm">Bermuda</option>
+<option value="bt">Bhutan</option>
+<option value="bo">Bolivia</option>
+<option value="ba">Bosnia-Herzegovina</option>
+<option value="bw">Botswana</option>
+<option value="bv">Bouvet Island</option>
+<option value="br">Brazil</option>
+<option value="io">British Indian Ocean Territory</option>
+<option value="bn">Brunei Darussalam</option>
+<option value="bg">Bulgaria</option>
+<option value="bf">Burkina Faso</option>
+<option value="bi">Burundi</option>
+<option value="kh">Cambodia, Kingdom of</option>
+<option value="cm">Cameroon</option>
+<option value="ca">Canada</option>
+<option value="cv">Cape Verde</option>
+<option value="ky">Cayman Islands</option>
+<option value="cf">Central African Republic</option>
+<option value="td">Chad</option>
+<option value="cl">Chile</option>
+<option value="cn">China</option>
+<option value="cx">Christmas Island</option>
+<option value="cc">Cocos (Keeling) Islands</option>
+<option value="co">Colombia</option>
+<option value="km">Comoros</option>
+<option value="cg">Congo</option>
+<option value="cd">Congo, The Democratic Republic of the</option>
+<option value="ck">Cook Islands</option>
+<option value="cr">Costa Rica</option>
+<option value="hr">Croatia</option>
+<option value="cu">Cuba</option>
+<option value="cy">Cyprus</option>
+<option value="cz">Czech Republic</option>
+<option value="dk">Denmark</option>
+<option value="dj">Djibouti</option>
+<option value="dm">Dominica</option>
+<option value="do">Dominican Republic</option>
+<option value="tp">East Timor</option>
+<option value="ec">Ecuador</option>
+<option value="eg">Egypt</option>
+<option value="sv">El Salvador</option>
+<option value="gq">Equatorial Guinea</option>
+<option value="er">Eritrea</option>
+<option value="ee">Estonia</option>
+<option value="et">Ethiopia</option>
+<option value="fk">Falkland Islands (Malvinas)</option>
+<option value="fo">Faroe Islands</option>
+<option value="fj">Fiji</option>
+<option value="fi">Finland</option>
+<option value="cs">Former Czechoslovakia</option>
+<option value="gf">French Guyana</option>
+<option value="tf">French Southern Territories</option>
+<option value="ga">Gabon</option>
+<option value="gm">Gambia</option>
+<option value="ge">Georgia</option>
+<option value="gh">Ghana</option>
+<option value="gr">Greece</option>
+<option value="gl">Greenland</option>
+<option value="gd">Grenada</option>
+<option value="gp">Guadeloupe (French)</option>
+<option value="gu">Guam (USA)</option>
+<option value="gt">Guatemala</option>
+<option value="gg">Guernsey, C.I.</option>
+<option value="gn">Guinea</option>
+<option value="gw">Guinea-Bissau</option>
+<option value="gy">Guyana</option>
+<option value="ht">Haiti</option>
+<option value="hm">Heard and McDonald Islands</option>
+<option value="va">Holy See (Vatican City State)</option>
+<option value="hn">Honduras</option>
+<option value="hk">Hong Kong</option>
+<option value="hu">Hungary</option>
+<option value="is">Iceland</option>
+<option value="in">India</option>
+<option value="id">Indonesia</option>
+<option value="ir">Iran (Islamic Republic of)</option>
+<option value="iq">Iraq</option>
+<option value="ie">Ireland</option>
+<option value="im">Isle of Man</option>
+<option value="il">Israel</option>
+<option value="it">Italy</option>
+<option value="ci">Ivory Coast (Cote D'Ivoire)</option>
+<option value="jm">Jamaica</option>
+<option value="jp">Japan</option>
+<option value="je">Jersey, C.I.</option>
+<option value="jo">Jordan</option>
+<option value="kz">Kazakhstan</option>
+<option value="ke">Kenya</option>
+<option value="ki">Kiribati</option>
+<option value="kp">Korea, Dem. People's Rep of</option>
+<option value="kr">Korea, Republic of</option>
+<option value="kw">Kuwait</option>
+<option value="kg">Kyrgyz Republic (Kyrgyzstan)</option>
+<option value="la">Lao Peoples Democratic Republic</option>
+<option value="lv">Latvia</option>
+<option value="lb">Lebanon</option>
+<option value="ls">Lesotho</option>
+<option value="lr">Liberia</option>
+<option value="ly">Libyan Arab Jamahiriya</option>
+<option value="li">Liechtenstein</option>
+<option value="lt">Lithuania</option>
+<option value="lu">Luxembourg</option>
+<option value="mo">Macau</option>
+<option value="mk">Macedonia, The Former Yugoslav</option>
+<option value="mg">Madagascar</option>
+<option value="mw">Malawi</option>
+<option value="my">Malaysia</option>
+<option value="mv">Maldives</option>
+<option value="ml">Mali</option>
+<option value="mt">Malta</option>
+<option value="mh">Marshall Islands</option>
+<option value="mq">Martinique (French)</option>
+<option value="mr">Mauritania</option>
+<option value="mu">Mauritius</option>
+<option value="yt">Mayotte</option>
+<option value="mx">Mexico</option>
+<option value="fm">Micronesia, Fed. States of</option>
+<option value="md">Moldova, Republic of</option>
+<option value="mc">Monaco</option>
+<option value="mn">Mongolia</option>
+<option value="me">Montenegro</option>
+<option value="ms">Montserrat</option>
+<option value="ma">Morocco</option>
+<option value="mz">Mozambique</option>
+<option value="mm">Myanmar</option>
+<option value="na">Namibia</option>
+<option value="nr">Nauru</option>
+<option value="np">Nepal</option>
+<option value="nl">Netherlands</option>
+<option value="an">Netherlands Antilles</option>
+<option value="nc">New Caledonia (French)</option>
+<option value="nz">New Zealand</option>
+<option value="ni">Nicaragua</option>
+<option value="ne">Niger</option>
+<option value="ng">Nigeria</option>
+<option value="nu">Niue</option>
+<option value="nf">Norfolk Island</option>
+<option value="mp">Northern Mariana Islands</option>
+<option value="no">Norway</option>
+<option value="om">Oman</option>
+<option value="pk">Pakistan</option>
+<option value="pw">Palau</option>
+<option value="ps">Palestine</option>
+<option value="pa">Panama</option>
+<option value="pg">Papua New Guinea</option>
+<option value="py">Paraguay</option>
+<option value="pe">Peru</option>
+<option value="ph">Philippines</option>
+<option value="pn">Pitcairn Island</option>
+<option value="pl">Poland</option>
+<option value="pf">Polynesia (French)</option>
+<option value="pt">Portugal</option>
+<option value="pr">Puerto Rico</option>
+<option value="qa">Qatar</option>
+<option value="re">Reunion (French)</option>
+<option value="ro">Romania</option>
+<option value="ru">Russian Federation</option>
+<option value="rw">Rwanda</option>
+<option value="sh">Saint Helena</option>
+<option value="kn">Saint Kitts and Nevis Anguilla</option>
+<option value="lc">Saint Lucia</option>
+<option value="pm">Saint Pierre and Miquelon</option>
+<option value="st">Saint Tome (Sao Tome) and Principe</option>
+<option value="vc">Saint Vincent and Grenadines</option>
+<option value="ws">Samoa</option>
+<option value="sm">San Marino</option>
+<option value="sa">Saudi Arabia</option>
+<option value="sn">Senegal</option>
+<option value="rs">Serbia</option>
+<option value="sc">Seychelles</option>
+<option value="gs">S. Georgia and S. Sandwich Isls.</option>
+<option value="sl">Sierra Leone</option>
+<option value="sg">Singapore</option>
+<option value="sk">Slovak Republic</option>
+<option value="si">Slovenia</option>
+<option value="sb">Solomon Islands</option>
+<option value="so">Somalia</option>
+<option value="za">South Africa</option>
+<option value="lk">Sri Lanka</option>
+<option value="sd">Sudan</option>
+<option value="sr">Suriname</option>
+<option value="sj">Svalbard and Jan Mayen Islands</option>
+<option value="sz">Swaziland</option>
+<option value="se">Sweden</option>
+<option value="ch">Switzerland</option>
+<option value="sy">Syrian Arab Republic</option>
+<option value="tj">Tadjikistan</option>
+<option value="tw">Taiwan</option>
+<option value="tz">Tanzania, United Republic of</option>
+<option value="th">Thailand</option>
+<option value="tg">Togo</option>
+<option value="tk">Tokelau</option>
+<option value="to">Tonga</option>
+<option value="tt">Trinidad and Tobago</option>
+<option value="tn">Tunisia</option>
+<option value="tr">Turkey</option>
+<option value="tm">Turkmenistan</option>
+<option value="tc">Turks and Caicos Islands</option>
+<option value="tv">Tuvalu</option>
+<option value="ug">Uganda</option>
+<option value="ua">Ukraine</option>
+<option value="ae">United Arab Emirates (U.A.E.)</option>
+<option value="us">United States</option>
+<option value="uy">Uruguay</option>
+<option value="um">USA Minor Outlying Islands</option>
+<option value="uz">Uzbekistan</option>
+<option value="vu">Vanuatu</option>
+<option value="ve">Venezuela</option>
+<option value="vn">Vietnam</option>
+<option value="vg">Virgin Islands (British)</option>
+<option value="vi">Virgin Islands (USA)</option>
+<option value="wf">Wallis and Futuna Islands</option>
+<option value="eh">Western Sahara</option>
+<option value="ye">Yemen, Republic of</option>
+<option value="zr">Zaire</option>
+<option value="zm">Zambia</option>
+<option value="zw">Zimbabwe</option>
+</select>
+                
+            </div><div class="campo">
+    <div style="margin-top:1px; text-align:left"><!-- end echoSimpleBoxStart -' 8-->
+<label for="idprovincia" style=""><span class="textog14" style="color:#585858">Provinz / Staat</span></label><!-- start echoSimpleBoxEnd -' 8-->
+    </div><!-- end echoSimpleBoxEnd -' 8-->
+<input id="idprovincia" type="text" name="provincia" maxlength="200" value="" class="input-text" />
+            </div><div class="vcms-separadorH"></div></div><div class="separadorCampo"><div class="campo">
+    <div style="margin-top:1px; text-align:left"><!-- end echoSimpleBoxStart -' 8-->
+<label for="idtelefono" style=""><span class="textog14" style="color:#585858">Telefon</span></label><!-- start echoSimpleBoxEnd -' 8-->
+    </div><!-- end echoSimpleBoxEnd -' 8-->
+<input id="idtelefono" type="text" name="telefono" maxlength="200" value="" class="input-text" />
+            </div><div class="campo">
+    <div style="margin-top:1px; text-align:left"><!-- end echoSimpleBoxStart -' 8-->
+<label for="idpoblacion" style=""><span class="textog14" style="color:#585858">Ortschaft</span></label><!-- start echoSimpleBoxEnd -' 8-->
+    </div><!-- end echoSimpleBoxEnd -' 8-->
+<input id="idpoblacion" type="text" name="poblacion" maxlength="200" value="" class="input-text" />
+            </div><div class="vcms-separadorH"></div></div><div class="separadorCampo"><div class="campo">
+    <div style="margin-top:1px; text-align:left"><!-- end echoSimpleBoxStart -' 8-->
+<label for="idsender" style=""><span class="textog14" style="color:#BF0000">#E-mail</span></label><!-- start echoSimpleBoxEnd -' 8-->
+    </div><!-- end echoSimpleBoxEnd -' 8-->
+<input id="idsender" type="text" name="sender" maxlength="200" value="" class="input-text" />
+            </div><div class="vcms-separadorH"></div></div><div class="separadorCampo"><div class="campo">
+    <div style="margin-top:1px; text-align:left"><!-- end echoSimpleBoxStart -' 8-->
+<label for="idasunto" style=""><span class="textog14" style="color:#BF0000">#Betreff</span></label><!-- start echoSimpleBoxEnd -' 8-->
+    </div><!-- end echoSimpleBoxEnd -' 8-->
+<input id="idasunto" type="text" name="asunto" maxlength="200" value="" class="input-text" />
+            </div><div class="vcms-separadorH"></div></div><div class="separadorCampo" id="comentario"><div class="etiqueta">
+    <div style="margin-top:1px; text-align:left"><!-- end echoSimpleBoxStart -' 8-->
+<label for="idcomentario"><span class="textog14" style="color:#BF0000">#Nachricht</span></label><!-- start echoSimpleBoxEnd -' 8-->
+    </div><!-- end echoSimpleBoxEnd -' 8-->
+</div><div style="float:right; text-align: right;"><span class="texto"> Dispone usted de&nbsp;</span><span class="texto"><span id="comentarioLon">5000</span></span><span class="texto">&nbsp;caracteres </span></div>
+        <textarea id="idcomentario" class="dcoBoxCss" cols="40" rows="4" name="comentario"
+        onkeydown="contador(this, 'comentarioLon',5000);" onkeyup="contador(this, 'comentarioLon',5000);" ></textarea><div class="captchaAntiSpam" style="padding-top: 20px"><script src='https://www.google.com/recaptcha/api.js?hl=de'></script>
+        <div class="g-recaptcha" data-sitekey="6LcYGxUTAAAAAPSmpKVHhSJuw7rffqBDt38Riuuj" data-stoken="ynvSyH826c47qaCIxUsEUqWc142LArqoNXwC_tywAJ2kz0ce7jUDUCe84q2ESl8BdJHqbN5k523pihIF41F28Q"></div></div><div class="vcms-separadorH"></div></div><div class="formAntispam"></div>
+            
+            <div class="info-privacidad">
+                <p><strong>Datenschutzerklärung</strong></p>
+                <p>Gemäß den Bestimmungen des Gesetzes 15/1999 vom 13. Dezember über den Schutz persönlicher Daten, (Ley Orgánica 15/1999) informiert der Verein „Wanderwege auf Mallorca“, dass nach Ausfüllen des Formulars die persönlichen Daten in die Benutzerdatei der Webseite „Wanderwege auf Mallorca“ integriert werden mit dem einzigen Zweck, Ihnen unsere Dienstleistungen anbieten und mit „Wanderwege auf Mallorca“ verbundene Infos und Werbung senden zu können.  „Mallorca Rural“ verpflichtet sich die Information der Datei nicht an Dritte weiterzugeben. <br/><br/>Ebenfalls setzen wir Sie davon in Kenntnis, dass Sie berechtigt sind, Ihre persönlichen Daten einzusehen, zu berichtigen oder zu löschen. Der Haftende in Bezug auf die Datei ist „Wanderwege auf Mallorca“, mit Anschrift in Cavallers 22 – n, 07210 Algaida, Balearische Inseln (Spanien). Sie können die erwähnten Rechte über das Formular für die Änderung oder Löschung von persönlichen Daten oder auch durch eine E-Mail ausüben.				<script type="text/javascript">
+					escribeMail('info', 'senderosdemallorca.com', 'info' + '@' + 'senderosdemallorca' + '.com');
+                </script></p>
+            </div><div class="btnAchForm">    	    
+			<a href="javascript:dcoFormCheck(document.getElementById('DcoFormularioContactoF'))" class="botonContacto">
+				 <span class="capa1">
+		    	     <span class="capa2">Senden</span>	
+				 </span>	    	     
+		    </a>
+		</div>
+		</fieldset>
+		</form>
+		</div> <!-- Formulario content -->
+        
+                
+		</div> <!-- formularioAma -->
+		</div> <!-- cajaFormularioAma --></div></div></div></div>
+               </div>
+               
+           </div>
+           <div class="push"></div>
+       </div><div id="piePagina" class="piePaginaDia">       
+            <div class="interior"><div id="vcms-pie"><ul class="opcionesPie">
+    <li class="legal"><a class="de" href="/legal.de.html"><span>Rechtlicher Hinweis</span></a></li>
+    <li class="creditos"><a class="de" href="/creditos.de.html"><span>Impressum</span></a></li>
+</ul>
+<p class="copyright">
+    <span>&copy;&nbsp;</span><strong>Mallorca Rural und die Autoren</strong>
+</p></div></div>
+       </div></body></html>

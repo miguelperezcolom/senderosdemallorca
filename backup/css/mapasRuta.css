@@ -1,0 +1,196 @@
+.puntoHito .letra{
+    position: relative;
+    left: -10px !important;
+    left: -8px;
+    top: -16px !important;
+    top: -10px;
+    float: left;
+}
+
+.puntoHito .data{
+    float: left;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.puntoHito .data h4{
+    font: normal 18px Arial, Helvetica, sans-serif;
+    color: #2A5E92;    
+}
+
+.puntoHito .specs{
+    margin-top: 6px;
+}
+
+.puntoHito .specs p{
+    color: #666666;
+    font: bold 11px Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.puntoInteres .top img{
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.puntoInteres .top h4{
+    float: left;
+    color: #2A5E92;
+    font: normal 18px Arial, Helvetica, sans-serif;
+    width: 120px;
+    margin-left: 10px;
+    position: relative;
+    top: -6px;
+    left: 0px;
+}
+
+.puntoInteres .specs{
+    margin-top: 5px;
+}
+
+.puntoInteres .specs p{
+    font: normal 11px Arial, Helvetica, sans-serif;
+    color: #666666;
+    margin: 0;
+    padding: 0;
+}
+
+.puntoInteres .specs p a{
+    text-decoration: underline;
+    color: #666666;
+}
+
+.puntoImg img{
+    float: left;
+}
+
+.puntoImg h4{
+    float: left;
+    color: #2A5E92;
+    font: normal 18px Arial, Helvetica, sans-serif;
+    width: 120px;
+    margin-left: 10px;   
+}
+
+#mapasRecorrido{
+    margin-top: 20px;
+}
+
+#mapasRecorrido #capsaMapa{
+    /*width: 854px;*/
+    width: 925px;
+    height: 505px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #C6C3BE;
+}
+
+#mapasRecorrido .leyendaMapa{
+    background-color: #F3F3F3;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    height: 36px;
+    position: relative;
+}
+
+/* Esquinas de la leyenda */
+#mapasRecorrido .leyendaMapa .capa1,
+#mapasRecorrido .leyendaMapa .capa2,
+#mapasRecorrido .leyendaMapa .capa3,
+#mapasRecorrido .leyendaMapa .capa4{
+    position: absolute;
+    width: 6px;
+    height: 5px;
+}
+
+#mapasRecorrido .leyendaMapa .capa1{
+    top: 0;
+    left: 0;
+    background: url(/img/cajas/leyenda/leyenda_sup_izq.gif) top left no-repeat;
+}
+
+#mapasRecorrido .leyendaMapa .capa2{
+    top: 0;
+    right: 0 !important;
+    right: -1px;
+    background: url(/img/cajas/leyenda/leyenda_sup_der.gif) top left no-repeat;
+}
+
+#mapasRecorrido .leyendaMapa .capa3{
+    bottom: 0 !important;
+    bottom: -11px;
+    right: 0 !important;
+    right: -1px;
+    background: url(/img/cajas/leyenda/leyenda_inf_der.gif) top left no-repeat;
+}
+
+#mapasRecorrido .leyendaMapa .capa4{
+    bottom: 0 !important;
+    bottom: -11px;
+    left: 0;
+    background: url(/img/cajas/leyenda/leyenda_inf_izq.gif) top left no-repeat;
+}
+
+/* Puntos de la leyenda */
+#mapasRecorrido .leyendaMapa ul{
+    padding-top: 10px;
+}
+
+#mapasRecorrido .leyendaMapa ul li{
+    display: inline;
+    margin-right: 40px;
+}
+
+#mapasRecorrido .leyendaMapa ul li.recorrido{
+    padding-left: 32px;
+    background: url(/img/cajas/leyenda/recorrido.gif) center left no-repeat;
+}
+
+#mapasRecorrido .leyendaMapa ul li.itinerario{
+    padding: 2px 0 2px 29px !important;
+    padding-top: 3px;
+    background: url(/img/cajas/leyenda/itinerario.gif) center left no-repeat;
+}
+
+#mapasRecorrido .leyendaMapa ul li.puntos{
+    padding: 4px 0 4px 23px !important;
+    padding-top: 5px;
+    background: url(/img/cajas/leyenda/puntos.gif) center left no-repeat;
+}
+
+#mapasRecorrido .leyendaMapa ul li.imagenes{
+    padding: 2px 0 3px 30px !important;
+    padding-top: 3px;
+    background: url(/img/cajas/leyenda/imagenes.gif) center left no-repeat;
+}
+
+#mapasRecorrido #localizacion {
+    background-color: #F3F3F3;
+    margin:17px 0px 0px 0px;
+    padding:21px 26px 3px 26px;
+}
+#mapasRecorrido #localizacion ul li {
+    font: normal 12px arial,verdana,sans-serif;
+    margin:0px 0px 18px 0px;
+}
+#mapasRecorrido #localizacion ul li strong {
+    color:#da160c;
+}
+#mapasRecorrido #localizacion ul li strong span {
+    margin-right:5px;
+}
+#mapasRecorrido #localizacion ul li em {
+    font-weight: bold;
+    font-style: normal;
+}
+#perfilRuta{
+        margin-top: 13px;
+}
+
+#perfilRuta img{
+    margin-right: 0px !important;
+    margin-right: 20px;
+}
