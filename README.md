@@ -1,4 +1,4 @@
-# senderosdemallorca
+# Senderos de Mallorca
 
 El objeto de este proyecto es migrar la web www.senderosdemallorca.com a Netlify.
 
