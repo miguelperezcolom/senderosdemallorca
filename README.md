@@ -42,3 +42,9 @@ Al revisar la web hay algunos aspectos que podrían mejorarse aprovechando el es
 
 - hacer la web responsive, para mejorar su desempeño en el móvil
 - parece haber algún problema con google maps, así que habrá que mirarlo y, si es necesario, cambiar a otro proveedor de mapas gratuito
+
+## Plan de trabajo
+
+Para el control del proyecto utilizaremos https://github.com/miguelperezcolom/senderosdemallorca/projects/1
+
+La estimación inicial es de resolver una incidencia por fin de semana.
